@@ -10,7 +10,7 @@ public class Metodos {
 		try {
 			//Se crea un Nuevo objeto FileWriter
 			FileWriter f1 = new FileWriter("C:\\Users\\ifc\\Documents\\f1.txt");
-			
+			//
 			f1.write("Que es el Cipotegato");
 			
 			System.out.println(f1.getEncoding());
