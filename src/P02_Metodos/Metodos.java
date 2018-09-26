@@ -15,7 +15,7 @@ public class Metodos {
 			
 			System.out.println(f1.getEncoding());
 			f1.close();
-			//
+			
 			}catch(IOException ex){
 			System.out.println("error al acceder al fichero");
 		}	
