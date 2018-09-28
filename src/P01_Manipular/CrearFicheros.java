@@ -1,6 +1,6 @@
 package P01_Manipular;
 
-import java.io.FileWriter;
+import java.io.File;
 import java.io.IOException;
 
 public class CrearFicheros {
@@ -8,12 +8,16 @@ public class CrearFicheros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		try {
-			//Se crea un Nuevo objeto FileWriter
-			FileWriter f1 = new FileWriter("C:\\Users\\ifc\\Documents\\f1.txt");
-			
-			}catch(IOException ex){
-			System.out.println("error al acceder al fichero");
-		}	
+		File f1=new File("C:\\Users\\ifc\\Desktop\\f1.txt");
+		
+		if(f1.exists()) {
+			System.out.println("El fichero ya existe");
+		}else {
+			try {
+				f1.createNewFile();
+			}catch(IOException e){
+				System.out.println(e.getMessage());
+			}			
+		}
 	}
 }
