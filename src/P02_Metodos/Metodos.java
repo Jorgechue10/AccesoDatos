@@ -70,6 +70,7 @@ public class Metodos {
 			
 			
 			//Crear un directorio
+			System.out.println("\n");
 			File f5= new File("src\\P02_Metodos\\nuevoDirectorio");
 			if(f5.mkdir()) {//te dice si el directorio se ha creado o no, a partir de un boolean
 				System.out.println("El directorio se ha creado");
@@ -95,6 +96,7 @@ public class Metodos {
 					System.out.println(e.getMessage());
 				}
 			}else {
+				System.out.println("\n");
 				System.out.println("El directorio no se ha creado");
 			}	
 			
@@ -102,6 +104,16 @@ public class Metodos {
 			//Vamos a renombrar el fichero Howard de la actividad anterior
 			File f7= new File("src\\P02_Metodos\\TBBT\\Howard.txt");
 			f7.renameTo(new File(f6,"Bernadet.txt"));
+			
+			
+			//Borrar un fichero
+			System.out.println("\n");
+			File f8= new File("src\\P02_Metodos\\TBBT\\Leonard.txt");
+			if(f8.delete()){
+				System.out.println("El fichero se ha borrado");
+			}else {
+				System.out.println("El fichero no se ha borrado");
+			}			
 		}else {
 			System.out.println("La ruta al fichero es invalida");		
 		}
