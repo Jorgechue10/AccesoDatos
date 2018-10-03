@@ -8,7 +8,7 @@ public class CrearFicheros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		File f1=new File("C:\\Users\\ifc\\Desktop\\f1.txt");
+		File f1=new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P01_Manipular\\fichero.txt");
 		
 		if(f1.exists()) {
 			System.out.println("El fichero ya existe");
