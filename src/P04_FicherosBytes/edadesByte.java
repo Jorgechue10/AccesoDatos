@@ -1,6 +1,6 @@
 /*
- * Este programa crea un fichero, escribe en él 10 nombres y 10 edades pasadas en un array,
- * y después los lee
+ * Este programa crea un fichero de tipo binario, escribe en él los nombres y edades de 10 personas,
+ * y después los lee y los envía a la salida estándar
  * */
 
 package P04_FicherosBytes;
