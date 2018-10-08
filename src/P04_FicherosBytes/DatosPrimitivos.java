@@ -48,7 +48,7 @@ public class DatosPrimitivos {
 				System.out.println("Esto es un String: "+str);
 			}
 		}catch (EOFException eo) {
-			System.out.println("Error");
+			System.out.println("Error");//Sale simepre al final porque siempre espera algun fichero más
 		}		
 	}
 }
