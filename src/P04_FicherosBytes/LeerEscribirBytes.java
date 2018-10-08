@@ -22,16 +22,8 @@ public class LeerEscribirBytes {
 		fileout.close();
 		
 		while((i=filein.read())!=-1) {
-			System.out.println(i); 
+			System.out.println(i);
 		}
-		filein.close();
-		
-		
-		
-		
-		
-		
-		
-		
+		filein.close();		
 	}
 }
