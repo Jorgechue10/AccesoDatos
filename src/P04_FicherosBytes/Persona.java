@@ -13,7 +13,7 @@ public class Persona implements Serializable{
 	}
 	
 	public String getNombre() {
-		return "El nombre de la persona es "+nombre; 
+		return nombre; 
 	}
 	public int getEdad() {
 		return edad; 
