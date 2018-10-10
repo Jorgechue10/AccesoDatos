@@ -10,6 +10,34 @@ public class MovimientoBancario {
 		fecha=f;
 		concepto=c;
 		cantidad=cant;
-		tipo=t;
+		tipo=t;		
 	}	
+	
+	//getters
+	public String getFecha() {
+		return fecha; 
+	}
+	public String getConcepto() {
+		return concepto; 
+	}
+	public int getCantidad() {
+		return cantidad; 
+	}
+	public boolean getTipo() {
+		return tipo; 
+	}
+	
+	//setters
+	public void setFecha(String fec) {
+		fecha=fec; 
+	}
+	public void setConcepto(String con) {
+		concepto=con; 
+	}
+	public void setCantidad(int can) {
+		cantidad=can; 
+	}
+	public void setTipo(boolean tip) {
+		tipo=tip; 
+	}
 }
