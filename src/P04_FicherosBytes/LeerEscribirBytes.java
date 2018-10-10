@@ -9,7 +9,7 @@ public class LeerEscribirBytes {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\datos.dat");
+		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\datos.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		FileInputStream filein = new FileInputStream(f);

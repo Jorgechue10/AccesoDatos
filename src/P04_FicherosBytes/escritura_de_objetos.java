@@ -10,7 +10,7 @@ public class escritura_de_objetos {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\personas.dat");
+		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\personas.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		ObjectOutputStream objectout = new ObjectOutputStream(fileout);

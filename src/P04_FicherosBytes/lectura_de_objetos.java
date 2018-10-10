@@ -10,7 +10,7 @@ public class lectura_de_objetos {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		// TODO Auto-generated method stub
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\personas.dat");
+		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\personas.dat");
 		
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);

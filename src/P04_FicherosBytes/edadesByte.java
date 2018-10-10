@@ -18,7 +18,7 @@ public class edadesByte {
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
 		
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\edades.dat");
+		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\edades.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		DataOutputStream dataOS = new DataOutputStream(fileout);
