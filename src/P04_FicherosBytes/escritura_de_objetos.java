@@ -20,19 +20,16 @@ public class escritura_de_objetos {
 		
 		Scanner teclado = new Scanner (System.in);				
 		String[] nombres = new String[5];
-		System.out.println("Introduce los nombres de 5 personas");		
-		for (int i=0;i<5;i++) {			
-			nombres[i]=teclado.nextLine();
-		}
-		
 		int[] edades = new int[5];
-		System.out.println("Introduce las edades de las 5 personas anteriores");	
-		for (int i=0;i<5;i++) {
+				
+		for (int i=0;i<5;i++) {		
+			System.out.println("Introduce el nombre de la persona");			
+			nombres[i]=teclado.next();
+			System.out.println("Introduce la edad de la persona");
 			edades[i]=teclado.nextInt();
-		}
+		}		
 		
-		int i;
-		for(i=0;i<5;i++) {
+		for(int i=0;i<5;i++) {
 			//inicializar persona
 			p = new Persona(edades[i],nombres[i]);
 			//escribir un objeto en un fichero
