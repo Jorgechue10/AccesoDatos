@@ -23,11 +23,10 @@ public class MovimientoBancario_lectura {
 					m=(MovimientoBancario)objectin.readObject();
 					System.out.println("Fehca: "+m.getFecha()+", Concepto: "+m.getConcepto()+", Cantidad: "+m.getCantidad()+", Tipo: "+m.getTipo());
 					
-					if(m.getTipo()) {
-						cantidad_total = cantidad_total + m.getCantidad();
-					}else {
-						cantidad_total = cantidad_total - m.getCantidad();
-					}
+					if(m.getTipo())
+						cantidad_total += m.getCantidad();
+					else
+						cantidad_total -= m.getCantidad();					
 			}
 		}catch (EOFException eo) {
 			System.out.println("");
