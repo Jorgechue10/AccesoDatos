@@ -17,11 +17,12 @@ public class MovimientoBancario_lectura {
 		
 		MovimientoBancario m;
 		int cantidad_total=0;
+		int i = 1;
 		
 		try {
 			while(true){
 					m=(MovimientoBancario)objectin.readObject();
-					System.out.println("Fehca: "+m.getFecha()+", Concepto: "+m.getConcepto()+", Cantidad: "+m.getCantidad()+", Tipo: "+m.getTipo());
+					System.out.println("Movimiento Bancario: "+ i++ +", Fecha: "+m.getFecha()+", Concepto: "+m.getConcepto()+", Cantidad: "+m.getCantidad()+", Tipo: "+m.getTipo());
 					
 					if(m.getTipo())
 						cantidad_total += m.getCantidad();
@@ -29,7 +30,7 @@ public class MovimientoBancario_lectura {
 						cantidad_total -= m.getCantidad();					
 			}
 		}catch (EOFException eo) {
-			System.out.println("");
+			System.out.println("No se encuentra ningún movimiento más");
 		}
 		System.out.println("La cantidad total es: "+cantidad_total);
 	}
