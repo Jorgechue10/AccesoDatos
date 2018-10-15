@@ -1,6 +1,8 @@
 package P04_FicherosBytes;
 
-public class MovimientoBancario {
+import java.io.Serializable;
+
+public class MovimientoBancario implements Serializable{
 	String fecha;
 	String concepto;
 	int cantidad;

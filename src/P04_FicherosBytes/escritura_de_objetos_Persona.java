@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
 
-public class escritura_de_objetos {
+public class escritura_de_objetos_Persona {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
