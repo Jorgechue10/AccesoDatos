@@ -33,7 +33,9 @@ public class MovimientoBancario_lectura {
 			}
 		}catch (EOFException eo) {
 			System.out.println("No se encuentra ningún movimiento más");
-		}
+		}		
+		objectin.close();
+		
 		System.out.println("La cantidad total es: "+cantidad_total);
 	}
 }

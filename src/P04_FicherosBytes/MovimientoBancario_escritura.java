@@ -48,5 +48,6 @@ public class MovimientoBancario_escritura {
 			objectout.writeObject(m);
 		}
 		objectout.close();
+		teclado.close();
 	}
 }

@@ -24,6 +24,7 @@ public class lectura_de_objetos_Persona {
 			}
 		}catch (EOFException eo) {
 			System.out.println("");
-		}		
+		}	
+		objectin.close();
 	}
 }

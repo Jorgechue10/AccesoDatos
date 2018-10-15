@@ -35,6 +35,7 @@ public class escritura_de_objetos_Persona {
 			//escribir un objeto en un fichero
 			objectout.writeObject(p);
 		}
-		objectout.close();		
+		objectout.close();	
+		teclado.close();
 	}
 }

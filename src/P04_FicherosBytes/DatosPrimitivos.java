@@ -49,6 +49,7 @@ public class DatosPrimitivos {
 			}
 		}catch (EOFException eo) {
 			System.out.println("Error");//Sale simepre al final porque siempre espera algun fichero más
-		}		
+		}	
+		dataIS.close();
 	}
 }
