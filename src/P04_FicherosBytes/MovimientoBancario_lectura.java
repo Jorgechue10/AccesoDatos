@@ -1,3 +1,5 @@
+/*Clase que lee los movimientos bancarios de una cuenta corriente*/
+
 package P04_FicherosBytes;
 
 import java.io.EOFException;

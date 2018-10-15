@@ -1,12 +1,14 @@
+/*Clase que contiene los movimientos de una cuenta corriente*/
+
 package P04_FicherosBytes;
 
 import java.io.Serializable;
 
 public class MovimientoBancario implements Serializable{
-	String fecha;
-	String concepto;
-	int cantidad;
-	boolean tipo;
+	private String fecha;
+	private String concepto;
+	private int cantidad;
+	private boolean tipo;
 	
 	public MovimientoBancario(String f, String c, int cant, boolean t) {
 		fecha=f;
