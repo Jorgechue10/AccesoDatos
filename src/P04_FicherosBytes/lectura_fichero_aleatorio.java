@@ -18,7 +18,7 @@ public class lectura_fichero_aleatorio {
 		int dpto;
 		double salario;
 		try {
-			for(;;) {//Hace un bucle infinito
+			do {
 				raf.seek(posicion);//Nos situamos en un lugar determinado del fichero para empezar a leer desde allí
 				id=raf.readInt();				
 				
@@ -35,13 +35,11 @@ public class lectura_fichero_aleatorio {
 				salario = raf.readDouble();
 				
 				System.out.println("Id: "+id+" Apellidos: "+apellido+" Departamento: "+dpto+" Salario: "+salario);
-				
-				if(raf.getFilePointer()==raf.length()) {
-				/*.getFilePointer nos dice hacia donde está apuntando el puntero
-				  .length dice el total de bytes que ocupa la informacion escrita en el fichero*/
-					break;
-				}			
-			}
+						
+			}while(raf.getFilePointer()!=raf.length());
+			/*.getFilePointer nos dice hacia donde está apuntando el puntero
+			.length dice el total de bytes que ocupa la informacion escrita en el fichero*/
+			
 			raf.close();
 		}catch (EOFException e) {			
 			System.out.printf("Se ha llegado al final del fichero");
