@@ -16,7 +16,7 @@ public class lectura_fichero_aleatorio {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
-		RandomAccessFile raf = new RandomAccessFile (f, "r");	
+		RandomAccessFile raf = new RandomAccessFile (f, "r");//r->Modo lectura	
 		int id, posicion=0;
 		char[] apellidos = new char [10];
 		char aux;

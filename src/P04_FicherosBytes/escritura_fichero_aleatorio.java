@@ -11,9 +11,7 @@ public class escritura_fichero_aleatorio {
 		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
 		f.createNewFile();
 		
-		RandomAccessFile raf = new RandomAccessFile (f, "rw");//el modo rw si no existe el fichero lo crea
-		
-		StringBuffer sb = null;
+		RandomAccessFile raf = new RandomAccessFile (f, "rw");//el modo rw si no existe el fichero lo crea (modo lectura/escritura)
 		
 		String[] apellidos = new String[10];
 		apellidos[0]="Martinez";
@@ -51,6 +49,8 @@ public class escritura_fichero_aleatorio {
 		salario[8]=900;
 		salario[9]=950;
 		
+		StringBuffer sb = null;
+		
 		for(int i=0;i<10;i++) {	
 			raf.writeInt(i+1);//número de empleado
 			
@@ -61,5 +61,6 @@ public class escritura_fichero_aleatorio {
 			raf.writeInt(dpto[i]);
 			raf.writeDouble(salario[i]);	
 		}
+		raf.close();
 	}
 }
