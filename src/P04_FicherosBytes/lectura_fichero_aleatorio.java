@@ -1,3 +1,9 @@
+/*
+int -> 4B
+Double -> 8B
+char -> 2B
+String -> 2B(char) * número de characters que haya*/
+
 package P04_FicherosBytes;
 
 import java.io.File;
@@ -23,6 +29,11 @@ public class lectura_fichero_aleatorio {
 				id=raf.readInt();				
 				
 				posicion += 36;
+				/*36 porque ocupan todos los elementos 36B
+				2 int = 8B
+				1 Double = 8B
+				1 String = 2B * 10 = 20B
+				Total = 36B*/
 				
 				for(int i=0;i<apellidos.length;i++) {
 					aux=raf.readChar();
