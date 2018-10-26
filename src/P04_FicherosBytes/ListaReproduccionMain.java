@@ -47,9 +47,12 @@ public class ListaReproduccionMain {
 				break;
 				
 			case 2: 				
-				System.out.println("Introduce el ID");			
-				id=teclado.nextInt();
-				if(!l.existeID(id)&&(id>0)) {
+				do {					
+					System.out.println("Introduce el ID (El ID tiene que seer mayor que 0)");			
+					id=teclado.nextInt();
+				}while(id<=0);
+				
+				if(!l.existeID(id)) {
 					System.out.println("Introduce el año");			
 					anio=teclado.nextInt();
 					teclado.nextLine();
@@ -82,13 +85,16 @@ public class ListaReproduccionMain {
 					
 					raf.writeBoolean(cancion_espaniola);					
 				}else 
-					System.out.println("Error, ya existe una canción con ese ID o el ID es menor que 0");								
+					System.out.println("Error, ya existe una canción con ese ID");						
 				break;
 				
 			case 3: 
-				System.out.println("Introduce el ID de la canción a consultar");			
-				id=teclado.nextInt();
-				if(l.existeID(id)&&(id>0)) {
+				do {					
+					System.out.println("Introduce el ID de la canción a consultar (El ID tiene que seer mayor que 0)");
+					id=teclado.nextInt();
+				}while(id<=0);
+							
+				if(l.existeID(id)) {
 					posicion=(id-1)*69;
 					raf.seek(posicion);
 					id=raf.readInt();				
@@ -120,9 +126,12 @@ public class ListaReproduccionMain {
 				break;
 				
 			case 4: 
-				System.out.println("Introduce el ID de la canción para modificar su año");			
-				id=teclado.nextInt();
-				if(l.existeID(id)&&(id>0)) {
+				do {					
+					System.out.println("Introduce el ID de la canción para modificar su año (El ID tiene que seer mayor que 0)");
+					id=teclado.nextInt();
+				}while(id<=0);
+				
+				if(l.existeID(id)) {
 					posicion=(id-1)*69+4;
 					raf.seek(posicion);										
 					anioAnterior=raf.readInt();							
@@ -147,9 +156,12 @@ public class ListaReproduccionMain {
 				break;
 				
 			case 5: 
-				System.out.println("Introduce el ID de la canción para borrarla");			
-				id=teclado.nextInt();
-				if(l.existeID(id)&&(id>0)) {
+				do {					
+					System.out.println("Introduce el ID de la canción para borrarla (El ID tiene que seer mayor que 0)");
+					id=teclado.nextInt();
+				}while(id<=0);
+			
+				if(l.existeID(id)) {
 					posicion=(id-1)*69;										
 					
 					raf.seek(posicion);
