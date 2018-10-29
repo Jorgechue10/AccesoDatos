@@ -55,7 +55,7 @@ public class ListaReproduccion {
 	public void setDuracion(String duracion) {
 		this.duracion = duracion;
 	}
-	public boolean gtCancion_espaniola() {
+	public boolean getCancion_espaniola() {
 		return cancion_espaniola;
 	}
 	public void setCancion_espaniola(boolean cancion_espaniola) {
