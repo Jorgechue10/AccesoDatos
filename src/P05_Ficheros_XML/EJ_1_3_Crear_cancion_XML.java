@@ -64,7 +64,7 @@ public class EJ_1_3_Crear_cancion_XML {
 					CrearElemento("duracion",c.getDuracion().trim(), raiz, document);
 					// Cancion_espaniola
 					String c_esp=String.valueOf(c.getCancion_espaniola());
-					CrearElemento("asd",c_esp.trim(), raiz, document);
+					CrearElemento("Española",c_esp.trim(), raiz, document);
 					}						
 				}
 			}catch (EOFException eo) {
@@ -72,15 +72,15 @@ public class EJ_1_3_Crear_cancion_XML {
 			}				 
 				
 		    Source source = new DOMSource(document);
-		    Result result = 
-		           new StreamResult(new java.io.File("Empleados.xml"));        
+		    Result result = new StreamResult(
+		    	new java.io.File("src\\P05_Ficheros_XML\\Ficheros\\canciones.xml"));        
 		    Transformer transformer =
 		           TransformerFactory.newInstance().newTransformer();
-		    transformer.transform(source, result); // se transforma el documento al fichero
+		    transformer.transform(source, result);//se transforma el documento al fichero
 		    
 		    // MOSTRAR EL DOCUMENTO POR CONSOLA
-		    // Result console = new StreamResult(System.out);
-		    // transformer.transform(source, console);	   
+		    Result console = new StreamResult(System.out);
+		    transformer.transform(source, console);	   
 			   
 		    }catch(Exception e){ System.err.println("Error: "+ e); }
 		    
