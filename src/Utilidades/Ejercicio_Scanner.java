@@ -1,4 +1,4 @@
-package P05_Utilidades;
+package Utilidades;
 
 import java.util.Scanner;
 
