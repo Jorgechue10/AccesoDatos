@@ -55,7 +55,7 @@ public class EJ_1_3_Crear_cancion_XML {
 					// ID                       
 					CrearElemento("id",Integer.toString(c.getId()), raiz, document); 
 					// Año                       
-					CrearElemento("año",Integer.toString(c.getAnio()), raiz, document); 
+					CrearElemento("anio",Integer.toString(c.getAnio()), raiz, document); 
 					// Titulo
 					CrearElemento("titulo",c.getTitulo().trim(), raiz, document); 
 					// Artista
@@ -64,7 +64,7 @@ public class EJ_1_3_Crear_cancion_XML {
 					CrearElemento("duracion",c.getDuracion().trim(), raiz, document);
 					// Cancion_espaniola
 					String c_esp=String.valueOf(c.getCancion_espaniola());
-					CrearElemento("Española",c_esp.trim(), raiz, document);
+					CrearElemento("espaniola",c_esp.trim(), raiz, document);
 					}						
 				}
 			}catch (EOFException eo) {
