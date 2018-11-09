@@ -24,7 +24,7 @@ public class EJ_2_2_ListaCanciones {
 	 
 	//Wrapper, envoltura alrededor la representación XML
     //Anotaciones para atributos que son colecciones
-    @XmlElementWrapper(name = "canciones") // 
+    //@XmlElementWrapper(name = "listaCanciones") // 
     @XmlElement(name = "cancion")
 	public ArrayList<EJ_2_1_Cancion> getListaCanciones() {
 		return lista;
