@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+
+ <xsd:element name="ventasarticulos" type="VentasType"/>
+
+ <xsd:complexType name="VentasType">
+  <xsd:sequence>
+   <xsd:element name="articulo" type="DatosArtic"/>
+   <xsd:element name="ventas" type="ventas"/>
+  </xsd:sequence>
+ </xsd:complexType>
+
+ <xsd:complexType name="DatosArtic">
+  <xsd:sequence>
+   <xsd:element name="codigo" type="xsd:string"/>
+   <xsd:element name="denominacion" type="xsd:string"/>
+   <xsd:element name="stock" type="xsd:integer"/>
+   <xsd:element name="precio" type="xsd:decimal"/>
+  </xsd:sequence>
+ </xsd:complexType>
+
+ <xsd:complexType name="ventas">
+  <xsd:sequence>
+   <xsd:element name="venta" minOccurs="1" maxOccurs="unbounded">
+    <xsd:complexType>
+     <xsd:sequence>
+	  <xsd:element name="numventa" type="xsd:integer"/>
+        <xsd:element name="unidades">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:positiveInteger">
+            <xsd:maxExclusive value="100"/>
+          </xsd:restriction>
+       </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="nombrecliente" type="xsd:string"/>
+      <xsd:element name="fecha" type="xsd:string"/>
+     </xsd:sequence>
+    </xsd:complexType>
+   </xsd:element>
+  </xsd:sequence>
+ </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ventasarticulos>
+    <articulo>
+        <codigo>ART-112</codigo>
+        <denominacion>Pala Padel MiddleMoon</denominacion>
+        <stock>20</stock>
+        <precio>70</precio>
+    </articulo>
+    <ventas>
+        <venta>
+            <numventa>10</numventa>
+            <unidades>2</unidades>
+            <nombrecliente>Dolores Fuertes</nombrecliente>
+            <fecha>10-10-2018</fecha>
+        </venta>
+        <venta>
+            <numventa>11</numventa>
+            <unidades>2</unidades>
+            <nombrecliente>Elena Nito del Bosque</nombrecliente>
+            <fecha>15-10-2018</fecha>
+        </venta>
+        <venta>
+            <numventa>12</numventa>
+            <unidades>6</unidades>
+            <nombrecliente>Carlos Gómez</nombrecliente>
+            <fecha>20-10-2018</fecha>
+        </venta>
+        <venta>
+            <numventa>30</numventa>
+            <unidades>10</unidades>
+            <nombrecliente>Cliente 1</nombrecliente>
+            <fecha>16-12-2018</fecha>
+        </venta>
+        <venta>
+            <numventa>35</numventa>
+            <unidades>10</unidades>
+            <nombrecliente>Cliente 2</nombrecliente>
+            <fecha>16-10-2018</fecha>
+        </venta>
+        <venta>
+            <numventa>38</numventa>
+            <unidades>20</unidades>
+            <nombrecliente>Cliente 3</nombrecliente>
+            <fecha>16-10-2018</fecha>
+        </venta>
+    </ventas>
+</ventasarticulos>
