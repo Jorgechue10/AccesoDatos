@@ -2,13 +2,14 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="UD_01_P07_Mapear_XML_a_clase"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/xstream-1.4.11.1/lib/xstream-1.4.11.1.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-api.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-core.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-impl.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-jxc.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-xjc.jar"/>
+	<classpathentry kind="src" path="Unidad_01_Ficheros"/>
+	<classpathentry kind="src" path="Unidad_01_P07_Mapear_XML_a_clase"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
