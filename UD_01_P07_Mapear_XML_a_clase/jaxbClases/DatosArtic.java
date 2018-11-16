@@ -6,7 +6,7 @@
 //
 
 
-package UD_01_P07_Mapear_XML_a_clase;
+package jaxbClases;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

@@ -6,7 +6,7 @@
 //
 
 
-package UD_01_P07_Mapear_XML_a_clase;
+package jaxbClases;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

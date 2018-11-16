@@ -37,11 +37,5 @@
             <nombrecliente>Cliente 2</nombrecliente>
             <fecha>16-10-2018</fecha>
         </venta>
-        <venta>
-            <numventa>38</numventa>
-            <unidades>20</unidades>
-            <nombrecliente>Cliente 3</nombrecliente>
-            <fecha>16-10-2018</fecha>
-        </venta>
     </ventas>
 </ventasarticulos>

@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="UD_01_P07_Mapear_XML_a_clase"/>
 	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/xstream-1.4.11.1/lib/xstream-1.4.11.1.jar"/>
 	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="lib" path="D:/eclipse-workspace/AD_01_Fciheros/librerias/jaxb/jaxb-api.jar"/>

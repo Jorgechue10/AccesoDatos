@@ -1,4 +1,4 @@
-package UD_01_P07_Mapear_XML_a_clase;
+package operaciones;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -13,8 +13,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import UD_01_P07_Mapear_XML_a_clase.Ventas.Venta;
-
+import jaxbClases.*;
+import jaxbClases.Ventas.Venta;
 
 public class principal {
 
@@ -25,7 +25,7 @@ public class principal {
 		// las unidades
 		// el nombre cliente, la fecha
 		// Comprobar que el número de venta no exista
-		insertarventa(38, "Cliente 3", 20, "16-10-2018");//inserta otra venta en el documento xml
+		insertarventa(35, "Cliente 2", 10, "16-10-2018");//inserta otra venta en el documento xml
 		// visualizarxml();
 	}
 
@@ -45,7 +45,7 @@ public class principal {
 			
 			// La clase JAXBElement representa a un elemento de un documento XML
 			// en este caso a un elemento del documento ventasarticulos.xml
-			JAXBElement jaxbElement = (JAXBElement) u.unmarshal(new FileInputStream("src\\P07_Mapear_XML_a_clase\\ventas_articulo.xml"));
+			JAXBElement jaxbElement = (JAXBElement) u.unmarshal(new FileInputStream("./UD_01_P07_Mapear_XML_a_clase/ventas_articulo.xml"));
 
 			// Visualizo el documento
 			Marshaller m = jaxbContext.createMarshaller();
@@ -96,7 +96,7 @@ public class principal {
 
 			JAXBContext jaxbContext = JAXBContext.newInstance(ObjectFactory.class);
 			Unmarshaller u = jaxbContext.createUnmarshaller();
-			JAXBElement jaxbElement = (JAXBElement) u.unmarshal(new FileInputStream("src\\\\P07_Mapear_XML_a_clase\\\\ventas_articulo.xml"));
+			JAXBElement jaxbElement = (JAXBElement) u.unmarshal(new FileInputStream("./UD_01_P07_Mapear_XML_a_clase/ventas_articulo.xml"));
 			
 
 			VentasType miventa = (VentasType) jaxbElement.getValue();
@@ -136,7 +136,7 @@ public class principal {
 				// crear el Marshaller, volcar la lista al fichero XML
 				Marshaller m = jaxbContext.createMarshaller();
 				m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-				m.marshal(jaxbElement, new FileOutputStream("src\\\\P07_Mapear_XML_a_clase\\\\ventas_articulo.xml"));
+				m.marshal(jaxbElement, new FileOutputStream("./UD_01_P07_Mapear_XML_a_clase/ventas_articulo.xml"));
 
 				System.out.println("Venta añaadida: " + numeventa);
  
