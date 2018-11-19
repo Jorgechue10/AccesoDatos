@@ -23,16 +23,21 @@ public class Actividad_1
       statement.setQueryTimeout(30);  // set timeout to 30 sec.
 
       statement.executeUpdate("drop table if exists person");
-      statement.executeUpdate("create table person (id integer, name string)");
+      statement.executeUpdate("create table person (id INTEGER PRIMARY KEY AUTOINCREMENT, name string)");
       
+      statement.executeUpdate("insert into person (name)values('Jorge')");
+      statement.executeUpdate("insert into person (name)values('Alex')");
+      statement.executeUpdate("insert into person (name)values('Oscar')");
       
-      
-      insertar(1,"Jorge");
+      /*insertar(1,"Jorge");
+      insertar(2,"Oscar");
+      insertar(3,"Alex");
       mostrar();
       actualizar(1,"Juan");
       mostrar();
-      //borrar(1);
-      
+      //borrar(1);*/
+      buscar(3);
+      mostrar();
     }
     catch(SQLException e)
     {
@@ -71,5 +76,14 @@ public class Actividad_1
  }
   public static void borrar(int id) throws SQLException { 
 	  statement.executeUpdate("delete from person where id="+id+"");	   
+ }
+  public static void buscar(int id) throws SQLException { 
+	  rs = statement.executeQuery("select * from person where id="+id+"");
+      while(rs.next())
+      {
+        // read the result set
+        System.out.println("name = " + rs.getString("name"));
+        System.out.println("id = " + rs.getInt("id"));
+      }      	   
  }
 }
