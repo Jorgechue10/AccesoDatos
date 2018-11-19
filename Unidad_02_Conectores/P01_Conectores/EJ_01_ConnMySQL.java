@@ -19,7 +19,7 @@ public class EJ_01_ConnMySQL {
 	        				); 
 	        
 	        String sql = "CREATE TABLE IF NOT EXISTS USUARIO " +
-	               "(id INTEGER not NULL AUTOINCREMENT, " +
+	               "(id INTEGER not NULL, " +
 	               " nombre VARCHAR(255), " + 
 	               " apellido VARCHAR(255), " + 
 	               " edad INTEGER, " + 
@@ -61,3 +61,42 @@ public class EJ_01_ConnMySQL {
 	}
 	    
 }
+/* int numero=0;
+do {
+	System.out.println("_____________________________________ ");
+	System.out.println("|       LISTA DE REPRODUCCI�N        |");
+	System.out.println("|------------------------------------|");	
+	System.out.println("|1.-Generar fichero                  |");
+	System.out.println("|2.-Insertar datos                   |");
+	System.out.println("|3.-Consultar datos de una canci�n   |");
+	System.out.println("|4.-Modificar a�o de la canci�n      |");
+	System.out.println("|8.-Salir                            |");
+	System.out.println("|____________________________________|");	
+
+	
+	
+	switch (numero) {
+	
+	case 1: 				
+		
+		break;
+		
+	case 2: 				
+						
+		break;
+		
+	case 3: 
+					
+		break;
+		
+	case 4: 
+		
+		break;
+		
+	case 5:
+		System.out.println("Has salido del programa");
+		break; 				
+	default:
+		System.out.println("ERROR, debe introducir un número entre el 1 y el 5");
+	} 			
+}while(numero!=5);	*/
