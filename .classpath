@@ -5,14 +5,14 @@
 	<classpathentry kind="src" path="Unidad_01_Ficheros"/>
 	<classpathentry kind="src" path="Unidad_01_P07_Mapear_XML_a_clase"/>
 	<classpathentry kind="src" path="Unidad_02_Conectores"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-jxc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-xjc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream-1.4.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_02_Conectores/P01_Conectores/librerias/sqlite-jdbc-3.23.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/ifc/git/AccesoDatos/Unidad_02_Conectores/P01_Conectores/librerias/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream-1.4.11.1.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_Ficheros/UD_01_P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="Unidad_02_Conectores/P01_Conectores/librerias/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="Unidad_02_Conectores/P01_Conectores/librerias/sqlite-jdbc-3.23.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
