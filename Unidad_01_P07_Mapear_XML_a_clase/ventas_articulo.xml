@@ -33,9 +33,9 @@
         </venta>
         <venta>
             <numventa>35</numventa>
-            <unidades>10</unidades>
+            <unidades>20</unidades>
             <nombrecliente>Cliente 2</nombrecliente>
-            <fecha>16-10-2018</fecha>
+            <fecha>23-11-2018</fecha>
         </venta>
     </ventas>
 </ventasarticulos>
