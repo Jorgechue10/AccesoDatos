@@ -1,4 +1,4 @@
-package UD_01_P06_JAXB;
+package P06_JAXB;
 
 import javax.xml.bind.annotation.XmlType; 
 

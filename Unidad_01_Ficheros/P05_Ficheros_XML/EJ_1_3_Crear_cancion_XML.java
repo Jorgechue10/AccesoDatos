@@ -1,4 +1,4 @@
-package UD_01_P05_Ficheros_XML;
+package P05_Ficheros_XML;
 
 import java.io.EOFException;
 import java.io.File;
@@ -24,12 +24,11 @@ public class EJ_1_3_Crear_cancion_XML {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src"
-				+ "\\P05_Ficheros_XML\\Ficheros\\canciones.dat"); 
+		File f = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.dat"); 
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
 		
-		Cancion c;  
+		EJ_1_1_Cancion c;  
 		
 		// Instancia para construir el parser
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -44,7 +43,7 @@ public class EJ_1_3_Crear_cancion_XML {
 			
 			try {
 				while(true){
-					c=(Cancion)objectin.readObject();
+					c=(EJ_1_1_Cancion)objectin.readObject();
 						
 					if(c.getId()>0) {
 							   
@@ -73,7 +72,7 @@ public class EJ_1_3_Crear_cancion_XML {
 				
 		    Source source = new DOMSource(document);
 		    Result result = new StreamResult(
-		    	new java.io.File("src\\P05_Ficheros_XML\\Ficheros\\canciones.xml"));        
+		    	new java.io.File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml"));        
 		    Transformer transformer =
 		           TransformerFactory.newInstance().newTransformer();
 		    transformer.transform(source, result);//se transforma el documento al fichero

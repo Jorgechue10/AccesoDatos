@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
 
-public class AD_2_1_MovimientoBancario_escritura {
+public class AD_2_2_MovimientoBancario_escritura {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ public class AD_2_1_MovimientoBancario_escritura {
 		FileOutputStream fileout = new FileOutputStream(f);
 		ObjectOutputStream objectout = new ObjectOutputStream(fileout);
 		
-		AD_2_0_MovimientoBancario m;		
+		AD_2_1_MovimientoBancario m;		
 		
 		Scanner teclado = new Scanner (System.in);				
 		String[] fechas = new String[5];
@@ -43,7 +43,7 @@ public class AD_2_1_MovimientoBancario_escritura {
 		}			
 		for(int j=0;j<=i-1;j++) {
 			//inicializar movimiento bancario
-			m = new AD_2_0_MovimientoBancario(fechas[j],coceptos[j],cantidades[j],tipos[j]);
+			m = new AD_2_1_MovimientoBancario(fechas[j],coceptos[j],cantidades[j],tipos[j]);
 			//escribir un objeto en un fichero
 			objectout.writeObject(m);
 		}

@@ -1,24 +1,19 @@
 /*Esta clase es la misma que ListaReproduccion que se encuentra en el paquete anterior*/
 
-package UD_01_P06_JAXB;
+package P05_Ficheros_XML;
 
 import java.io.EOFException;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.io.Serializable;
-import javax.xml.bind.annotation.XmlType; 
 
-/*anotacion para establecer rl orden en el que se introducirán 
- * los elementos en el mfichero xml*/
-@XmlType(propOrder = {"id", "anio", "titulo", "artista","duracion","cancion_espaniola"})
-
-public class EJ_2_1_Cancion implements Serializable{
+public class EJ_1_1_Cancion implements Serializable{
 	private int id,anio;
 	private String titulo, artista, duracion;
 	private boolean cancion_espaniola;
 	
-	public EJ_2_1_Cancion(int i, int a, String t, String arti, String d, boolean c_esp) {
+	public EJ_1_1_Cancion(int i, int a, String t, String arti, String d, boolean c_esp) {
 		id=i;
 		anio=a;
 		titulo=t;
@@ -27,7 +22,7 @@ public class EJ_2_1_Cancion implements Serializable{
 		cancion_espaniola=c_esp;
 	}
 	
-	public EJ_2_1_Cancion() {
+	public EJ_1_1_Cancion() {
 		
 	}
 	

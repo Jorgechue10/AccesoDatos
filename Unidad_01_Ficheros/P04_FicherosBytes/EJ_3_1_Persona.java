@@ -2,12 +2,12 @@ package P04_FicherosBytes;
 
 import java.io.Serializable;
 
-public class EJ_3_0_Persona implements Serializable{
+public class EJ_3_1_Persona implements Serializable{
 	
 	private int edad;
 	private String nombre;
 	
-	public EJ_3_0_Persona(int e, String n) {
+	public EJ_3_1_Persona(int e, String n) {
 		edad=e;
 		nombre=n;
 	}

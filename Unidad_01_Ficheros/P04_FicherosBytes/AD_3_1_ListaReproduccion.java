@@ -1,19 +1,18 @@
-/*Esta clase es la misma que ListaReproduccion que se encuentra en el paquete anterior*/
-
-package UD_01_P05_Ficheros_XML;
+package P04_FicherosBytes;
 
 import java.io.EOFException;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.io.Serializable;
 
-public class Cancion implements Serializable{
+public class AD_3_1_ListaReproduccion {
+	
 	private int id,anio;
 	private String titulo, artista, duracion;
 	private boolean cancion_espaniola;
 	
-	public Cancion(int i, int a, String t, String arti, String d, boolean c_esp) {
+	public AD_3_1_ListaReproduccion(int i, int a, String t, String arti, String d, boolean c_esp) {
 		id=i;
 		anio=a;
 		titulo=t;
@@ -22,7 +21,7 @@ public class Cancion implements Serializable{
 		cancion_espaniola=c_esp;
 	}
 	
-	public Cancion() {
+	public AD_3_1_ListaReproduccion() {
 		
 	}
 	
@@ -64,7 +63,7 @@ public class Cancion implements Serializable{
 	}
 	//Comprobamos si existe el ID
 	public boolean existeID(int id_introducido) throws IOException {
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
 		RandomAccessFile raf = new RandomAccessFile (f, "r");
 		int posicion=0;
 		
@@ -88,6 +87,5 @@ public class Cancion implements Serializable{
 			System.out.printf("");
 		}
 		return false;
-	}
-	
+	}	
 }

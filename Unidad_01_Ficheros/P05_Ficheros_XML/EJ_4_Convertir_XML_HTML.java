@@ -4,7 +4,7 @@
  * En este ejercicio vamos a convertir el archivo canciones.xml a un html
  * mediante la plantilla cancionesPlantilla.xsl*/
 
-package UD_01_P05_Ficheros_XML;
+package P05_Ficheros_XML;
 
 import javax.xml.transform.*;
 import javax.xml.transform.stream.*;
@@ -12,9 +12,9 @@ import java.io.*;
 
 public class EJ_4_Convertir_XML_HTML {
 	public static void main(String argv[]) throws IOException{ 
-		String hojaEstilo = "src\\P05_Ficheros_XML\\Ficheros\\cancionesPlantilla.xsl";
-		String datosAlumnos = "src\\P05_Ficheros_XML\\Ficheros\\canciones.xml";
-		File pagHTML = new File("src\\P05_Ficheros_XML\\Ficheros\\canciones.html");
+		String hojaEstilo = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\cancionesPlantilla.xsl";
+		String datosAlumnos = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml";
+		File pagHTML = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.html");
 		FileOutputStream os = new FileOutputStream(pagHTML); //crear fichero HTML
   
 		Source estilos =new StreamSource(hojaEstilo);//fuente XSL

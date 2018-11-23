@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-public class EJ_3_2_Lectura_de_objetos {
+public class EJ_3_3_Lectura_de_objetos {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		// TODO Auto-generated method stub
@@ -15,11 +15,11 @@ public class EJ_3_2_Lectura_de_objetos {
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
 		
-		EJ_3_0_Persona p;
+		EJ_3_1_Persona p;
 		
 		try {
 			while(true){
-					p=(EJ_3_0_Persona)objectin.readObject();
+					p=(EJ_3_1_Persona)objectin.readObject();
 					System.out.println("Nombre: "+p.getNombre()+", Edad: "+p.getEdad());
 			}
 		}catch (EOFException eo) {

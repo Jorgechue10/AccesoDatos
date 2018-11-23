@@ -1,18 +1,24 @@
-package P04_FicherosBytes;
+/*Esta clase es la misma que ListaReproduccion que se encuentra en el paquete anterior*/
+
+package P06_JAXB;
 
 import java.io.EOFException;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.io.Serializable;
+import javax.xml.bind.annotation.XmlType; 
 
-public class AD_3_0_ListaReproduccion {
-	
+/*anotacion para establecer rl orden en el que se introducirán 
+ * los elementos en el mfichero xml*/
+@XmlType(propOrder = {"id", "anio", "titulo", "artista","duracion","cancion_espaniola"})
+
+public class EJ_2_1_Cancion implements Serializable{
 	private int id,anio;
 	private String titulo, artista, duracion;
 	private boolean cancion_espaniola;
 	
-	public AD_3_0_ListaReproduccion(int i, int a, String t, String arti, String d, boolean c_esp) {
+	public EJ_2_1_Cancion(int i, int a, String t, String arti, String d, boolean c_esp) {
 		id=i;
 		anio=a;
 		titulo=t;
@@ -21,7 +27,7 @@ public class AD_3_0_ListaReproduccion {
 		cancion_espaniola=c_esp;
 	}
 	
-	public AD_3_0_ListaReproduccion() {
+	public EJ_2_1_Cancion() {
 		
 	}
 	
@@ -63,7 +69,7 @@ public class AD_3_0_ListaReproduccion {
 	}
 	//Comprobamos si existe el ID
 	public boolean existeID(int id_introducido) throws IOException {
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
+		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
 		RandomAccessFile raf = new RandomAccessFile (f, "r");
 		int posicion=0;
 		
@@ -87,5 +93,6 @@ public class AD_3_0_ListaReproduccion {
 			System.out.printf("");
 		}
 		return false;
-	}	
+	}
+	
 }

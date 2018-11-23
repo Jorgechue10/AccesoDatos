@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.Scanner;
 
-public class AD_3_1_ListaReproduccionMain {
+public class AD_3_2_ListaReproduccionMain {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
@@ -31,7 +31,7 @@ public class AD_3_1_ListaReproduccionMain {
 			RandomAccessFile raf = new RandomAccessFile (f, "rw");
 			StringBuffer sb = null;
 			
-			AD_3_0_ListaReproduccion l = new AD_3_0_ListaReproduccion();		
+			AD_3_1_ListaReproduccion l = new AD_3_1_ListaReproduccion();		
 			
 			int id,anio,anioAnterior;
 			String titulo, artista, duracion;
@@ -65,7 +65,7 @@ public class AD_3_1_ListaReproduccionMain {
 					System.out.println("Introduce si es una canción española(true) o extranjera(false)");			
 					cancion_espaniola=teclado.nextBoolean();
 					
-					l = new AD_3_0_ListaReproduccion(id,anio,titulo,artista,duracion,cancion_espaniola);
+					l = new AD_3_1_ListaReproduccion(id,anio,titulo,artista,duracion,cancion_espaniola);
 						
 					posicion = raf.length();
 					raf.seek(posicion);

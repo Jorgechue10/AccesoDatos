@@ -1,4 +1,4 @@
-package UD_01_P06_JAXB;
+package P06_JAXB;
 
 import java.util.List;
 import java.util.ArrayList;

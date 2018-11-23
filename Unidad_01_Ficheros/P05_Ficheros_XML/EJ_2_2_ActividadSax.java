@@ -1,7 +1,7 @@
 /*Realizar lo mismo que el PruebaSax, pero esta vez con un contador para 
  * que te cuente el número de canciones que son españolas*/
 
-package UD_01_P05_Ficheros_XML;
+package P05_Ficheros_XML;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -21,8 +21,7 @@ public class EJ_2_2_ActividadSax {
 	 XMLReader  procesadorXML = XMLReaderFactory.createXMLReader();
 	 GestionContenido2 gestor= new GestionContenido2();  
 	 procesadorXML.setContentHandler(gestor);
-	 InputSource fileXML = new InputSource(""
-	 		+ "src\\P05_Ficheros_XML\\Ficheros\\canciones.xml");	    
+	 InputSource fileXML = new InputSource("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml");	    
      procesadorXML.parse(fileXML);        	      
 	}
 }

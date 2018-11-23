@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.Scanner;
 
-public class EJ_3_1_Escritura_de_objetos {
+public class EJ_3_2_Escritura_de_objetos {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ public class EJ_3_1_Escritura_de_objetos {
 		FileOutputStream fileout = new FileOutputStream(f);
 		ObjectOutputStream objectout = new ObjectOutputStream(fileout);
 		
-		EJ_3_0_Persona p;
+		EJ_3_1_Persona p;
 		
 		
 		Scanner teclado = new Scanner (System.in);				
@@ -31,7 +31,7 @@ public class EJ_3_1_Escritura_de_objetos {
 		
 		for(int i=0;i<5;i++) {
 			//inicializar persona
-			p = new EJ_3_0_Persona(edades[i],nombres[i]);
+			p = new EJ_3_1_Persona(edades[i],nombres[i]);
 			//escribir un objeto en un fichero
 			objectout.writeObject(p);
 		}

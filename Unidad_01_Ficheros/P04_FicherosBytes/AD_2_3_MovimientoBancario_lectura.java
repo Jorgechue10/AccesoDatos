@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-public class AD_2_2_MovimientoBancario_lectura {
+public class AD_2_3_MovimientoBancario_lectura {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		// TODO Auto-generated method stub
@@ -17,13 +17,13 @@ public class AD_2_2_MovimientoBancario_lectura {
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
 		
-		AD_2_0_MovimientoBancario m;
+		AD_2_1_MovimientoBancario m;
 		int cantidad_total=0;
 		int i = 1;
 		
 		try {
 			while(true){
-					m=(AD_2_0_MovimientoBancario)objectin.readObject();
+					m=(AD_2_1_MovimientoBancario)objectin.readObject();
 					System.out.println("Movimiento Bancario: "+ i++ +", Fecha: "+m.getFecha()+", Concepto: "+m.getConcepto()+", Cantidad: "+m.getCantidad()+", Tipo: "+m.getTipo());
 					
 					if(m.getTipo())
