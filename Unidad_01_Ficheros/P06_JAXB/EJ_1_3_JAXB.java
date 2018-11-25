@@ -13,7 +13,7 @@ import javax.xml.bind.Unmarshaller;
 
 public class EJ_1_3_JAXB {
  
-    private static final String MIARCHIVO_XML = "Unidad_01_Ficheros\\P06_JAXB\\Ficheros\\libreria.xml";
+    private static final String MIARCHIVO_XML = "Unidad_01_Ficheros\\P06_JAXB\\Ficheros\\ej_1_libreria.xml";
  
     public static void main(String[] args) throws JAXBException, IOException {
         //Se crea la lista de libros
