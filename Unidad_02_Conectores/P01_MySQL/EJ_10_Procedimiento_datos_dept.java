@@ -1,3 +1,7 @@
+/*Clase que hace una llamada al procedimiento datos_dep_jorge,
+ * que recibe un número de dpto y devuelve en forma de parámetros
+ * de salida nombre y localidad*/
+
 package P01_MySQL;
 
 import java.sql.CallableStatement;
@@ -6,15 +10,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Types;
 
-public class EJ_04_Procedimiento_datos_dept {
+public class EJ_10_Procedimiento_datos_dept {
+	
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver
-			 Connection conexion = DriverManager.getConnection(
-     				"jdbc:mysql://www.db4free.net:3306/tubalcain",
-     				"tubalcain_dam",
-     				"12345678"
-     				); 
+			Connection conexion = DriverManager.getConnection(
+					"jdbc:mysql://www.db4free.net:3306/tubalcain",
+					"tubalcain_dam", "12345678" ); 
 
 			// recuperar parametros de main
 			int dep = 7;  // departamento
