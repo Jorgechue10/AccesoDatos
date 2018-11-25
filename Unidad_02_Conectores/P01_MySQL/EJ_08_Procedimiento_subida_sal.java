@@ -1,19 +1,24 @@
+/*Clase que hace una llamada al procedimiento subida_sal_jorge,
+ * que trata de subir el salario a los empleados, para ello
+ * se pasa por parámetro el dpto_no y la cantidad de dinero
+ * que le quieres subir*/
+
 package P01_MySQL;
 
 import java.sql.*;
 
-public class EJ_02_Procedimiento_subida_sal {
+public class EJ_08_Procedimiento_subida_sal {
+	
 	public static void main(String[] args) {
+		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver
-			 Connection conexion = DriverManager.getConnection(
-     				"jdbc:mysql://www.db4free.net:3306/tubalcain",
-     				"tubalcain_dam",
-     				"12345678"
-     				); 
+			Connection conexion = DriverManager.getConnection(
+					"jdbc:mysql://www.db4free.net:3306/tubalcain",
+					"tubalcain_dam", "12345678" ); 
 
-			// recuperar parametros de main
-			String dep = "0";   //"10"; // departamento
+			// Declarar parámetros
+			String dep = "5";   //""; // departamento
 			String subida = "1000";//"1000"; // subida
 			
 			// construir orden DE LLAMADA
