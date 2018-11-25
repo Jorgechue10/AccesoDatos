@@ -1,3 +1,5 @@
+/*Clase que recibe 5 objetos Cancion y las mete en el fichero de bytes ej_1_canciones.dat*/
+
 package P05_Ficheros_XML;
 
 import java.io.File;
@@ -9,7 +11,7 @@ public class EJ_1_2_Generar_canciones {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.dat");
+		File f = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_1_canciones.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		ObjectOutputStream objectout = new ObjectOutputStream(fileout);
