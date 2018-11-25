@@ -1,16 +1,14 @@
 package P06_JAXB;
 
-import java.util.List;
 import java.util.ArrayList;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
  
 //Esto significa que la clases "Libreria.java" es el elemento raiz
 // namespace es opcional
 //@XmlRootElement(namespace = "ejemplo1.xml")
 //@XmlRootElement(namespace = "")
-@XmlRootElement()
+@XmlRootElement(name = "listaCanciones")
 public class EJ_2_2_ListaCanciones {
 	
 	private ArrayList<EJ_2_1_Cancion> lista = new ArrayList<EJ_2_1_Cancion>();
