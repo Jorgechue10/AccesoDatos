@@ -1,8 +1,7 @@
-/*Para convertir de XML a HTML, primero vamos a tener que crear un fichero xsl 
- * (en este caso lo voy a crear en la carpeta ficheros).
+/*Para convertir de XML a HTML, primero vamos a tener que crear un fichero xsl.
  * 
- * En este ejercicio vamos a convertir el archivo canciones.xml a un html
- * mediante la plantilla cancionesPlantilla.xsl*/
+ * En este ejercicio vamos a convertir el archivo ej_2_canciones.xml a un html ej_4_canciones.html
+ * mediante la plantilla ej_4_cancionesPlantilla.xsl*/
 
 package P05_Ficheros_XML;
 
@@ -12,9 +11,9 @@ import java.io.*;
 
 public class EJ_4_Convertir_XML_HTML {
 	public static void main(String argv[]) throws IOException{ 
-		String hojaEstilo = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\cancionesPlantilla.xsl";
-		String datosAlumnos = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml";
-		File pagHTML = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.html");
+		String hojaEstilo = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_4_cancionesPlantilla.xsl";
+		String datosAlumnos = "Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_2_canciones.xml";
+		File pagHTML = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_4_canciones.html");
 		FileOutputStream os = new FileOutputStream(pagHTML); //crear fichero HTML
   
 		Source estilos =new StreamSource(hojaEstilo);//fuente XSL
