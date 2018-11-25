@@ -1,3 +1,5 @@
+/*Clase que crea un fichero*/
+
 package P01_Manipular;
 
 import java.io.File;
