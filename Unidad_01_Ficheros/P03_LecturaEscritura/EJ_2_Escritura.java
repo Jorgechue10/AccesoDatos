@@ -1,3 +1,5 @@
+/*Clase que escribe caracteres, uno a uno, en un fichero de texto*/
+
 package P03_LecturaEscritura;
 
 import java.io.File;
@@ -8,7 +10,7 @@ public class EJ_2_Escritura {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\fichero_escritura.txt");	
+		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\ej_2_fichero_escritura.txt");	
 		
 		FileWriter fichero_escribir = new FileWriter(f1);
 		String cadena = "Tarazona Mo-La";
