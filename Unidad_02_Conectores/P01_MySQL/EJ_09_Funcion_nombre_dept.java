@@ -1,3 +1,7 @@
+/*Clase que hace una llamada a la función nombre_dep_jorge,
+ * que trata de mostrar el nombre del departamento cuyo dpto_no
+ * es pasado por parámetro*/
+
 package P01_MySQL;
 
 import java.sql.CallableStatement;
@@ -6,15 +10,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Types;
 
-public class EJ_03_Funcion_nombre_dept {
+public class EJ_09_Funcion_nombre_dept {
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver
-			 Connection conexion = DriverManager.getConnection(
-     				"jdbc:mysql://www.db4free.net:3306/tubalcain",
-     				"tubalcain_dam",
-     				"12345678"
-     				); 
+			Connection conexion = DriverManager.getConnection(
+					"jdbc:mysql://www.db4free.net:3306/tubalcain",
+					"tubalcain_dam", "12345678" ); 
 
 			// recuperar parametros de main
 			int dep = 7;  // departamento
