@@ -2,7 +2,7 @@
  * que contiene 6 campos e implementa métodos diferentes para realizar las operaciones 
  * básicas sobre una BD (CRUD)*/
 
-package P01_Conectores;
+package P01_MySQL;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

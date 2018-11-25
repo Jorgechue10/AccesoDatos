@@ -1,4 +1,4 @@
-package P01_Conectores;
+package P01_MySQL;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Types;
 
-public class EJ_03_Funcion_nombre_dept {
+public class EJ_04_Procedimiento_datos_dept {
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver
@@ -20,23 +20,24 @@ public class EJ_03_Funcion_nombre_dept {
 			int dep = 7;  // departamento
 			
 			// construir orden DE LLAMADA
-			String sql = "{ ? = call nombre_dep_jorge (?) } ";
+			String sql = "{ call datos_dep_jorge (?, ?, ?) } ";
 
 			// Preparamos la llamada
 			CallableStatement llamada = conexion.prepareCall(sql);
 			// Damos valor a los argumentos
 			
 			//Registramos el parametro de salida que esta en la posicion 1
-			llamada.registerOutParameter(1, Types.VARCHAR);
+			llamada.registerOutParameter(2, Types.VARCHAR);
+			llamada.registerOutParameter(3, Types.VARCHAR);
 			
 			//Doy valor al parametro de entrada (posicion 2)
-			llamada.setInt(2, dep);
+			llamada.setInt(1, dep);
 															
 			llamada.execute(); // ejecutar el procedimiento
 			
 			//Mostrar parametro de salida
 			System.out.println("Número de departamento: "+dep+" Nombre: "
-			+llamada.getString(1));//mostrar primer argumento
+			+llamada.getString(2)+" Localidad: "+llamada.getString(3));
 			
 			llamada.close();
 			conexion.close();

@@ -1,4 +1,4 @@
-package P01_Conectores;
+package P01_MySQL;
 
 import java.sql.*;
 
