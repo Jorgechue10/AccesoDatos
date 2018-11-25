@@ -1,3 +1,6 @@
+/*Clase que escribe 5 objetos Persona en un fichero.
+ * Los atributos son pasados por teclado.*/
+
 package P04_FicherosBytes;
 
 import java.io.File;
@@ -10,7 +13,7 @@ public class EJ_3_2_Escritura_de_objetos {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\personas.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_3_personas.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		ObjectOutputStream objectout = new ObjectOutputStream(fileout);
