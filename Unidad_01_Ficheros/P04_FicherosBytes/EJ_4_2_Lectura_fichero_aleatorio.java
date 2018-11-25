@@ -1,8 +1,10 @@
-/*
+/*Clase que lee el todo el contenido del fichero aleatorio fichero_aleatorio.dat.*/
+
+/*OCUPACIÓN DE LOS TIPOS DE VARIABLES
 int -> 4B
 Double -> 8B
 char -> 2B
-String -> 2B(char) * n�mero de characters que haya*/
+String -> 2B(char) * número de characters que haya*/
 
 package P04_FicherosBytes;
 
@@ -15,7 +17,7 @@ public class EJ_4_2_Lectura_fichero_aleatorio {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_4_fichero_aleatorio.dat");
 		RandomAccessFile raf = new RandomAccessFile (f, "r");//r->Modo lectura	
 		int id, posicion=0;
 		char[] apellidos = new char [10];
@@ -25,7 +27,8 @@ public class EJ_4_2_Lectura_fichero_aleatorio {
 		double salario;
 		try {
 			do {
-				raf.seek(posicion);//Nos situamos en un lugar determinado del fichero para empezar a leer desde all�
+				//Nos situamos en un lugar determinado del fichero para empezar a leer desde allí
+				raf.seek(posicion);
 				id=raf.readInt();				
 				
 				posicion += 36;
