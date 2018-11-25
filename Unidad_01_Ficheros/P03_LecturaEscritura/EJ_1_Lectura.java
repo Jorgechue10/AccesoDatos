@@ -1,3 +1,5 @@
+/*Clase que lee un fichero de texto carácter a carácter*/
+
 package P03_LecturaEscritura;
 
 import java.io.File;
@@ -9,16 +11,18 @@ public class EJ_1_Lectura {
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
 		
-		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\fichero_lectura.txt");		
-		
 		//Se puede hacer de dos maneras, una poniendo en la cabecera throws IOException
 		//y otra poniendo el try catch(IOException)		
+		
+		//Indicamos el fichero que queremos leer
+		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\ej_1_fichero_lectura.txt");				
 			
 		// Flujo de entrada al fichero
 		FileReader fichero_leer = new FileReader(f1);
 		int i; //Caracter actual
 		
-		while((i=fichero_leer.read())!=-1) {//Lee el fichero hasta que devuelve -1 que quiere decir que ya no hay mas texto
+		//Leemos el fichero hasta que devuelva -1 que quiere decir que ya no hay mas texto
+		while((i=fichero_leer.read())!=-1) {
 			System.out.print((char)i);
 		}
 		fichero_leer.close();//Cerrar fichero
@@ -31,7 +35,8 @@ public class EJ_1_Lectura {
 		
 		char b[] = new char[30];
 		
-		while((i=fichero_leerCaracter.read(b))!=-1) {//Lee el fichero hasta que devuelve -1 y lo mete en un array char
+		//Leemos el fichero hasta que devuelva -1 y lo metemos en un array char
+		while((i=fichero_leerCaracter.read(b))!=-1) {
 			System.out.print(b);
 		}	
 		fichero_leerCaracter.close();
