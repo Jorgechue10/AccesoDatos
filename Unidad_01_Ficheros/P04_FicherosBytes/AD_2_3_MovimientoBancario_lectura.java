@@ -12,7 +12,7 @@ public class AD_2_3_MovimientoBancario_lectura {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\movimientosBancarios.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ad_2_movimientosBancarios.dat");
 		
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
