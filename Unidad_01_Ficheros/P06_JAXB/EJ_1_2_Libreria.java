@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 // namespace es opcional
 //@XmlRootElement(namespace = "ejemplo1.xml")
 //@XmlRootElement(namespace = "")
-@XmlRootElement()
+@XmlRootElement(name = "Libreria")
 public class EJ_1_2_Libreria {
 	 
     private ArrayList<EJ_1_1_Libro> listaLibro;
