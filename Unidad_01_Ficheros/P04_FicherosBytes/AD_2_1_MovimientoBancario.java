@@ -1,4 +1,4 @@
-/*Clase que contiene los movimientos de una cuenta corriente*/
+/*Clase que contiene los movimientos de una cuenta bancaria*/
 
 package P04_FicherosBytes;
 
