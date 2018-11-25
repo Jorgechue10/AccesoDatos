@@ -1,3 +1,5 @@
+/*Clase que lee y escribe datos sobre un fichero binario*/
+
 package P04_FicherosBytes;
 
 import java.io.File;
@@ -9,21 +11,21 @@ public class EJ_1_LeerEscribirBytes {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\datos.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_1_datos.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		FileInputStream filein = new FileInputStream(f);
 		
 		int i;
 		
-		for(i=0;i<100;i++) {
+		for(i=0;i<=100;i++) {
 			fileout.write(i);
-		}
+		}		
 		fileout.close();
 		
 		while((i=filein.read())!=-1) {
 			System.out.println(i);
-		}
+		}		
 		filein.close();		
 	}
 }
