@@ -1,5 +1,5 @@
-/*Realizar lo mismo que el PruebaSax, pero esta vez con un contador para 
- * que te cuente el número de canciones que son españolas*/
+/*Clase que realiza lo mismo que la clase annterior EJ_2_1_PruebaSax, pero esta vez con 
+ * un contador para que cuente el número de canciones que son españolas*/
 
 package P05_Ficheros_XML;
 
