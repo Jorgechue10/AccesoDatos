@@ -1,4 +1,5 @@
-/*Lo que vamos a hacer es en vex de leer todos los empleados, solo queremos leer uno (consulta)*/
+/*Clase que va a hacer una consulta en un fichero aleatorio.
+ * Lo que vamos a hacer es en vez de leer todos los empleados, solo queremos leer uno (consulta)*/
 
 package P04_FicherosBytes;
 
@@ -10,11 +11,11 @@ public class EJ_4_3_Consulta_fichero_aleatorio {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_4_fichero_aleatorio.dat");
 		RandomAccessFile raf = new RandomAccessFile (f, "r");	
 		
 		int id=5;
-		int posicion=(id-1)*36;//Restamos -1 porque tenemos que empezar a leer una posici�n antes
+		int posicion=(id-1)*36;//Restamos -1 porque tenemos que empezar a leer una posición antes
 		
 		char[] apellidos = new char [10];
 		char aux;
@@ -22,7 +23,8 @@ public class EJ_4_3_Consulta_fichero_aleatorio {
 		int dpto;
 		double salario;
 		
-		raf.seek(posicion);//Nos situamos en un lugar determinado del fichero para empezar a leer desde all�
+		//Nos situamos en un lugar determinado del fichero para empezar a leer desde allí
+		raf.seek(posicion);
 		id=raf.readInt();				
 		
 		posicion += 36;
