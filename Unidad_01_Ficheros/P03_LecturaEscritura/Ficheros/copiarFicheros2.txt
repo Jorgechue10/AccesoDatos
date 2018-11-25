@@ -1,1 +1,0 @@
-Hola, este texto va a ser copiado al fichero: copiarFicheros2
