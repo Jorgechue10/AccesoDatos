@@ -1,11 +1,5 @@
-/*Esta clase es la misma que ListaReproduccion que se encuentra en el paquete anterior*/
-
 package P06_JAXB;
 
-import java.io.EOFException;
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlType; 
 
@@ -66,33 +60,5 @@ public class EJ_2_1_Cancion implements Serializable{
 	}
 	public void setCancion_espaniola(boolean cancion_espaniola) {
 		this.cancion_espaniola = cancion_espaniola;
-	}
-	//Comprobamos si existe el ID
-	public boolean existeID(int id_introducido) throws IOException {
-		File f = new File("D:\\eclipse-workspace\\AD_01_Fciheros\\src\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
-		RandomAccessFile raf = new RandomAccessFile (f, "r");
-		int posicion=0;
-		
-		try {
-			do {
-				raf.seek(posicion);
-				id=raf.readInt();				
-				
-				posicion += 69;
-				/*69 porque ocupan todos los elementos 69B
-				2 int = 8B
-				3 String = 2B * 10 * 3= 60B
-				1 boolean = 1B
-				Total = 69B*/				
-				if(id==id_introducido) {
-					return true;
-				}
-			}while(raf.getFilePointer()!=raf.length());			
-			raf.close();
-		}catch (EOFException e) {			
-			System.out.printf("");
-		}
-		return false;
-	}
-	
+	}	
 }
