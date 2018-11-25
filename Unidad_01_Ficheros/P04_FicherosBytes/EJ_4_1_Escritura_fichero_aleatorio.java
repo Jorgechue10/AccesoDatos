@@ -1,3 +1,5 @@
+/*Clase que escribe 10 nombres, 10 salarios y 10 departamentos en un fichero aleatorio.*/
+
 package P04_FicherosBytes;
 
 import java.io.File;
@@ -8,10 +10,11 @@ public class EJ_4_1_Escritura_fichero_aleatorio {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_4_fichero_aleatorio.dat");
 		f.createNewFile();
 		
-		RandomAccessFile raf = new RandomAccessFile (f, "rw");//el modo rw si no existe el fichero lo crea (modo lectura/escritura)
+		//el modo rw si no existe el fichero lo crea (modo lectura/escritura)
+		RandomAccessFile raf = new RandomAccessFile (f, "rw");
 		
 		String[] apellidos = new String[10];
 		apellidos[0]="Martinez";
@@ -52,7 +55,7 @@ public class EJ_4_1_Escritura_fichero_aleatorio {
 		StringBuffer sb = null;
 		
 		for(int i=0;i<10;i++) {	
-			raf.writeInt(i+1);//n�mero de empleado
+			raf.writeInt(i+1);//número de empleado
 			
 			sb= new StringBuffer(apellidos[i]);
 			sb.setLength(10);
