@@ -1,3 +1,5 @@
+/*Clase que contiene métodos que muestran información de un fichero*/
+
 package P02_Metodos;
 
 import java.io.File;
