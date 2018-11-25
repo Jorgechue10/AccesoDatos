@@ -1,3 +1,7 @@
+/*Clase que crea una tabla usuario si no existe en la base de datos que se 
+ * encuentra en https://www.db4free.net/phpMyAdmin/ y muetra los datos de 
+ * los campos nombre, apellido y edad.*/
+
 package P01_MySQL;
 
 import java.sql.*;
@@ -25,18 +29,19 @@ public class EJ_01_ConnMySQL {
 	               " edad INTEGER, " + 
 	               " PRIMARY KEY ( id ))"; 
 	        
-	        String query = "SELECT nombre, edad from USUARIO";
+	        String query = "SELECT nombre, apellido, edad from USUARIO";
 	        
 	        Statement stmt = null;
 	        try {
 	            stmt = con.createStatement();
 	            stmt.executeUpdate(sql);
 	            ResultSet rs = stmt.executeQuery(query);
-	            String nombre, edad;
+	            String nombre, apellido, edad;
 	            while (rs.next()){
 	                nombre = rs.getString("nombre");
+	                apellido = rs.getString("apellido");
 	                edad = rs.getString("edad");
-	                System.out.println("Usuario: " + nombre + " Edad: " + edad);
+	                System.out.println("Usuario: " + nombre + " "+ apellido + " Edad: " + edad);
 	            }
 	        }
 	        catch (SQLException e){
