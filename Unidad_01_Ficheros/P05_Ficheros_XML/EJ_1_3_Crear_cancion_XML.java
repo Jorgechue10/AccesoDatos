@@ -1,3 +1,7 @@
+/*Clase que crea un documento XML partiendo del fichero ej_1_canciones.dat,
+ * que contiene información sobre 5 objetos Cancion. Después mostrar el 
+ * contenido del documento por consola.*/
+
 package P05_Ficheros_XML;
 
 import java.io.EOFException;
@@ -24,7 +28,7 @@ public class EJ_1_3_Crear_cancion_XML {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.dat"); 
+		File f = new File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_1_canciones.dat"); 
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
 		
@@ -38,7 +42,7 @@ public class EJ_1_3_Crear_cancion_XML {
 			DocumentBuilder builder = factory.newDocumentBuilder();
 		    DOMImplementation implementation = builder.getDOMImplementation();
 		    Document document = 
-		    		implementation.createDocument(null, "Canciones", null);
+		    		implementation.createDocument(null, "listaCanciones", null);
 		    document.setXmlVersion("1.0"); 		    
 			
 			try {
@@ -63,7 +67,7 @@ public class EJ_1_3_Crear_cancion_XML {
 					CrearElemento("duracion",c.getDuracion().trim(), raiz, document);
 					// Cancion_espaniola
 					String c_esp=String.valueOf(c.getCancion_espaniola());
-					CrearElemento("espaniola",c_esp.trim(), raiz, document);
+					CrearElemento("cancion_espaniola",c_esp.trim(), raiz, document);
 					}						
 				}
 			}catch (EOFException eo) {
@@ -72,7 +76,7 @@ public class EJ_1_3_Crear_cancion_XML {
 				
 		    Source source = new DOMSource(document);
 		    Result result = new StreamResult(
-		    	new java.io.File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml"));        
+		    	new java.io.File("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_2_canciones.xml"));        
 		    Transformer transformer =
 		           TransformerFactory.newInstance().newTransformer();
 		    transformer.transform(source, result);//se transforma el documento al fichero
