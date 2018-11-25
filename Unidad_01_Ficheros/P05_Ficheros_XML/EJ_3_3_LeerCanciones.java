@@ -1,4 +1,4 @@
-/*Leemos la lista donde se encuentran las canciones*/
+/*Clase que lee el objeto ListaCanciones en el que se encuentran todas las canciones*/
 
 package P05_Ficheros_XML;
 
@@ -18,7 +18,8 @@ public class EJ_3_3_LeerCanciones {
 		 xstream.alias("DatosCanciones", EJ_1_1_Cancion.class);
 		 xstream.addImplicitCollection(EJ_3_1_ListaCanciones.class, "lista");
 		 
-		 EJ_3_1_ListaCanciones listadoTodas = (EJ_3_1_ListaCanciones) xstream.fromXML(new FileInputStream ("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones_xs.xml"));		
+		 EJ_3_1_ListaCanciones listadoTodas = (EJ_3_1_ListaCanciones) xstream.fromXML(
+				 new FileInputStream ("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_3_canciones_xs.xml"));		
 		 System.out.println("Numero de Canciones: " +
 				 listadoTodas.getListaCanciones().size());
 		 
