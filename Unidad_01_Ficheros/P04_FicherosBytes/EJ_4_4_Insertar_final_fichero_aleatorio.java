@@ -1,3 +1,5 @@
+/*Clase que inserta datos al final del fichero aleatorio*/
+
 package P04_FicherosBytes;
 
 import java.io.File;
@@ -9,7 +11,7 @@ public class EJ_4_4_Insertar_final_fichero_aleatorio {
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
 		
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\escritura_fichero_aleatorio.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_4_fichero_aleatorio.dat");
 		
 		RandomAccessFile raf = new RandomAccessFile (f, "rw");
 		
@@ -21,7 +23,7 @@ public class EJ_4_4_Insertar_final_fichero_aleatorio {
 		long posicion = raf.length();		
 		raf.seek(posicion);
 		
-		raf.writeInt(id);//n�mero de empleado
+		raf.writeInt(id);//número de empleado
 		
 		StringBuffer sb = null;
 		sb= new StringBuffer(apellidos);
