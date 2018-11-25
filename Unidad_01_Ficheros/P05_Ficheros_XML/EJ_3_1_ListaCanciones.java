@@ -1,4 +1,5 @@
-/*Creamos una lista de tipo canci�n, para introducir ah� las canciones*/
+/*Creamos una lista de tipo canción, para introducir ahí todas las canciones
+ * del fichero ej_1_canciones.dat*/
 
 package P05_Ficheros_XML;
 
