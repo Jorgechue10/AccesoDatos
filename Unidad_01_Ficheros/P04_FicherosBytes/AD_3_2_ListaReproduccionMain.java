@@ -27,11 +27,11 @@ public class AD_3_2_ListaReproduccionMain {
 			System.out.println("|____________________________________|");	
 		
 			numero = teclado.nextInt();
-			File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\listaReproduccion.dat");
+			File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ad_3_listaReproduccion.dat");
 			RandomAccessFile raf = new RandomAccessFile (f, "rw");
 			StringBuffer sb = null;
 			
-			AD_3_1_ListaReproduccion l = new AD_3_1_ListaReproduccion();		
+			AD_3_1_Cancion l = new AD_3_1_Cancion();		
 			
 			int id,anio,anioAnterior;
 			String titulo, artista, duracion;
@@ -65,7 +65,7 @@ public class AD_3_2_ListaReproduccionMain {
 					System.out.println("Introduce si es una canción española(true) o extranjera(false)");			
 					cancion_espaniola=teclado.nextBoolean();
 					
-					l = new AD_3_1_ListaReproduccion(id,anio,titulo,artista,duracion,cancion_espaniola);
+					l = new AD_3_1_Cancion(id,anio,titulo,artista,duracion,cancion_espaniola);
 						
 					posicion = raf.length();
 					raf.seek(posicion);
