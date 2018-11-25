@@ -1,3 +1,5 @@
+/*Clase que visualiza el contendio del fichero XML ej_2_cannciones.xml*/
+
 package P05_Ficheros_XML;
 
 import java.io.FileNotFoundException;
@@ -18,7 +20,7 @@ public class EJ_2_1_PruebaSax {
 	 XMLReader  procesadorXML = XMLReaderFactory.createXMLReader();
 	 GestionContenido gestor= new GestionContenido();  
 	 procesadorXML.setContentHandler(gestor);
-	 InputSource fileXML = new InputSource("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml");	    
+	 InputSource fileXML = new InputSource("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_2_canciones.xml");	    
      procesadorXML.parse(fileXML);        	      
 	}
 }
