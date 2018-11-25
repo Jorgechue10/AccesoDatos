@@ -1,3 +1,5 @@
+/*Clase que lee los objetos Persona que contiene un fichero.*/
+
 package P04_FicherosBytes;
 
 import java.io.EOFException;
@@ -10,7 +12,7 @@ public class EJ_3_3_Lectura_de_objetos {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\personas.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_3_personas.dat");
 		
 		FileInputStream filein = new FileInputStream(f);
 		ObjectInputStream objectin = new ObjectInputStream(filein);
