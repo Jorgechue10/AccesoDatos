@@ -1,3 +1,5 @@
+/*Clase que escribe líneas completas en un fichero de texto*/
+
 package P03_LecturaEscritura;
 
 import java.io.BufferedWriter;
@@ -12,7 +14,7 @@ public class EJ_5_EscribirLinea {
 		// TODO Auto-generated method stub
 		
 		try {
-			File f = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\escribir_linea.txt");	
+			File f = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\ej_5_escribir_linea.txt");	
 			FileWriter fw = new FileWriter(f);
 			BufferedWriter bw = new BufferedWriter(fw);
 			
