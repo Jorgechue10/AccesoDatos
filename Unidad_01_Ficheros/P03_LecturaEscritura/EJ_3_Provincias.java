@@ -1,3 +1,6 @@
+/*Clase que escribe en un fichero de texto las provincias
+ * que se han introducido en un array de String*/
+
 package P03_LecturaEscritura;
 
 import java.io.File;
@@ -8,10 +11,10 @@ public class EJ_3_Provincias {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\provincias.txt");	
+		File f1 = new File("Unidad_01_Ficheros\\P03_LecturaEscritura\\Ficheros\\ej_3_provincias.txt");	
 		
 		
-		// ��CUIDADo!! Hay que tener cuidado, ya que el FileWriter sobreescribe el archivo existente,
+		// ¡¡CUIDADO!! Hay que tener cuidado, ya que el FileWriter sobreescribe el archivo existente,
 		//puedes perder lo que tengas en el archivo anterior
 		FileWriter fichero_escribir = new FileWriter(f1);
 		
