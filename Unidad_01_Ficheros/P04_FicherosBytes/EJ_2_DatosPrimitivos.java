@@ -1,3 +1,5 @@
+/*Clase que escribe y lee datos primitivos sobre un fichero binario*/
+
 package P04_FicherosBytes;
 
 import java.io.DataInputStream;
@@ -12,7 +14,7 @@ public class EJ_2_DatosPrimitivos {
 
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\primitivos.dat");
+		File f = new File("Unidad_01_Ficheros\\P04_FicherosBytes\\Ficheros\\ej_2_primitivos.dat");
 		f.createNewFile();
 		FileOutputStream fileout = new FileOutputStream(f);
 		DataOutputStream dataOS = new DataOutputStream(fileout);
@@ -48,7 +50,8 @@ public class EJ_2_DatosPrimitivos {
 				System.out.println("Esto es un String: "+str);
 			}
 		}catch (EOFException eo) {
-			System.out.println("Error");//Sale simepre al final porque siempre espera algun fichero m�s
+			//Sale simepre al final porque siempre espera algun fichero más
+			System.out.println("Error");
 		}	
 		dataIS.close();
 	}
