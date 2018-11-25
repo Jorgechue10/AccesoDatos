@@ -1,3 +1,6 @@
+/*Clase que crea un objeto Persona con sus respectivos atributos, contructor y métodos. 
+ * Implementamos Serializable para que el objeto pueda ser leido y escrito en un fichero*/
+
 package P04_FicherosBytes;
 
 import java.io.Serializable;
