@@ -31,6 +31,7 @@ public class Activity_3 {
 	        actualizarDepartamento(dept);
 	        darDeBajaDepartamento(2);
 	        darDeBajaYMostrarFilasAfectadas(2);*/
+	        actualizarLocalidad(2,"Tarazona");
 	        mostrarDepartamentos();
 	        
 	       //////////////////////////////////////////// 
@@ -169,7 +170,24 @@ public class Activity_3 {
         } 
 	}
 	
-
+	/*Método que reciba un número de departamento y actualice su localidad, 
+	 * utilizando el procedimiento actualizaDept*/
+	public static void actualizarLocalidad(int numero, String localidad) {
+		String sql = "{ call actualizaDept (?, ?) } ";		
+		
+		try {
+			CallableStatement llamada = conexion.prepareCall(sql);
+			// Damos valor a los argumentos
+			llamada.setInt(1, numero); // primer argumento deptno
+			llamada.setString(2, localidad); // segundo argumento localidad
+															
+			llamada.executeUpdate(); // ejecutar el procedimiento
+			System.out.println("Actualización realizada....");
+			llamada.close();
+		} catch (SQLException e){
+			e.printStackTrace();        
+		} 
+	}
 }
 
 class departamento{
