@@ -26,9 +26,11 @@ public class Activity_3 {
 	        /*departamento dept = new departamento(2,"2","2");
 	        insertarDepartamento(dept);
 	        mostrarDepartamentos();
-	        consultarDepartamentos(1);
+	        consultarDepartamentos(1);	        
+	        departamento dept = new departamento(2,"Jorge","Tarazona");
+	        actualizarDepartamento(dept);
 	        darDeBajaDepartamento(2);*/
-	        
+	        mostrarDepartamentos();
 	        
 	       //////////////////////////////////////////// 
 	       conexion.close();
@@ -86,7 +88,7 @@ public class Activity_3 {
                 localidad = rs.getString("LOC");
                 departamento dept = new departamento(numero,nombre,localidad);
                 lista.add(dept);
-                //System.out.println("Numero: " + numero + " Nombre: " + nombre+" Localidad: " + localidad);               
+                System.out.println("Numero: " + numero + " Nombre: " + nombre+" Localidad: " + localidad);               
             }
             stmt.close();
         }
@@ -121,7 +123,20 @@ public class Activity_3 {
         return dept;
 	}
 	
-	/*Método que reciba un objeto departamento y actualice la tabla dept.*/
+	/*Método que actualice un departamento, recibiendo un objeto departamento*/	
+	public static void actualizarDepartamento(departamento d) {
+		String query = "UPDATE `DEPT` SET `DNAME` = '"+d.getNombre()+"',"
+				+ "`LOC`= '"+d.getLocalidad()+"' WHERE `DEPTNO` = "+d.getNumero();
+		Statement stmt = null;
+        try {
+            stmt = conexion.createStatement();        
+            stmt.execute(query);
+            stmt.close();
+        }
+        catch (SQLException e){
+            e.printStackTrace();        
+        } 
+	}
 	
 	/*Método que reciba un número de departamento y lo dé de baja.*/
 	public static void darDeBajaDepartamento(int numero) {
