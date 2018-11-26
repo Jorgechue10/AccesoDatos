@@ -29,7 +29,8 @@ public class Activity_3 {
 	        consultarDepartamentos(1);	        
 	        departamento dept = new departamento(2,"Jorge","Tarazona");
 	        actualizarDepartamento(dept);
-	        darDeBajaDepartamento(2);*/
+	        darDeBajaDepartamento(2);
+	        darDeBajaYMostrarFilasAfectadas(2);*/
 	        mostrarDepartamentos();
 	        
 	       //////////////////////////////////////////// 
@@ -152,7 +153,23 @@ public class Activity_3 {
         } 
 	}
 	
+	//Ídem del anterior pero devolviendo el número de filas afectadas.
+	public static void darDeBajaYMostrarFilasAfectadas(int numero) {
+		String query = "DELETE FROM `DEPT` WHERE DEPTNO = "+numero;
+		Statement stmt = null;
+		int filas=0;
+        try {
+            stmt = conexion.createStatement();       
+            filas = stmt.executeUpdate(query.toString());       
+  		  	System.out.println("Filas afectadas: " + filas);
+            stmt.close();
+        }
+        catch (SQLException e){
+            e.printStackTrace();        
+        } 
+	}
 	
+
 }
 
 class departamento{
