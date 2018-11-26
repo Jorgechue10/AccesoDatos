@@ -1,3 +1,6 @@
+/*Clase que tiene acceso a la base de datos empleados y contiene diferentes 
+ * métodos para controlar errores y utilizar sentencias preparadas*/
+
 package P01_MySQL;
 
 import java.sql.*;
@@ -34,8 +37,10 @@ public class Activity_3 {
 	    }
 	}
 	
+	/*Método que inserta un departamento. El método recibe tres argumentos (número, nombre y localidad).*/
 	public static void insertarDepartamento(int numero,String nombre, String localidad) {
-		String query = "INSERT INTO `DEPT`(`DEPTNO`, `DNAME`, `LOC`) VALUES ("+numero+","+nombre+","+localidad+")";
+		String query = "INSERT INTO `DEPT`(`DEPTNO`, `DNAME`, `LOC`) "
+				+ "VALUES ("+numero+","+nombre+","+localidad+")";
 		Statement stmt = null;
         try {
             stmt = conexion.createStatement();        
@@ -47,8 +52,10 @@ public class Activity_3 {
         } 
 	}
 	
+	/*Método igual que el anterior pero recibiendo un solo argumento, un objeto de la clase departamento.*/
 	public static void insertarDepartamento(departamento d) {
-		String query = "INSERT INTO `DEPT`(`DEPTNO`, `DNAME`, `LOC`) VALUES ("+d.getNumero()+","+d.getNombre()+","+d.getLocalidad()+")";
+		String query = "INSERT INTO `DEPT`(`DEPTNO`, `DNAME`, `LOC`) "
+				+ "VALUES ("+d.getNumero()+","+d.getNombre()+","+d.getLocalidad()+")";
 		Statement stmt = null;
         try {
             stmt = conexion.createStatement();        
@@ -60,6 +67,8 @@ public class Activity_3 {
         } 
 	}
 	
+	/*Método que devuelve un ArrayList de objetos departamento ante la consulta
+	 * de todas las columnas de todos los departamentos de la tabla dept*/
 	public static List<departamento> mostrarDepartamentos() {
 		List<departamento> lista = new ArrayList<departamento>();
 		String query = "SELECT * FROM `DEPT`";
@@ -85,6 +94,7 @@ public class Activity_3 {
         return lista;
 	}	 
 	
+	/*Método que recibe un número de departamento y devuelva sus datos mediante un objeto.*/
 	public static departamento consultarDepartamentos(int num) {
 		String query = "SELECT * FROM `DEPT` WHERE `DEPTNO` = "+num+"";
 		Statement stmt = null;
@@ -107,7 +117,8 @@ public class Activity_3 {
             e.printStackTrace();        
         } 
         return dept;
-	}	
+	}
+	
 }
 
 class departamento{
