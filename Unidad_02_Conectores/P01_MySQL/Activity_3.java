@@ -25,8 +25,10 @@ public class Activity_3 {
 	        //insertarDepartamento(1,"1","1");
 	        /*departamento dept = new departamento(2,"2","2");
 	        insertarDepartamento(dept);
-	        mostrarDepartamentos();*/
+	        mostrarDepartamentos();
 	        consultarDepartamentos(1);
+	        darDeBajaDepartamento(2);*/
+	        
 	        
 	       //////////////////////////////////////////// 
 	       conexion.close();
@@ -118,6 +120,23 @@ public class Activity_3 {
         } 
         return dept;
 	}
+	
+	/*Método que reciba un objeto departamento y actualice la tabla dept.*/
+	
+	/*Método que reciba un número de departamento y lo dé de baja.*/
+	public static void darDeBajaDepartamento(int numero) {
+		String query = "DELETE FROM `DEPT` WHERE DEPTNO = "+numero+"";
+		Statement stmt = null;
+        try {
+            stmt = conexion.createStatement();        
+            stmt.execute(query);
+            stmt.close();
+        }
+        catch (SQLException e){
+            e.printStackTrace();        
+        } 
+	}
+	
 	
 }
 
