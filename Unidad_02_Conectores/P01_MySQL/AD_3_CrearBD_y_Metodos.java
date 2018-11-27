@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AD_3_CrearBD_y_Métodos {
+public class AD_3_CrearBD_y_Metodos {
 	
 	static Connection conexion;
 	
