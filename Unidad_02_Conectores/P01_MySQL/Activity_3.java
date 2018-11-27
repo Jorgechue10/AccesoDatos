@@ -30,9 +30,9 @@ public class Activity_3 {
 	        departamento dept = new departamento(2,"Jorge","Tarazona");
 	        actualizarDepartamento(dept);
 	        darDeBajaDepartamento(2);
-	        darDeBajaYMostrarFilasAfectadas(2);*/
+	        darDeBajaYMostrarFilasAfectadas(2);
 	        actualizarLocalidad(2,"Tarazona");
-	        mostrarDepartamentos();
+	        mostrarDepartamentos();*/
 	        
 	       //////////////////////////////////////////// 
 	       conexion.close();
@@ -171,7 +171,13 @@ public class Activity_3 {
 	}
 	
 	/*Método que reciba un número de departamento y actualice su localidad, 
-	 * utilizando el procedimiento actualizaDept*/
+	 * utilizando el procedimiento actualizaDept:
+	 
+	delimiter $$
+	CREATE PROCEDURE actualizaDept(cod INT(2), localidad VARCHAR(13))
+	BEGIN
+	UPDATE DEPT SET LOC=localidad WHERE DEPTNO = cod;
+	END;*/
 	public static void actualizarLocalidad(int numero, String localidad) {
 		String sql = "{ call actualizaDept (?, ?) } ";		
 		
