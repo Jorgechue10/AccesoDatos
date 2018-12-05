@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="Unidad_01_P07_Mapear_XML_a_clase"/>
 	<classpathentry kind="src" path="Unidad_02_Conectores"/>
 	<classpathentry kind="src" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional"/>
+	<classpathentry kind="src" path="Evaluacion"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
