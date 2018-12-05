@@ -21,7 +21,7 @@ public class EJ_2_2_ActividadSax {
 	 XMLReader  procesadorXML = XMLReaderFactory.createXMLReader();
 	 GestionContenido2 gestor= new GestionContenido2();  
 	 procesadorXML.setContentHandler(gestor);
-	 InputSource fileXML = new InputSource("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\canciones.xml");	    
+	 InputSource fileXML = new InputSource("Unidad_01_Ficheros\\P05_Ficheros_XML\\Ficheros\\ej_2_canciones.xml");	    
      procesadorXML.parse(fileXML);        	      
 	}
 }
