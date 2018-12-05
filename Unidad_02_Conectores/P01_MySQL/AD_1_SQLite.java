@@ -20,7 +20,7 @@ public class AD_1_SQLite {
 		  try {
     	
 			  // create a database connection
-		      connection = DriverManager.getConnection("jdbc:sqlite:Unidad_02_Conectores\\P01_Conectores\\actividad1.db");
+		      connection = DriverManager.getConnection("jdbc:sqlite:Unidad_02_Conectores\\P01_MySQL\\actividad1.db");
 		      statement = connection.createStatement();
 		      statement.setQueryTimeout(30);  // set timeout to 30 sec.
 		
@@ -39,7 +39,7 @@ public class AD_1_SQLite {
 		      //mostrar();
 		      //borrar(1);
 		      //buscar(3);
-		      //mostrar();
+		      mostrar();
 	      
 		  } catch(SQLException e) {
 			  // if the error message is "out of memory",
