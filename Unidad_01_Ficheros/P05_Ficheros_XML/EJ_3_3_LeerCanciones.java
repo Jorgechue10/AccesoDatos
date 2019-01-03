@@ -1,4 +1,4 @@
-/*Clase que lee el objeto ListaCanciones en el que se encuentran todas las canciones*/
+/*Clase que lee con Xstream un fichero XML de canciones*/
 
 package P05_Ficheros_XML;
 
