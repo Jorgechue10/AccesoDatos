@@ -3,10 +3,10 @@
 ## EJEMPLOS
 
 -Ejemplo 1. [LeerEscribirBytes](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/EJ_1_LeerEscribirBytes.java)
--Clase que lee y escribe datos sobre un fichero binario.
+-Clase que escribe **(FileOutputStream)** y lee **(FileInputStream)** datos sobre un fichero binario.
 
 -Ejemplo 2. [DatosPrimitivos](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/EJ_2_DatosPrimitivos.java)
--Clase que escribe y lee datos primitivos sobre un fichero binario.
+-Clase que escribe **(DataOutputStream)** y lee **(DataInputStream)** datos primitivos sobre un fichero binario.
 
 -Ejemplo 3. Lectura/Escritura de objetos:
 
@@ -15,13 +15,13 @@
 
 
 - [Escritura_de_objetos](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/EJ_3_2_Escritura_de_objetos.java)
--Clase que escribe 5 objetos Persona en un fichero.
+-Clase que escribe 5 objetos Persona en un fichero, usando la clase **(ObjectOutputStream)**.
 
 
 - [Lectura_de_objetos](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/EJ_3_3_Lectura_de_objetos.java)
--Clase que lee los objetos Persona que contiene un fichero.
+-Clase que lee los objetos Persona que contiene un fichero, usando la clase **(ObjectInputStream)**.
 
--Ejemplo 4. Ficheros aleatorios:
+-Ejemplo 4. Ficheros aleatorios **(RandomAccessFile)**:
 
 - [Escritura_fichero_aleatorio](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/EJ_4_1_Escritura_fichero_aleatorio.java)
 -Clase que escribe en un fichero aleatorio.
@@ -73,7 +73,7 @@ Se han de crear dos clases:
 - Una clase para representar la Canción. **Solución:** [Cancion](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P04_FicherosBytes/AD_3_1_Cancion.java) 
 
 
-- Otra clase para crea un menú de opciones sobre la lista.
+- Otra clase para crear un menú de opciones sobre la lista.
 
   - La primera opción se utiliza para crea un fichero, el nombre del fichero será: ad_3_listaReproduccion.dat.
 
