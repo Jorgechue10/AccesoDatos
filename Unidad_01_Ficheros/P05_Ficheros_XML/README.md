@@ -32,7 +32,7 @@ Interfaces para usar DOM
 -Clase que visualiza el contendio de un fichero XML.
 
 
-**Actividad: ** Utiliza SAX para visualizar y contar el número de canciones que son españolas. **Solución:** [Actividad_Sax](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P05_Ficheros_XML/EJ_2_2_ActividadSax.java)
+**Actividad:** Utiliza SAX para visualizar y contar el número de canciones que son españolas. **Solución:** [Actividad_Sax](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_01_Ficheros/P05_Ficheros_XML/EJ_2_2_ActividadSax.java)
 
 -Ejemplo 3. Serialización de objetos a un documento XML:
 
