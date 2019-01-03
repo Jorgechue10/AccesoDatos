@@ -1,4 +1,4 @@
-package P06_JAXB;
+package P06_JAXB_Mapear_Clase_a_XML;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlType; 
