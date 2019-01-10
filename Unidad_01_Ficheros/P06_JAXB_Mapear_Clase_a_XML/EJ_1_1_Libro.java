@@ -1,3 +1,5 @@
+/*Clase que va a ser el elemento Libro del XML*/
+
 package P06_JAXB_Mapear_Clase_a_XML;
 
 import javax.xml.bind.annotation.XmlType; 

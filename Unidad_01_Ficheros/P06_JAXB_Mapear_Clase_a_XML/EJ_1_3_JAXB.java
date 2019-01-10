@@ -1,3 +1,6 @@
+/*Clase en la que se crea un documento XML a partir del elemento raíz Librería
+ * y dentro le metemos dos elementos Libro*/
+
 package P06_JAXB_Mapear_Clase_a_XML;
 
 import java.io.File;
