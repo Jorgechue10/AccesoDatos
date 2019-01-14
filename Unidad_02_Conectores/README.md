@@ -1,14 +1,12 @@
-# Conectores a BD (JDBC)
+# UNIDAD 2 MANEJO DE CONECTORES
 
-### Descargar Drivers 
+### EJEMPLOS
 
-- [MySQL](https://www.mysql.com/products/connector/)
-- [SQLite](https://github.com/xerial/sqlite-jdbc)
+- [Paquete 1](P01_MySQL) -**MySQL**.
+
+
+- [Paquete 2](P02_SQLite) -**SQLite**.
 
 ### Alojamiento gratuito MySQL - PhpMyAdmin
 
 - [db4free](https://www.db4free.net/)
-
-### EJEMPLOS MySQL
-
--[Paquete 1](https://github.com/Jorgechue10/AccesoDatos/tree/master/Unidad_02_Conectores/P01_MySQL) -MySQL
