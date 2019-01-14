@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AD_3_CrearBD_y_Metodos {
+public class AD_CrearBD_y_Metodos {
 	
 	static Connection conexion;
 	
@@ -171,13 +171,7 @@ public class AD_3_CrearBD_y_Metodos {
 	}
 	
 	/*Método que reciba un número de departamento y actualice su localidad, 
-	 * utilizando el procedimiento actualizaDept:
-	 
-	delimiter $$
-	CREATE PROCEDURE actualizaDept(cod INT(2), localidad VARCHAR(13))
-	BEGIN
-	UPDATE DEPT SET LOC=localidad WHERE DEPTNO = cod;
-	END;*/
+	 * utilizando el procedimiento actualizaDept*/ 
 	public static void actualizarLocalidad(int numero, String localidad) {
 		String sql = "{ call actualizaDept (?, ?) } ";		
 		
