@@ -2,9 +2,9 @@
 
 ### Conexión
 
-1. [ConnMySQL](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_01_ConnMySQL.java)
-2. [DataBaseMetaData](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_02_DatabaseMetaData.java)
-3. [ResultSetMetaData](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_03_ResultSetMetaData.java)
+1. [ConnMySQL](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_01_ConnMySQL.java) -Clase que se conecta con una base de datos y realiza una consulta.
+2. [DataBaseMetaData](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_02_DatabaseMetaData.java) -Clase que muestra información de la base de datos.
+3. [ResultSetMetaData](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_03_ResultSetMetaData.java) -Clase que muestra información de una sentencia.
 
 ### Métodos del objeto Statement
 
@@ -12,10 +12,10 @@
 - **executeUpdate(String):** Se utiliza para sentencias INSERT, UPDATE, DELETE, CREATE, DROP, ALTER. Devuelve el número de filas afectadas y para las sentencias DDL devuelve 0.
 - **execute(String):** Se pude usar para cualquier sentencia. Devuelve true si devuelve un ResulSet (getResultSet) y false si devuelve un recuento de filas (getUpdateCount)
 
-4. [Execute](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_04_Execute.java)
-5. [ExecuteUpdate](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_05_ExecuteUpdate.java)
-6. [Vista](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_06_CrearVista.java)
-7. [Sentencia Preparada](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_07_SentenciaPreparada.java)
+4. [Execute](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_04_Execute.java) -Clase que realiza un Select, utilizando el método **execute()**.
+5. [ExecuteUpdate](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_05_ExecuteUpdate.java) -Clase que realiza una insercción de datos utilizando el método **executeUpdate()**.
+6. [Vista](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_06_CrearVista.java) -Clase que realiza la creación de una **vista**.
+7. [Sentencia Preparada](https://github.com/Jorgechue10/AccesoDatos/blob/master/Unidad_02_Conectores/P01_MySQL/EJ_07_SentenciaPreparada.java) -Clase que realiza una insercción de datos mediante el uso de una **sentencia preparada**.
 
 ### Declaración de llamadas a procedimientos y funciones
 
