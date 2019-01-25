@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="Unidad_01_P07_Mapear_XML_a_clase"/>
 	<classpathentry kind="src" path="Unidad_02_Conectores"/>
 	<classpathentry kind="src" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional"/>
+	<classpathentry kind="src" path="Unidad_04_BDOO"/>
 	<classpathentry kind="src" path="Evaluacion"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
@@ -16,5 +17,6 @@
 	<classpathentry kind="lib" path="Unidad_01_Ficheros/P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P01_MySQL/librerias/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P02_SQLite/librerias/sqlite-jdbc-3.23.1.jar"/>
+	<classpathentry kind="lib" path="Unidad_04_BDOO/lib/neodatis-odb-1.9.30.689.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
