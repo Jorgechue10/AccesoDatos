@@ -13,8 +13,13 @@ public class EJ_01_2_Jugadores_main {
 
 	public static void main(String[] args) {
 
+		//Primero borro el archivo si existe para no insertar los mismos campos
+		//cada vez que ejecuto el programa
+		File f = new File("Unidad_04_BDOO\\NeoDatis\\Data\\equipos.db");
+		f.delete();
+		
 		//Creo la conexión
-		ODB odb = ODBFactory.open("Unidad_04_BDOO\\NeoDatis\\Data\\neodatis.test");
+		ODB odb = ODBFactory.open("Unidad_04_BDOO\\NeoDatis\\Data\\equipos.db");
 
 		
 		//--------------------------INSERCCIÓN DE DATOS------------------------
@@ -75,10 +80,18 @@ public class EJ_01_2_Jugadores_main {
 		
 		//CONSULTA CON OQL
 		
-		odb.close();
 		
-		File f = new File("Unidad_04_BDOO\\NeoDatis\\Data\\neodatis.test");
-		f.delete();
+		
+		//BORRAR OBJETOS
+		// Hacemos la consulta para borrar
+		IQuery query2 = new CriteriaQuery(EJ_01_3_Paises.class, Where.equal("nombrePais", "Brasil"));
+
+		// Nos posicionamos en el primer resultado
+		EJ_01_3_Paises paisBorrar=(EJ_01_3_Paises) odb.getObjects(query2).getFirst();
+
+		// Y lo borramos
+		odb.delete(paisBorrar);
+		odb.close();
 	}
 	
 	public static void mostrarDatos(Objects<EJ_01_1_Jugadores> object) {
