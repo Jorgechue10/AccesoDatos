@@ -1,4 +1,4 @@
-package NeoDatis;
+package P02_NeoDatis;
 
 public class EJ_01_1_Jugadores {
     

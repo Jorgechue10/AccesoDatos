@@ -1,4 +1,4 @@
-package NeoDatis;
+package P02_NeoDatis;
 
 import java.io.File;
 
@@ -15,11 +15,11 @@ public class EJ_01_2_Jugadores_main {
 
 		//Primero borro el archivo si existe para no insertar los mismos campos
 		//cada vez que ejecuto el programa
-		File f = new File("Unidad_04_BDOO\\NeoDatis\\Data\\equipos.db");
+		File f = new File("Unidad_04_BDOO\\P02_NeoDatis\\Data\\equipos.db");
 		f.delete();
 		
 		//Creo la conexión
-		ODB odb = ODBFactory.open("Unidad_04_BDOO\\NeoDatis\\Data\\equipos.db");
+		ODB odb = ODBFactory.open("Unidad_04_BDOO\\P02_NeoDatis\\Data\\equipos.db");
 
 		
 		//--------------------------INSERCCIÓN DE DATOS------------------------
