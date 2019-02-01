@@ -1,5 +1,13 @@
 -----REFERENCIAS-----
 
+/*Mediante el operador REF asociado a un atributo se pueden definir referencias 
+a otros objetos. Un atributo de este tipo almacena una referencia al objeto del 
+tipo definido e implementa una relación de asociación entre los dos tipos de 
+objetos. Así, una columna de tipo REF guarda un puntero a una fila de la otra 
+tabla, contiene el OID (identificador del objeto fila) de dicha fila.*/
+
+-- Inserción y acceso con referencias
+
 --Creamos un tipo EMPLEADO_T donde uno de los atributos es una referencia 
 --a un objeto EMPLEADO_T.
 CREATE TYPE EMPLEADO_T AS OBJECT (

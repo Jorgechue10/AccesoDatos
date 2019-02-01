@@ -1,10 +1,10 @@
 ---------MÉTODOS-------
 
---De forma habitual, en programación orientada a objetos, cuando se define una 
---clase también se establecen los métodos que modelan su comportamiento. En el 
---contexto que nos ocupa, los métodos son procedimientos y funciones que se 
---especifican después de los atributos del objeto. Pueden ser de varios tipos: 
---MEMBER, CONSTRUCTOR Y STATIC.
+/* De forma habitual, en programación orientada a objetos, cuando se define una 
+clase también se establecen los métodos que modelan su comportamiento. En el 
+contexto que nos ocupa, los métodos son procedimientos y funciones que se 
+especifican después de los atributos del objeto. Pueden ser de varios tipos: 
+MEMBER, CONSTRUCTOR Y STATIC.*/
 
 --Primero se crea el tipo de objeto.
 CREATE OR REPLACE TYPE RECTANGULO AS OBJECT(

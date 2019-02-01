@@ -1,5 +1,14 @@
 ---------COLECCIONES: TIPO VARRAY-------
 
+/*Las bases de datos relacionales y orientadas a objetos permiten el almacenamiento 
+de colecciones de elementos en una columna. En oracle, esta operación se lleva a 
+cabo mediante una estructura de datos denominada VARRAY, similar a los arrays de 
+otros lenguajes de programación; elementos del mismo tipo, identificados por su 
+posición u otro índice. Anexo a este concepto se introduce el de las tablas 
+anidadas, que facilitan almacenar una tabla en una columna de otra tabla.*/
+
+-- Tipo VARRAY
+
 --Mediante la sentencia del ejemplo se crea un varray de 3 elementos de nombre 
 --TELEFONO compuesto de varchar2 de 9 posiciones.
 CREATE TYPE TELEFONO AS VARRAY(3) OF VARCHAR2(9)
