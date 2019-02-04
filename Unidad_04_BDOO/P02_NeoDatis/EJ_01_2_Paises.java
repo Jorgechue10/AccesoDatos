@@ -1,13 +1,13 @@
 package P02_NeoDatis;
 
-public class EJ_01_3_Paises {
+public class EJ_01_2_Paises {
 
 	private int idPais;
 	private String nombrePais;
 	
-    public EJ_01_3_Paises(){};
+    public EJ_01_2_Paises(){};
    
-    public EJ_01_3_Paises(int id, String nombre) {
+    public EJ_01_2_Paises(int id, String nombre) {
           super();
           this.idPais = id;
           this.nombrePais = nombre;          

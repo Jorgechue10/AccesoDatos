@@ -17,6 +17,6 @@
 	<classpathentry kind="lib" path="Unidad_01_Ficheros/P05_Ficheros_XML/librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P01_MySQL/librerias/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P02_SQLite/librerias/sqlite-jdbc-3.23.1.jar"/>
-	<classpathentry kind="lib" path="Unidad_04_BDOO/libs/neodatis-odb-1.9.30.689.jar"/>
+	<classpathentry kind="lib" path="Unidad_04_BDOO/librerias/neodatis-odb-1.9.30.689.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

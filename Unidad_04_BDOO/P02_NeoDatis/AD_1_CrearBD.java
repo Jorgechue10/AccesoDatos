@@ -9,23 +9,23 @@ public class AD_1_CrearBD {
 
 	public static void main(String[] args) {
 
-		File fichero = new File("ARTICULOS.DAT");
+		File fichero = new File("Unidad_04_BDOO\\P02_NeoDatis\\Data\\ad_1_articulos.dat");
 		if (fichero.delete())
 			   System.out.println("BD Borrada");
-		// creaci�n de registros en la BD
-		  ODB odb = ODBFactory.open("ARTICULOS.DAT"); 
+		// creación de registros en la BD
+		  ODB odb = ODBFactory.open("Unidad_04_BDOO\\P02_NeoDatis\\Data\\ad_1_articulos.dat"); 
 		  
-		// creo los art�culos
+		// creo los artículos
 		  AD_1_Articulos ar1 = new AD_1_Articulos(1,"Mesas", 30, (float)100.5);
 		  AD_1_Articulos ar2 = new AD_1_Articulos(2,"Pupitres", 10, (float)150.7);
 		  AD_1_Articulos ar3 = new AD_1_Articulos(6,"Cuadernos", 100, (float)4.5);
 		  AD_1_Articulos ar4 = new AD_1_Articulos(8,"Tabletas", 10, (float)175.4);
-		  AD_1_Articulos ar5 = new AD_1_Articulos(9,"Bol�grafos", 100, (float)3.5);
+		  AD_1_Articulos ar5 = new AD_1_Articulos(9,"Bolígrafos", 100, (float)3.5);
 		  AD_1_Articulos ar6 = new AD_1_Articulos(10,"Lapiceros", 300, (float)2.5);
 		  AD_1_Articulos ar7 = new AD_1_Articulos(14,"Sillas", 30, (float)120.5);
-		  AD_1_Articulos ar8 = new AD_1_Articulos(16,"Port�til", 25, (float)400.5);
+		  AD_1_Articulos ar8 = new AD_1_Articulos(16,"Portátil", 25, (float)400.5);
 		
-		  AD_1_Articulos ar11 = new AD_1_Articulos(17,"Espejo ba�o", 20, (float)100.5);
+		  AD_1_Articulos ar11 = new AD_1_Articulos(17,"Espejo baño", 20, (float)100.5);
 		  AD_1_Articulos ar21 = new AD_1_Articulos(18,"Reloj cocina", 10, (float)20.7);
 		  AD_1_Articulos ar31 = new AD_1_Articulos(20,"Tarjetero", 50, (float)14.5);
 		  AD_1_Articulos ar41 = new AD_1_Articulos(22,"Estuches", 110, (float)20.4);
@@ -35,7 +35,7 @@ public class AD_1_CrearBD {
 		  AD_1_Articulos ar81 = new AD_1_Articulos(26,"Teclado", 25, (float)40.5);
 				
 		 
-		  // Almacenamos art�culos 16 art�culos
+		  // Almacenamos artículos 16 artículos
 		  odb.store(ar1); 
 		  odb.store(ar2);
 		  odb.store(ar3);
@@ -58,11 +58,11 @@ public class AD_1_CrearBD {
 		  AD_1_Clientes cli1 = new AD_1_Clientes(1,"Antonio Ruiz","Talavera");
 		  AD_1_Clientes cli2 = new AD_1_Clientes(2,"La Alameda S.L.","Talavera");
 		  AD_1_Clientes cli3 = new AD_1_Clientes(7,"Los molinos CB","Madrid");
-		  AD_1_Clientes cli4 = new AD_1_Clientes(8,"Pedro Mor�n S.L.","Talavera");
-		  AD_1_Clientes cli5 = new AD_1_Clientes(12,"Azulejos Mart�n S.L.","Talavera");
+		  AD_1_Clientes cli4 = new AD_1_Clientes(8,"Pedro Morón S.L.","Talavera");
+		  AD_1_Clientes cli5 = new AD_1_Clientes(12,"Azulejos Martín S.L.","Talavera");
 		  AD_1_Clientes cli6 = new AD_1_Clientes(15,"Bar Girasol","Oropesa");
 		  AD_1_Clientes cli7 = new AD_1_Clientes(9,"Escuela Mayores","Talavera");
-		  AD_1_Clientes cli8 = new AD_1_Clientes(17,"Galer�a Madrid S.L.","Madrid");
+		  AD_1_Clientes cli8 = new AD_1_Clientes(17,"Galería Madrid S.L.","Madrid");
 		  AD_1_Clientes cli9 = new AD_1_Clientes(19,"El corte Chino","Talavera");
 		  AD_1_Clientes cli10 = new AD_1_Clientes(20,"UNICAS S.A.","Oropesa");
 		  AD_1_Clientes cli11 = new AD_1_Clientes(21,"Deportivo SAS","Talavera");
@@ -92,13 +92,7 @@ public class AD_1_CrearBD {
 			odb.store(v5);
 			odb.store(v6);
 			
-			
-		  
-		  
-		  
 		  odb.close();
           System.out.println("BASE DE DATOS CREADA");
-
 	}
-
 }
