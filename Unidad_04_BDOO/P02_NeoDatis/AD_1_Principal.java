@@ -19,9 +19,9 @@ public class AD_1_Principal {
 		bd = ODBFactory.open("Unidad_04_BDOO\\P02_NeoDatis\\Data\\ad_1_articulos.dat");
 		
 		//-----CONSULTAS-------
-		//mostrarDatosVentas();
-		//mostrarDatosVentasPorArticulo();
-		mostrarEstatisticas();
+		mostrarDatosVentas();
+		mostrarDatosVentasPorArticulo();
+		//mostrarEstatisticas();
 		
 		
 		//---------------------
@@ -63,7 +63,10 @@ public class AD_1_Principal {
 				sum("univen").groupBy("codarti"));
 		
 		
-		Values valorImporte = bd.getValues(new ValuesCriteriaQuery(AD_1_Articulos.class));
+		//Values  = bd.getValues(new ValuesCriteriaQuery(AD_1_Articulos.class));
+		
+		Values valorImporte = bd.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
+				sum("univen*codarti.pvp").groupBy("codarti"));
 		
 		
 		Values numVentas = bd.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
