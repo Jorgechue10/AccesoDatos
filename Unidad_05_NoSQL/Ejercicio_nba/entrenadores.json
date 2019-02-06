@@ -1,0 +1,207 @@
+{"_id":{"$oid":"5c58779d1107243f7f623925"},"firstName":"Terry","lastName":"Stotts","isAssistant":true,"personId":"1337","teamId":"1610612757","sortSequence":"29","college":"Oklahoma"}
+{"_id":{"$oid":"5c58779d1107243f7f623926"},"firstName":"David","lastName":"Vanterpool","isAssistant":false,"personId":"203150","teamId":"1610612757","sortSequence":"204","college":"St. Bonaventure"}
+{"_id":{"$oid":"5c58779d1107243f7f623927"},"firstName":"Nate","lastName":"Tibbetts","isAssistant":false,"personId":"202891","teamId":"1610612757","sortSequence":"205","college":"South Dakota"}
+{"_id":{"$oid":"5c58779d1107243f7f623928"},"firstName":"Dale","lastName":"Osbourne","isAssistant":false,"personId":"203170","teamId":"1610612757","sortSequence":"206","college":"South Alabama"}
+{"_id":{"$oid":"5c58779d1107243f7f623929"},"firstName":"Jim","lastName":"Moran","isAssistant":false,"personId":"1627471","teamId":"1610612757","sortSequence":"207","college":"William \u0026 Mary"}
+{"_id":{"$oid":"5c58779d1107243f7f62392a"},"firstName":"John","lastName":"McCullough","isAssistant":false,"personId":"52393","teamId":"1610612757","sortSequence":"208","college":"Oklahoma"}
+{"_id":{"$oid":"5c58779d1107243f7f62392b"},"firstName":"Geoff","lastName":"Clarke","isAssistant":false,"personId":"101272","teamId":"1610612757","sortSequence":"210","college":"Oregon State"}
+{"_id":{"$oid":"5c58779d1107243f7f62392c"},"firstName":"Mike","lastName":"Budenholzer","isAssistant":true,"personId":"1371","teamId":"1610612749","sortSequence":"7","college":"Pomona College"}
+{"_id":{"$oid":"5c58779d1107243f7f62392d"},"firstName":"Darvin","lastName":"Ham","isAssistant":false,"personId":"203005","teamId":"1610612749","sortSequence":"152","college":"Texas Tech"}
+{"_id":{"$oid":"5c58779d1107243f7f62392e"},"firstName":"Taylor","lastName":"Jenkins","isAssistant":false,"personId":"203624","teamId":"1610612749","sortSequence":"153","college":"Pennsylvania"}
+{"_id":{"$oid":"5c58779d1107243f7f62392f"},"firstName":"Charles","lastName":"Lee","isAssistant":false,"personId":"204225","teamId":"1610612749","sortSequence":"154","college":"Bucknell"}
+{"_id":{"$oid":"5c58779d1107243f7f623930"},"firstName":"Ben","lastName":"Sullivan","isAssistant":false,"personId":"204224","teamId":"1610612749","sortSequence":"155","college":"Portland"}
+{"_id":{"$oid":"5c58779d1107243f7f623931"},"firstName":"Patrick","lastName":"St. Andrews","isAssistant":false,"personId":"123459","teamId":"1610612749","sortSequence":"156","college":"Penn State"}
+{"_id":{"$oid":"5c58779d1107243f7f623932"},"firstName":"Joshua","lastName":"Longstaff","isAssistant":false,"personId":"204031","teamId":"1610612749","sortSequence":"157","college":"Bryant University"}
+{"_id":{"$oid":"5c58779d1107243f7f623933"},"firstName":"Vin","lastName":"Baker","isAssistant":false,"personId":"452","teamId":"1610612749","sortSequence":"158","college":"Hartford"}
+{"_id":{"$oid":"5c58779d1107243f7f623934"},"firstName":"Scott","lastName":"Faust","isAssistant":false,"personId":"201692","teamId":"1610612749","sortSequence":"159","college":"Alabama-Huntsville"}
+{"_id":{"$oid":"5c58779d1107243f7f623935"},"firstName":"Jim","lastName":"Boylen","isAssistant":true,"personId":"1256","teamId":"1610612741","sortSequence":"4","college":"Maine"}
+{"_id":{"$oid":"5c58779d1107243f7f623936"},"firstName":"Pete","lastName":"Myers","isAssistant":false,"personId":"2394","teamId":"1610612741","sortSequence":"59","college":"Arkansas-Little Rock"}
+{"_id":{"$oid":"5c58779d1107243f7f623937"},"firstName":"Nate","lastName":"Loenser","isAssistant":false,"personId":"1628184","teamId":"1610612741","sortSequence":"60","college":"Iowa State"}
+{"_id":{"$oid":"5c58779d1107243f7f623938"},"firstName":"Dean","lastName":"Cooper","isAssistant":false,"personId":"2385","teamId":"1610612741","sortSequence":"61","college":"Aquinas"}
+{"_id":{"$oid":"5c58779d1107243f7f623939"},"firstName":"Shawn","lastName":"Respert","isAssistant":false,"personId":"203809","teamId":"1610612741","sortSequence":"62","college":"Michigan State"}
+{"_id":{"$oid":"5c58779d1107243f7f62393a"},"firstName":"Jeff","lastName":"Tanaka","isAssistant":false,"personId":"202100","teamId":"1610612741","sortSequence":"64","college":"Cal Poly San Luis Obispo"}
+{"_id":{"$oid":"5c58779d1107243f7f62393b"},"firstName":"Larry","lastName":"Drew","isAssistant":true,"personId":"1271","teamId":"1610612739","sortSequence":"13","college":"Missouri"}
+{"_id":{"$oid":"5c58779d1107243f7f62393c"},"firstName":"James","lastName":"Posey","isAssistant":false,"personId":"204023","teamId":"1610612739","sortSequence":"67","college":"Xavier"}
+{"_id":{"$oid":"5c58779d1107243f7f62393d"},"firstName":"Mike","lastName":"Longabardi","isAssistant":false,"personId":"201665","teamId":"1610612739","sortSequence":"68","college":"Frostburg State"}
+{"_id":{"$oid":"5c58779d1107243f7f62393e"},"firstName":"Brad","lastName":"Stevens","isAssistant":true,"personId":"203535","teamId":"1610612738","sortSequence":"28","college":"DePauw"}
+{"_id":{"$oid":"5c58779d1107243f7f62393f"},"firstName":"Jamie","lastName":"Young","isAssistant":false,"personId":"202979","teamId":"1610612738","sortSequence":"37","college":"Blackburn College"}
+{"_id":{"$oid":"5c58779d1107243f7f623940"},"firstName":"Jay","lastName":"Larranaga","isAssistant":false,"personId":"203168","teamId":"1610612738","sortSequence":"38","college":"Bowling Green State"}
+{"_id":{"$oid":"5c58779d1107243f7f623941"},"firstName":"Micah","lastName":"Shrewsberry","isAssistant":false,"personId":"203557","teamId":"1610612738","sortSequence":"39","college":"Hanover"}
+{"_id":{"$oid":"5c58779d1107243f7f623942"},"firstName":"Jerome","lastName":"Allen","isAssistant":false,"personId":"1962937350","teamId":"1610612738","sortSequence":"40","college":"Pennsylvania"}
+{"_id":{"$oid":"5c58779d1107243f7f623943"},"firstName":"Scott","lastName":"Morrison","isAssistant":false,"personId":"44740","teamId":"1610612738","sortSequence":"41","college":"University of Prince Edward Island"}
+{"_id":{"$oid":"5c58779d1107243f7f623944"},"firstName":"Doc","lastName":"Rivers","isAssistant":true,"personId":"1941","teamId":"1610612746","sortSequence":"24","college":"Marquette"}
+{"_id":{"$oid":"5c58779d1107243f7f623945"},"firstName":"Rex","lastName":"Kalamian","isAssistant":false,"personId":"1672","teamId":"1610612746","sortSequence":"121","college":"Cal Poly Pomona"}
+{"_id":{"$oid":"5c58779d1107243f7f623946"},"firstName":"Sam","lastName":"Cassell","isAssistant":false,"personId":"202108","teamId":"1610612746","sortSequence":"122","college":"Florida State"}
+{"_id":{"$oid":"5c58779d1107243f7f623947"},"firstName":"Brendan","lastName":"O'Connor","isAssistant":false,"personId":"2814","teamId":"1610612746","sortSequence":"123","college":"St. Anselm"}
+{"_id":{"$oid":"5c58779d1107243f7f623948"},"firstName":"Armond","lastName":"Hill","isAssistant":false,"personId":"2663","teamId":"1610612746","sortSequence":"124","college":"Princeton"}
+{"_id":{"$oid":"5c58779d1107243f7f623949"},"firstName":"John","lastName":"Welch","isAssistant":false,"personId":"101280","teamId":"1610612746","sortSequence":"126","college":"UNLV"}
+{"_id":{"$oid":"5c58779d1107243f7f62394a"},"firstName":"J.P.","lastName":"Clark","isAssistant":false,"personId":"1962937719","teamId":"1610612746","sortSequence":"127","college":"Flagler"}
+{"_id":{"$oid":"5c58779d1107243f7f62394b"},"firstName":"Jasen","lastName":"Powell","isAssistant":false,"personId":"2010","teamId":"1610612746","sortSequence":"128","college":"Cal Poly Pomona"}
+{"_id":{"$oid":"5c58779d1107243f7f62394c"},"firstName":"John-Blair","lastName":"Bickerstaff","isAssistant":true,"personId":"2794","teamId":"1610612763","sortSequence":"2","college":"Minnesota"}
+{"_id":{"$oid":"5c58779d1107243f7f62394d"},"firstName":"Chad","lastName":"Forcier","isAssistant":false,"personId":"2649","teamId":"1610612763","sortSequence":"138","college":"Seattle Pacific"}
+{"_id":{"$oid":"5c58779d1107243f7f62394e"},"firstName":"Jerry","lastName":"Stackhouse","isAssistant":false,"personId":"1627474","teamId":"1610612763","sortSequence":"139","college":"North Carolina"}
+{"_id":{"$oid":"5c58779d1107243f7f62394f"},"firstName":"Greg","lastName":"Buckner","isAssistant":false,"personId":"203811","teamId":"1610612763","sortSequence":"140","college":"Clemson"}
+{"_id":{"$oid":"5c58779d1107243f7f623950"},"firstName":"Vitaly","lastName":"Potapenko","isAssistant":false,"personId":"202433","teamId":"1610612763","sortSequence":"141","college":"Wright State"}
+{"_id":{"$oid":"5c58779d1107243f7f623951"},"firstName":"Nick","lastName":"Van Exel","isAssistant":false,"personId":"203538","teamId":"1610612763","sortSequence":"142","college":"Cincinnati"}
+{"_id":{"$oid":"5c58779d1107243f7f623952"},"firstName":"Adam","lastName":"Mazarei","isAssistant":false,"personId":"1627871","teamId":"1610612763","sortSequence":"143","college":"Redlands"}
+{"_id":{"$oid":"5c58779d1107243f7f623953"},"firstName":"JJ","lastName":"Outlaw","isAssistant":false,"personId":"1629160","teamId":"1610612763","sortSequence":"144","college":"Villanova"}
+{"_id":{"$oid":"5c58779d1107243f7f623954"},"firstName":"Kevin","lastName":"Burleson","isAssistant":false,"personId":"1962937563","teamId":"1610612763","sortSequence":"145","college":"Minnesota"}
+{"_id":{"$oid":"5c58779d1107243f7f623955"},"firstName":"Lloyd","lastName":"Pierce","isAssistant":true,"personId":"202603","teamId":"1610612737","sortSequence":"22","college":"Santa Clara"}
+{"_id":{"$oid":"5c58779d1107243f7f623956"},"firstName":"Melvin","lastName":"Hunt","isAssistant":false,"personId":"2384","teamId":"1610612737","sortSequence":"31","college":"Baylor"}
+{"_id":{"$oid":"5c58779d1107243f7f623957"},"firstName":"Chris","lastName":"Jent","isAssistant":false,"personId":"2607","teamId":"1610612737","sortSequence":"32","college":"Ohio State"}
+{"_id":{"$oid":"5c58779d1107243f7f623958"},"firstName":"Greg","lastName":"Foster","isAssistant":false,"personId":"203785","teamId":"1610612737","sortSequence":"33","college":"Texas-El Paso"}
+{"_id":{"$oid":"5c58779d1107243f7f623959"},"firstName":"Marlon","lastName":"Garnett","isAssistant":false,"personId":"57219","teamId":"1610612737","sortSequence":"34","college":"Santa Clara"}
+{"_id":{"$oid":"5c58779d1107243f7f62395a"},"firstName":"Matt","lastName":"Hill","isAssistant":false,"personId":"1962937757","teamId":"1610612737","sortSequence":"35","college":"Texas"}
+{"_id":{"$oid":"5c58779d1107243f7f62395b"},"firstName":"Erik","lastName":"Spoelstra","isAssistant":true,"personId":"1787","teamId":"1610612748","sortSequence":"27","college":"Portland"}
+{"_id":{"$oid":"5c58779d1107243f7f62395c"},"firstName":"Dan","lastName":"Craig","isAssistant":false,"personId":"203599","teamId":"1610612748","sortSequence":"147","college":"Plymouth State"}
+{"_id":{"$oid":"5c58779d1107243f7f62395d"},"firstName":"Juwan","lastName":"Howard","isAssistant":false,"personId":"203598","teamId":"1610612748","sortSequence":"148","college":"Michigan"}
+{"_id":{"$oid":"5c58779d1107243f7f62395e"},"firstName":"Chris","lastName":"Quinn","isAssistant":false,"personId":"204073","teamId":"1610612748","sortSequence":"149","college":"Notre Dame"}
+{"_id":{"$oid":"5c58779d1107243f7f62395f"},"firstName":"Octavio","lastName":"De La Grana","isAssistant":false,"personId":"201682","teamId":"1610612748","sortSequence":"150","college":"Liberty"}
+{"_id":{"$oid":"5c58779d1107243f7f623960"},"firstName":"Jay","lastName":"Sabol","isAssistant":false,"personId":"1281","teamId":"1610612748","sortSequence":"151","college":"Florida International"}
+{"_id":{"$oid":"5c58779d1107243f7f623961"},"firstName":"James","lastName":"Borrego","isAssistant":true,"personId":"202435","teamId":"1610612766","sortSequence":"3","college":"San Diego"}
+{"_id":{"$oid":"5c58779d1107243f7f623962"},"firstName":"Jay","lastName":"Triano","isAssistant":false,"personId":"2472","teamId":"1610612766","sortSequence":"53","college":"Simon Fraser"}
+{"_id":{"$oid":"5c58779d1107243f7f623963"},"firstName":"Chad","lastName":"Iske","isAssistant":false,"personId":"202602","teamId":"1610612766","sortSequence":"54","college":"Kansas"}
+{"_id":{"$oid":"5c58779d1107243f7f623964"},"firstName":"Jay","lastName":"Hernandez","isAssistant":false,"personId":"204035","teamId":"1610612766","sortSequence":"55","college":"Hofstra"}
+{"_id":{"$oid":"5c58779d1107243f7f623965"},"firstName":"Ronald","lastName":"Nored","isAssistant":false,"personId":"203753","teamId":"1610612766","sortSequence":"56","college":"Butler"}
+{"_id":{"$oid":"5c58779d1107243f7f623966"},"firstName":"Dutch","lastName":"Gaitley","isAssistant":false,"personId":"57218","teamId":"1610612766","sortSequence":"57","college":"Temple"}
+{"_id":{"$oid":"5c58779d1107243f7f623967"},"firstName":"Quin","lastName":"Snyder","isAssistant":true,"personId":"202439","teamId":"1610612762","sortSequence":"26","college":"Duke"}
+{"_id":{"$oid":"5c58779d1107243f7f623968"},"firstName":"Johnnie","lastName":"Bryant","isAssistant":false,"personId":"204008","teamId":"1610612762","sortSequence":"235","college":"Utah"}
+{"_id":{"$oid":"5c58779d1107243f7f623969"},"firstName":"Alex","lastName":"Jensen","isAssistant":false,"personId":"204007","teamId":"1610612762","sortSequence":"236","college":"Utah"}
+{"_id":{"$oid":"5c58779d1107243f7f62396a"},"firstName":"Antonio","lastName":"Lang","isAssistant":false,"personId":"204238","teamId":"1610612762","sortSequence":"237","college":"Duke"}
+{"_id":{"$oid":"5c58779d1107243f7f62396b"},"firstName":"Mike","lastName":"Wells","isAssistant":false,"personId":"1997","teamId":"1610612762","sortSequence":"238","college":"Mt. Vernon Nazarene"}
+{"_id":{"$oid":"5c58779d1107243f7f62396c"},"firstName":"Jeff","lastName":"Watkinson","isAssistant":false,"personId":"1626233","teamId":"1610612762","sortSequence":"239","college":"North Carolina State"}
+{"_id":{"$oid":"5c58779d1107243f7f62396d"},"firstName":"Mark","lastName":"McKown","isAssistant":false,"personId":"2820","teamId":"1610612762","sortSequence":"240","college":"South Carolina Upstate"}
+{"_id":{"$oid":"5c58779d1107243f7f62396e"},"firstName":"Erik","lastName":"Waters","isAssistant":false,"personId":"101203","teamId":"1610612762","sortSequence":"242","college":"Iowa"}
+{"_id":{"$oid":"5c58779d1107243f7f62396f"},"firstName":"David","lastName":"Joerger","isAssistant":true,"personId":"201220","teamId":"1610612758","sortSequence":"16","college":"Moorhead State"}
+{"_id":{"$oid":"5c58779d1107243f7f623970"},"firstName":"Elston","lastName":"Turner","isAssistant":false,"personId":"1322","teamId":"1610612758","sortSequence":"212","college":"Mississippi"}
+{"_id":{"$oid":"5c58779d1107243f7f623971"},"firstName":"Bob","lastName":"Thornton","isAssistant":false,"personId":"202899","teamId":"1610612758","sortSequence":"213","college":"California-Irvine"}
+{"_id":{"$oid":"5c58779d1107243f7f623972"},"firstName":"Bryan","lastName":"Gates","isAssistant":false,"personId":"202109","teamId":"1610612758","sortSequence":"214","college":"Boise State"}
+{"_id":{"$oid":"5c58779d1107243f7f623973"},"firstName":"Duane","lastName":"Ticknor","isAssistant":false,"personId":"203537","teamId":"1610612758","sortSequence":"215","college":"South Dakota"}
+{"_id":{"$oid":"5c58779d1107243f7f623974"},"firstName":"Jason","lastName":"March","isAssistant":false,"personId":"204086","teamId":"1610612758","sortSequence":"216","college":"Florida State"}
+{"_id":{"$oid":"5c58779d1107243f7f623975"},"firstName":"Larry","lastName":"Lewis","isAssistant":false,"personId":"203784","teamId":"1610612758","sortSequence":"217","college":"Morehouse"}
+{"_id":{"$oid":"5c58779d1107243f7f623976"},"firstName":"Phil","lastName":"Ricci","isAssistant":false,"personId":"1962937790","teamId":"1610612758","sortSequence":"218","college":"Oregon State"}
+{"_id":{"$oid":"5c58779d1107243f7f623977"},"firstName":"Pete","lastName":"Youngman","isAssistant":false,"personId":"1328","teamId":"1610612758","sortSequence":"220","college":"Ithaca"}
+{"_id":{"$oid":"5c58779d1107243f7f623978"},"firstName":"David","lastName":"Fizdale","isAssistant":true,"personId":"2614","teamId":"1610612752","sortSequence":"14","college":"San Diego"}
+{"_id":{"$oid":"5c58779d1107243f7f623979"},"firstName":"Keith","lastName":"Smart","isAssistant":false,"personId":"2096","teamId":"1610612752","sortSequence":"171","college":"Indiana"}
+{"_id":{"$oid":"5c58779d1107243f7f62397a"},"firstName":"Kaleb","lastName":"Canales","isAssistant":false,"personId":"201696","teamId":"1610612752","sortSequence":"172","college":"Texas-Arlington"}
+{"_id":{"$oid":"5c58779d1107243f7f62397b"},"firstName":"Jud","lastName":"Buechler","isAssistant":false,"personId":"1627939","teamId":"1610612752","sortSequence":"173","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f62397c"},"firstName":"Pat","lastName":"Sullivan","isAssistant":false,"personId":"2815","teamId":"1610612752","sortSequence":"174","college":"North Carolina"}
+{"_id":{"$oid":"5c58779d1107243f7f62397d"},"firstName":"Royal","lastName":"Ivey","isAssistant":false,"personId":"204069","teamId":"1610612752","sortSequence":"175","college":"Texas"}
+{"_id":{"$oid":"5c58779d1107243f7f62397e"},"firstName":"Howard","lastName":"Eisley","isAssistant":false,"personId":"202619","teamId":"1610612752","sortSequence":"176","college":"Boston College"}
+{"_id":{"$oid":"5c58779d1107243f7f62397f"},"firstName":"Roger","lastName":"Hinds","isAssistant":false,"personId":"1370","teamId":"1610612752","sortSequence":"177","college":"Brooklyn College"}
+{"_id":{"$oid":"5c58779d1107243f7f623980"},"firstName":"Anthony","lastName":"Goenaga","isAssistant":false,"personId":"101269","teamId":"1610612752","sortSequence":"178","college":"Long Island University"}
+{"_id":{"$oid":"5c58779d1107243f7f623981"},"firstName":"Luke","lastName":"Walton","isAssistant":true,"personId":"204012","teamId":"1610612747","sortSequence":"30","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f623982"},"firstName":"Brian","lastName":"Shaw","isAssistant":false,"personId":"2888","teamId":"1610612747","sortSequence":"129","college":"UC-Santa Barbara"}
+{"_id":{"$oid":"5c58779d1107243f7f623983"},"firstName":"Jesse","lastName":"Mermuys","isAssistant":false,"personId":"203605","teamId":"1610612747","sortSequence":"130","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f623984"},"firstName":"Mark","lastName":"Madsen","isAssistant":false,"personId":"203783","teamId":"1610612747","sortSequence":"131","college":"Stanford"}
+{"_id":{"$oid":"5c58779d1107243f7f623985"},"firstName":"Brian","lastName":"Keefe","isAssistant":false,"personId":"201449","teamId":"1610612747","sortSequence":"132","college":"UNLV"}
+{"_id":{"$oid":"5c58779d1107243f7f623986"},"firstName":"Miles","lastName":"Simon","isAssistant":false,"personId":"1628472","teamId":"1610612747","sortSequence":"133","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f623987"},"firstName":"Marco","lastName":"Nunez","isAssistant":false,"personId":"201414","teamId":"1610612747","sortSequence":"134","college":"Cal Poly-Pomona"}
+{"_id":{"$oid":"5c58779d1107243f7f623988"},"firstName":"Steve","lastName":"Clifford","isAssistant":true,"personId":"2168","teamId":"1610612753","sortSequence":"10","college":"Maine-Farmington"}
+{"_id":{"$oid":"5c58779d1107243f7f623989"},"firstName":"Mike","lastName":"Batiste","isAssistant":false,"personId":"204244","teamId":"1610612753","sortSequence":"184","college":"Arizona State"}
+{"_id":{"$oid":"5c58779d1107243f7f62398a"},"firstName":"Ty","lastName":"Corbin","isAssistant":false,"personId":"2821","teamId":"1610612753","sortSequence":"185","college":"DePaul"}
+{"_id":{"$oid":"5c58779d1107243f7f62398b"},"firstName":"Pat","lastName":"Delany","isAssistant":false,"personId":"204013","teamId":"1610612753","sortSequence":"186","college":"St. Anselm"}
+{"_id":{"$oid":"5c58779d1107243f7f62398c"},"firstName":"Steve","lastName":"Hetzel","isAssistant":false,"personId":"203567","teamId":"1610612753","sortSequence":"187","college":"Michigan State"}
+{"_id":{"$oid":"5c58779d1107243f7f62398d"},"firstName":"Bruce","lastName":"Kreutzer","isAssistant":false,"personId":"1627164","teamId":"1610612753","sortSequence":"188","college":"SUNY-New Paltz"}
+{"_id":{"$oid":"5c58779d1107243f7f62398e"},"firstName":"Rick","lastName":"Carlisle","isAssistant":true,"personId":"1320","teamId":"1610612742","sortSequence":"8","college":"Virginia"}
+{"_id":{"$oid":"5c58779d1107243f7f62398f"},"firstName":"Jamahl","lastName":"Mosley","isAssistant":false,"personId":"202427","teamId":"1610612742","sortSequence":"71","college":"Colorado"}
+{"_id":{"$oid":"5c58779d1107243f7f623990"},"firstName":"Darrel","lastName":"Armstrong","isAssistant":false,"personId":"202599","teamId":"1610612742","sortSequence":"72","college":"Fayetteville State"}
+{"_id":{"$oid":"5c58779d1107243f7f623991"},"firstName":"Stephen","lastName":"Silas","isAssistant":false,"personId":"2152","teamId":"1610612742","sortSequence":"74","college":"Brown"}
+{"_id":{"$oid":"5c58779d1107243f7f623992"},"firstName":"Larry","lastName":"Shyatt","isAssistant":false,"personId":"111111","teamId":"1610612742","sortSequence":"75","college":"Wooster"}
+{"_id":{"$oid":"5c58779d1107243f7f623993"},"firstName":"Mike","lastName":"Weinar","isAssistant":false,"personId":"52270","teamId":"1610612742","sortSequence":"76","college":"Florida"}
+{"_id":{"$oid":"5c58779d1107243f7f623994"},"firstName":"Brad","lastName":"Davis","isAssistant":false,"personId":"1962937587","teamId":"1610612742","sortSequence":"77","college":"Maryland"}
+{"_id":{"$oid":"5c58779d1107243f7f623995"},"firstName":"Mike","lastName":"Shedd","isAssistant":false,"personId":"52269","teamId":"1610612742","sortSequence":"78","college":"Purdue"}
+{"_id":{"$oid":"5c58779d1107243f7f623996"},"firstName":"Casey","lastName":"Smith","isAssistant":false,"personId":"2868","teamId":"1610612742","sortSequence":"79","college":"Arizona State"}
+{"_id":{"$oid":"5c58779d1107243f7f623997"},"firstName":"Dionne","lastName":"Calhoun","isAssistant":false,"personId":"2871","teamId":"1610612742","sortSequence":"80","college":"San Diego State"}
+{"_id":{"$oid":"5c58779d1107243f7f623998"},"firstName":"Kenny","lastName":"Atkinson","isAssistant":true,"personId":"201690","teamId":"1610612751","sortSequence":"1","college":"Richmond"}
+{"_id":{"$oid":"5c58779d1107243f7f623999"},"firstName":"Jacque","lastName":"Vaughn","isAssistant":false,"personId":"202588","teamId":"1610612751","sortSequence":"42","college":"Kansas"}
+{"_id":{"$oid":"5c58779d1107243f7f62399a"},"firstName":"Chris","lastName":"Fleming","isAssistant":false,"personId":"1627604","teamId":"1610612751","sortSequence":"43","college":"Richmond"}
+{"_id":{"$oid":"5c58779d1107243f7f62399b"},"firstName":"Bret","lastName":"Brielmaier","isAssistant":false,"personId":"203596","teamId":"1610612751","sortSequence":"44","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f62399c"},"firstName":"Adam","lastName":"Harrington","isAssistant":false,"personId":"1627876","teamId":"1610612751","sortSequence":"45","college":"Auburn"}
+{"_id":{"$oid":"5c58779d1107243f7f62399d"},"firstName":"Jordan","lastName":"Ott","isAssistant":false,"personId":"1627877","teamId":"1610612751","sortSequence":"46","college":"Penn State"}
+{"_id":{"$oid":"5c58779d1107243f7f62399e"},"firstName":"Travon","lastName":"Bryant","isAssistant":false,"personId":"1627510","teamId":"1610612751","sortSequence":"47","college":"Missouri"}
+{"_id":{"$oid":"5c58779d1107243f7f62399f"},"firstName":"Pablo","lastName":"Prigioni","isAssistant":false,"personId":"203143","teamId":"1610612751","sortSequence":"48","college":""}
+{"_id":{"$oid":"5c58779d1107243f7f6239a0"},"firstName":"Michael","lastName":"Malone","isAssistant":true,"personId":"2610","teamId":"1610612743","sortSequence":"19","college":"Loyola (MD)"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a1"},"firstName":"Wes","lastName":"Unseld","isAssistant":false,"personId":"1018","teamId":"1610612743","sortSequence":"81","college":"Johns Hopkins"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a2"},"firstName":"David","lastName":"Adelman","isAssistant":false,"personId":"203600","teamId":"1610612743","sortSequence":"82","college":"Portland State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a3"},"firstName":"Jordi","lastName":"Fernandez","isAssistant":false,"personId":"203759","teamId":"1610612743","sortSequence":"83","college":""}
+{"_id":{"$oid":"5c58779d1107243f7f6239a4"},"firstName":"Charles","lastName":"Klask","isAssistant":false,"personId":"202894","teamId":"1610612743","sortSequence":"85","college":"Michigan State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a5"},"firstName":"Bob","lastName":"Weiss","isAssistant":false,"personId":"1338","teamId":"1610612743","sortSequence":"86","college":"Penn State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a6"},"firstName":"Mark","lastName":"Price","isAssistant":false,"personId":"202430","teamId":"1610612743","sortSequence":"87","college":"Georgia Tech"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a7"},"firstName":"Nate","lastName":"McMillan","isAssistant":true,"personId":"1778","teamId":"1610612754","sortSequence":"20","college":"North Carolina State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a8"},"firstName":"Dan","lastName":"Burke","isAssistant":false,"personId":"2515","teamId":"1610612754","sortSequence":"114","college":"Portland State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239a9"},"firstName":"Popeye","lastName":"Jones","isAssistant":false,"personId":"461","teamId":"1610612754","sortSequence":"115","college":"Murray State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239aa"},"firstName":"Bill","lastName":"Bayno","isAssistant":false,"personId":"200874","teamId":"1610612754","sortSequence":"116","college":"Sacred Heart"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ab"},"firstName":"David","lastName":"McClure","isAssistant":false,"personId":"1628234","teamId":"1610612754","sortSequence":"117","college":"Duke"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ac"},"firstName":"Josh","lastName":"Corbeil","isAssistant":false,"personId":"101200","teamId":"1610612754","sortSequence":"118","college":"Boston University"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ad"},"firstName":"Carl","lastName":"Eaton","isAssistant":false,"personId":"201675","teamId":"1610612754","sortSequence":"119","college":"Lock Haven"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ae"},"firstName":"Shawn","lastName":"Windle","isAssistant":false,"personId":"101210","teamId":"1610612754","sortSequence":"120","college":"Maine - Presque Isle"}
+{"_id":{"$oid":"5c58779d1107243f7f6239af"},"firstName":"Alvin","lastName":"Gentry","isAssistant":true,"personId":"1243","teamId":"1610612740","sortSequence":"15","college":"Appalachian State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b0"},"firstName":"Darren","lastName":"Erman","isAssistant":false,"personId":"203375","teamId":"1610612740","sortSequence":"165","college":"Emory (GA)"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b1"},"firstName":"Chris","lastName":"Finch","isAssistant":false,"personId":"202896","teamId":"1610612740","sortSequence":"166","college":"Franklin \u0026 Marshall"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b2"},"firstName":"Kevin","lastName":"Hanson","isAssistant":false,"personId":"15579","teamId":"1610612740","sortSequence":"167","college":"San Diego"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b3"},"firstName":"Fred","lastName":"Vinson","isAssistant":false,"personId":"201676","teamId":"1610612740","sortSequence":"168","college":"Georgia Tech"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b4"},"firstName":"Mike","lastName":"Penberthy","isAssistant":false,"personId":"1962937838","teamId":"1610612740","sortSequence":"169","college":"The Maste"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b5"},"firstName":"Dwane","lastName":"Casey","isAssistant":true,"personId":"1335","teamId":"1610612765","sortSequence":"9","college":"Kentucky"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b6"},"firstName":"Sid","lastName":"Lowe","isAssistant":false,"personId":"1226","teamId":"1610612765","sortSequence":"91","college":"North Carolina State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b7"},"firstName":"Sean","lastName":"Sweeney","isAssistant":false,"personId":"204085","teamId":"1610612765","sortSequence":"92","college":"St. Thomas"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b8"},"firstName":"Tim","lastName":"Grgurich","isAssistant":false,"personId":"1336","teamId":"1610612765","sortSequence":"93","college":"Pittsburgh"}
+{"_id":{"$oid":"5c58779d1107243f7f6239b9"},"firstName":"Micah","lastName":"Nori","isAssistant":false,"personId":"202101","teamId":"1610612765","sortSequence":"94","college":"Indiana"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ba"},"firstName":"Jim","lastName":"Scholler","isAssistant":false,"personId":"201678","teamId":"1610612765","sortSequence":"95","college":"Michigan"}
+{"_id":{"$oid":"5c58779d1107243f7f6239bb"},"firstName":"Nick","lastName":"Nurse","isAssistant":true,"personId":"203606","teamId":"1610612761","sortSequence":"21","college":"Northern Iowa"}
+{"_id":{"$oid":"5c58779d1107243f7f6239bc"},"firstName":"Adrian","lastName":"Griffin","isAssistant":false,"personId":"201878","teamId":"1610612761","sortSequence":"229","college":"Seton Hall"}
+{"_id":{"$oid":"5c58779d1107243f7f6239bd"},"firstName":"Nate","lastName":"Bjorkgren","isAssistant":false,"personId":"201765","teamId":"1610612761","sortSequence":"231","college":"Buena Vista"}
+{"_id":{"$oid":"5c58779d1107243f7f6239be"},"firstName":"Phil","lastName":"Handy","isAssistant":false,"personId":"203597","teamId":"1610612761","sortSequence":"232","college":"Hawaii"}
+{"_id":{"$oid":"5c58779d1107243f7f6239bf"},"firstName":"Jeremy","lastName":"Castleberry","isAssistant":false,"personId":"57215","teamId":"1610612761","sortSequence":"233","college":"San Diego State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c0"},"firstName":"Scott","lastName":"McCullough","isAssistant":false,"personId":"1356","teamId":"1610612761","sortSequence":"234","college":"Toronto"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c1"},"firstName":"Mike","lastName":"D'Antoni","isAssistant":true,"personId":"1783","teamId":"1610612745","sortSequence":"11","college":"Marshall"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c2"},"firstName":"Jeff","lastName":"Bzdelik","isAssistant":false,"personId":"1279","teamId":"1610612745","sortSequence":"104","college":"Illinois-Chicago"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c3"},"firstName":"Roy","lastName":"Rogers","isAssistant":false,"personId":"201689","teamId":"1610612745","sortSequence":"105","college":"Alabama"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c4"},"firstName":"Brett","lastName":"Gunning","isAssistant":false,"personId":"202897","teamId":"1610612745","sortSequence":"106","college":"Nevada-Las Vegas"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c5"},"firstName":"Matt","lastName":"Brase","isAssistant":false,"personId":"203241","teamId":"1610612745","sortSequence":"107","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c6"},"firstName":"John","lastName":"Lucas","isAssistant":false,"personId":"1786","teamId":"1610612745","sortSequence":"108","college":"Maryland"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c7"},"firstName":"Irving","lastName":"Roland","isAssistant":false,"personId":"1962937747","teamId":"1610612745","sortSequence":"109","college":"Southwestern Oklahoma State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c8"},"firstName":"Jason","lastName":"Biles","isAssistant":false,"personId":"202431","teamId":"1610612745","sortSequence":"113","college":"North Florida"}
+{"_id":{"$oid":"5c58779d1107243f7f6239c9"},"firstName":"Brett","lastName":"Brown","isAssistant":true,"personId":"2719","teamId":"1610612755","sortSequence":"6","college":"Boston University"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ca"},"firstName":"Billy","lastName":"Lange","isAssistant":false,"personId":"203787","teamId":"1610612755","sortSequence":"190","college":"Rowan"}
+{"_id":{"$oid":"5c58779d1107243f7f6239cb"},"firstName":"Jim","lastName":"O'Brien","isAssistant":false,"personId":"1639","teamId":"1610612755","sortSequence":"191","college":"Saint Joseph's"}
+{"_id":{"$oid":"5c58779d1107243f7f6239cc"},"firstName":"Monty","lastName":"Williams","isAssistant":false,"personId":"101273","teamId":"1610612755","sortSequence":"192","college":"Notre Dame"}
+{"_id":{"$oid":"5c58779d1107243f7f6239cd"},"firstName":"John","lastName":"Bryant","isAssistant":false,"personId":"202743","teamId":"1610612755","sortSequence":"194","college":"St. Joseph's (PA)"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ce"},"firstName":"Kevin","lastName":"Johnson","isAssistant":false,"personId":"1360","teamId":"1610612755","sortSequence":"196","college":"Indiana State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239cf"},"firstName":"Gregg","lastName":"Popovich","isAssistant":true,"personId":"873","teamId":"1610612759","sortSequence":"23","college":"Air Force Academy"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d0"},"firstName":"Ettore","lastName":"Messina","isAssistant":false,"personId":"204015","teamId":"1610612759","sortSequence":"222","college":""}
+{"_id":{"$oid":"5c58779d1107243f7f6239d1"},"firstName":"Ime","lastName":"Udoka","isAssistant":false,"personId":"203152","teamId":"1610612759","sortSequence":"223","college":"Portland State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d2"},"firstName":"Chip","lastName":"Engelland","isAssistant":false,"personId":"2887","teamId":"1610612759","sortSequence":"224","college":"Duke"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d3"},"firstName":"Becky","lastName":"Hammon","isAssistant":false,"personId":"204019","teamId":"1610612759","sortSequence":"225","college":"Colorado State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d4"},"firstName":"Will","lastName":"Hardy","isAssistant":false,"personId":"1628181","teamId":"1610612759","sortSequence":"226","college":"Williams"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d5"},"firstName":"Will","lastName":"Sevening","isAssistant":false,"personId":"1264","teamId":"1610612759","sortSequence":"227","college":"Wisconsin-LaCrosse"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d6"},"firstName":"Igor","lastName":"Kokoskov","isAssistant":true,"personId":"2166","teamId":"1610612756","sortSequence":"18","college":"Belgrade University"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d7"},"firstName":"Joe","lastName":"Prunty","isAssistant":false,"personId":"101206","teamId":"1610612756","sortSequence":"199","college":"Cal Poly San Luis Obispo"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d8"},"firstName":"Corliss","lastName":"Williamson","isAssistant":false,"personId":"203603","teamId":"1610612756","sortSequence":"200","college":"Arkansas"}
+{"_id":{"$oid":"5c58779d1107243f7f6239d9"},"firstName":"Jamelle","lastName":"McMillan","isAssistant":false,"personId":"1962937577","teamId":"1610612756","sortSequence":"201","college":"Arizona State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239da"},"firstName":"Cody","lastName":"Toppert","isAssistant":false,"personId":"200558","teamId":"1610612756","sortSequence":"202","college":"Cornell"}
+{"_id":{"$oid":"5c58779d1107243f7f6239db"},"firstName":"Aaron","lastName":"Nelson","isAssistant":false,"personId":"2008","teamId":"1610612756","sortSequence":"203","college":"Iowa State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239dc"},"firstName":"Billy","lastName":"Donovan","isAssistant":true,"personId":"1627310","teamId":"1610612760","sortSequence":"12","college":"Providence"}
+{"_id":{"$oid":"5c58779d1107243f7f6239dd"},"firstName":"Maurice","lastName":"Cheeks","isAssistant":false,"personId":"1312","teamId":"1610612760","sortSequence":"179","college":"West Texas State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239de"},"firstName":"Mark","lastName":"Bryant","isAssistant":false,"personId":"101173","teamId":"1610612760","sortSequence":"180","college":"Seton Hall"}
+{"_id":{"$oid":"5c58779d1107243f7f6239df"},"firstName":"Darko","lastName":"Rajakovic","isAssistant":false,"personId":"204011","teamId":"1610612760","sortSequence":"181","college":""}
+{"_id":{"$oid":"5c58779d1107243f7f6239e0"},"firstName":"Vin","lastName":"Bhavnani","isAssistant":false,"personId":"1628178","teamId":"1610612760","sortSequence":"182","college":"USC"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e1"},"firstName":"Bob","lastName":"Beyer","isAssistant":false,"personId":"2630","teamId":"1610612760","sortSequence":"183","college":"Alfred"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e2"},"firstName":"Ryan","lastName":"Saunders","isAssistant":true,"personId":"202443","teamId":"1610612750","sortSequence":"25","college":"Minnesota"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e3"},"firstName":"Malik","lastName":"Allen","isAssistant":false,"personId":"204229","teamId":"1610612750","sortSequence":"160","college":"Villanova"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e4"},"firstName":"Ed","lastName":"Pinckney","isAssistant":false,"personId":"201687","teamId":"1610612750","sortSequence":"161","college":"Villanova"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e5"},"firstName":"Larry","lastName":"Greer","isAssistant":false,"personId":"1629450","teamId":"1610612750","sortSequence":"162","college":""}
+{"_id":{"$oid":"5c58779d1107243f7f6239e6"},"firstName":"Jerry","lastName":"Sichting","isAssistant":false,"personId":"202428","teamId":"1610612750","sortSequence":"163","college":"Purdue"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e7"},"firstName":"Gregg","lastName":"Farnam","isAssistant":false,"personId":"2146","teamId":"1610612750","sortSequence":"164","college":"St. Cloud State"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e8"},"firstName":"Steve","lastName":"Kerr","isAssistant":true,"personId":"204005","teamId":"1610612744","sortSequence":"17","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f6239e9"},"firstName":"Ron","lastName":"Adams","isAssistant":false,"personId":"1796","teamId":"1610612744","sortSequence":"97","college":"Fresno Pacific"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ea"},"firstName":"Mike","lastName":"Brown","isAssistant":false,"personId":"1658","teamId":"1610612744","sortSequence":"98","college":"San Diego"}
+{"_id":{"$oid":"5c58779d1107243f7f6239eb"},"firstName":"Jarron","lastName":"Collins","isAssistant":false,"personId":"204239","teamId":"1610612744","sortSequence":"99","college":"Stanford"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ec"},"firstName":"Chris","lastName":"DeMarco","isAssistant":false,"personId":"1627666","teamId":"1610612744","sortSequence":"100","college":"Dominican U CA"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ed"},"firstName":"Bruce","lastName":"Fraser","isAssistant":false,"personId":"204260","teamId":"1610612744","sortSequence":"101","college":"Arizona"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ee"},"firstName":"Willie","lastName":"Green","isAssistant":false,"personId":"1962937572","teamId":"1610612744","sortSequence":"102","college":"Detroit Mercy"}
+{"_id":{"$oid":"5c58779d1107243f7f6239ef"},"firstName":"Scott","lastName":"Brooks","isAssistant":true,"personId":"2623","teamId":"1610612764","sortSequence":"5","college":"UC-Irvine"}
+{"_id":{"$oid":"5c58779d1107243f7f6239f0"},"firstName":"Tony","lastName":"Brown","isAssistant":false,"personId":"1655","teamId":"1610612764","sortSequence":"244","college":"Arkansas"}
+{"_id":{"$oid":"5c58779d1107243f7f6239f1"},"firstName":"Mike","lastName":"Terpstra","isAssistant":false,"personId":"203601","teamId":"1610612764","sortSequence":"245","college":"Northwest Nazarene"}
+{"_id":{"$oid":"5c58779d1107243f7f6239f2"},"firstName":"Maz","lastName":"Trakh","isAssistant":false,"personId":"202437","teamId":"1610612764","sortSequence":"246","college":"Southern Utah"}
+{"_id":{"$oid":"5c58779d1107243f7f6239f3"},"firstName":"David","lastName":"Adkins","isAssistant":false,"personId":"52371","teamId":"1610612764","sortSequence":"247","college":"Radford"}
