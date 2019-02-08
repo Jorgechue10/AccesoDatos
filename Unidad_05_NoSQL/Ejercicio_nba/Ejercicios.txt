@@ -32,3 +32,7 @@
 8.-Consultar los entrenadores principales, isAssistant: false
 
 	db.entrenadores.find({"isAssistant": false}).pretty()
+
+9.-Jugadores que han jugado en los Lakers (teamId: 1610612747) pero no están jugando ahí.
+
+	db.jugadores.find({ "teamId": {$ne:"1610612747"} }, {"teams":{$elemMatch:{"teamId":"1610612747"}}}).pretty()
