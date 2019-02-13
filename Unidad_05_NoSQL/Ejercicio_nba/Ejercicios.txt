@@ -35,4 +35,12 @@
 
 9.-Jugadores que han jugado en los Lakers (teamId: 1610612747) pero no están jugando ahí.
 
-	db.jugadores.find({ "teamId": {$ne:"1610612747"} }, {"teams":{$elemMatch:{"teamId":"1610612747"}}}).pretty()
+	db.jugadores.find({ "teamId": {$ne:"1610612747"} , "teams":{$elemMatch:{"teamId":"1610612747"}}}).pretty()
+
+10.-Jugadores cuyo pickNum = 1.
+	db.jugadores.find({"draft.pickNum": {$eq: '1'}}).pretty()
+
+11.-Jugadores de los Lakers con sus nombres en mayúesculas.
+	db.jugadores.aggregate([
+		{"$project":{"firstName":"$firstName", "lastName":{"$toUpper":"$lastName"}, "teamId":"$teamId"}},
+		{"$match": {"teamId": {$eq:"1610612747"}}}])
