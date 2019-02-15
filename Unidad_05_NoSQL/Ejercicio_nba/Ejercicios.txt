@@ -1,3 +1,5 @@
+-------------------EJERCICIOS DE CONSULTA-------------------------
+
 1.-Importar el contenido de cada fichero (el fichero es una colección) de jugadores, entrenadores y equipos.
 
 	mongoimport --host localhost --port 27017 --db nba --collection jugadores --file "C:\Users\ifc\git\AccesoDatos\Unidad_05_NoSQL\import\jugadores.json"
@@ -40,7 +42,47 @@
 10.-Jugadores cuyo pickNum = 1.
 	db.jugadores.find({"draft.pickNum": {$eq: '1'}}).pretty()
 
-11.-Jugadores de los Lakers con sus nombres en mayúesculas.
+
+
+----------------------EJERCICIOS DE AGREGACIÓN--------------------------
+
+1.-Jugadores de los Lakers con sus nombres en mayúsculas.
 	db.jugadores.aggregate([
 		{"$project":{"firstName":"$firstName", "lastName":{"$toUpper":"$lastName"}, "teamId":"$teamId"}},
 		{"$match": {"teamId": {$eq:"1610612747"}}}])
+
+2.-Altura media y peso medio de los jugadores por cada equipo de la NBA.
+	db.jugadores.aggregate([ 
+		{
+		$group : { 
+			_id : {"teamId":"$teamId"},
+			"Altura Media": { $avg: {$toDouble: "$heightMeters"}},
+			"Peso Medio": { $avg: {$toDouble: "$weightKilograms"}}
+		}       
+	}])
+
+
+
+3.-Nombre del jugador que más años lleva en la NBA.
+	db.jugadores.aggregate([ 
+	{$project: {"nbaDebutYear": {$toInt: "$nbaDebutYear"}}},
+	{"$match": {"nbaDebutYear": {$ne:""}}},
+	{$project: {"nbaDebutYear": {$min: "$nbaDebutYear"}}}])
+
+
+
+"Año debut mas bajo": { $min: "$nbaDebutYear"}
+4.-Partidos en los que el equipo visitante ha metido más de 100 puntos y no ha ganado.
+
+
+5.-Nombre, apellidos y Edad en años de los jugadores, grabar el resultado en una colección nueva llamada jugadores_edad.
+
+
+6.-Nombre, Apellido y posición del jugador de mayor y menor edad de la NBA.
+
+
+7.-Paises de procedencia de los jugadores. Ordenar alfabéticamente.
+
+
+8.-Mostrar los jugadores que han estado en más equipos en su carrera. Limitar a 15 registros el resultado.
+
