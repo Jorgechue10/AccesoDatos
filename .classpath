@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="Unidad_04_BDOO"/>
 	<classpathentry kind="src" path="Unidad_05_NoSQL"/>
 	<classpathentry kind="src" path="Evaluacion"/>
+	<classpathentry kind="src" path="Unidad_06_Componentes"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
