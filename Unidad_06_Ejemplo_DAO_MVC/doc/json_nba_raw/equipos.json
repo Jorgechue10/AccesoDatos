@@ -1,0 +1,181 @@
+[	{
+		"Nombre" : "76ers",
+		"Ciudad" : "Philadelphia",
+		"Conferencia" : "East",
+		"Division" : "Atlantic"
+	},
+	{
+		"Nombre" : "Bobcats",
+		"Ciudad" : "Charlotte",
+		"Conferencia" : "East",
+		"Division" : "SouthEast"
+	},
+	{
+		"Nombre" : "Bucks",
+		"Ciudad" : "Milwaukee",
+		"Conferencia" : "East",
+		"Division" : "Central"
+	},
+	{
+		"Nombre" : "Bulls",
+		"Ciudad" : "Chicago",
+		"Conferencia" : "East",
+		"Division" : "Central"
+	},
+	{
+		"Nombre" : "Cavaliers",
+		"Ciudad" : "Cleveland",
+		"Conferencia" : "East",
+		"Division" : "Central"
+	},
+	{
+		"Nombre" : "Celtics",
+		"Ciudad" : "Boston",
+		"Conferencia" : "East",
+		"Division" : "Atlantic"
+	},
+	{
+		"Nombre" : "Clippers",
+		"Ciudad" : "Los Angeles",
+		"Conferencia" : "West",
+		"Division" : "Pacific"
+	},
+	{
+		"Nombre" : "Grizzlies",
+		"Ciudad" : "Memphis",
+		"Conferencia" : "West",
+		"Division" : "SouthWest"
+	},
+	{
+		"Nombre" : "Hawks",
+		"Ciudad" : "Atlanta",
+		"Conferencia" : "East",
+		"Division" : "SouthEast"
+	},
+	{
+		"Nombre" : "Heat",
+		"Ciudad" : "Miami",
+		"Conferencia" : "East",
+		"Division" : "SouthEast"
+	},
+	{
+		"Nombre" : "Hornets",
+		"Ciudad" : "New Orleans",
+		"Conferencia" : "West",
+		"Division" : "SouthWest"
+	},
+	{
+		"Nombre" : "Jazz",
+		"Ciudad" : "Utah",
+		"Conferencia" : "West",
+		"Division" : "NorthWest"
+	},
+	{
+		"Nombre" : "Kings",
+		"Ciudad" : "Sacramento",
+		"Conferencia" : "West",
+		"Division" : "Pacific"
+	},
+	{
+		"Nombre" : "Knicks",
+		"Ciudad" : "New York",
+		"Conferencia" : "East",
+		"Division" : "Atlantic"
+	},
+	{
+		"Nombre" : "Lakers",
+		"Ciudad" : "Los Angeles",
+		"Conferencia" : "West",
+		"Division" : "Pacific"
+	},
+	{
+		"Nombre" : "Magic",
+		"Ciudad" : "Orlando",
+		"Conferencia" : "East",
+		"Division" : "SouthEast"
+	},
+	{
+		"Nombre" : "Mavericks",
+		"Ciudad" : "Dallas",
+		"Conferencia" : "West",
+		"Division" : "SouthWest"
+	},
+	{
+		"Nombre" : "Nets",
+		"Ciudad" : "New Jersey",
+		"Conferencia" : "East",
+		"Division" : "Atlantic"
+	},
+	{
+		"Nombre" : "Nuggets",
+		"Ciudad" : "Denver",
+		"Conferencia" : "West",
+		"Division" : "NorthWest"
+	},
+	{
+		"Nombre" : "Pacers",
+		"Ciudad" : "Indiana",
+		"Conferencia" : "East",
+		"Division" : "Central"
+	},
+	{
+		"Nombre" : "Pistons",
+		"Ciudad" : "Detroit",
+		"Conferencia" : "East",
+		"Division" : "Central"
+	},
+	{
+		"Nombre" : "Raptors",
+		"Ciudad" : "Toronto",
+		"Conferencia" : "East",
+		"Division" : "Atlantic"
+	},
+	{
+		"Nombre" : "Rockets",
+		"Ciudad" : "Houston",
+		"Conferencia" : "West",
+		"Division" : "SouthWest"
+	},
+	{
+		"Nombre" : "Spurs",
+		"Ciudad" : "San Antonio",
+		"Conferencia" : "West",
+		"Division" : "SouthWest"
+	},
+	{
+		"Nombre" : "Suns",
+		"Ciudad" : "Phoenix",
+		"Conferencia" : "West",
+		"Division" : "Pacific"
+	},
+	{
+		"Nombre" : "Supersonics",
+		"Ciudad" : "Seattle",
+		"Conferencia" : "West",
+		"Division" : "NorthWest"
+	},
+	{
+		"Nombre" : "Timberwolves",
+		"Ciudad" : "Minnesota",
+		"Conferencia" : "West",
+		"Division" : "NorthWest"
+	},
+	{
+		"Nombre" : "Trail Blazers",
+		"Ciudad" : "Portland",
+		"Conferencia" : "West",
+		"Division" : "NorthWest"
+	},
+	{
+		"Nombre" : "Warriors",
+		"Ciudad" : "Golden State",
+		"Conferencia" : "West",
+		"Division" : "Pacific"
+	},
+	{
+		"Nombre" : "Wizards",
+		"Ciudad" : "Washington",
+		"Conferencia" : "East",
+		"Division" : "SouthEast"
+	}
+]

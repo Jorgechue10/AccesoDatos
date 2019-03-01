@@ -1,0 +1,30 @@
+{"_id":{"$oid":"5c73d87f9d771135cba6e33e"},"Nombre":"Bucks","Ciudad":"Milwaukee","Conferencia":"East","Division":"Central"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e33f"},"Nombre":"76ers","Ciudad":"Philadelphia","Conferencia":"East","Division":"Atlantic"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e340"},"Nombre":"Celtics","Ciudad":"Boston","Conferencia":"East","Division":"Atlantic"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e341"},"Nombre":"Cavaliers","Ciudad":"Cleveland","Conferencia":"East","Division":"Central"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e342"},"Nombre":"Bulls","Ciudad":"Chicago","Conferencia":"East","Division":"Central"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e343"},"Nombre":"Clippers","Ciudad":"Los Angeles","Conferencia":"West","Division":"Pacific"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e344"},"Nombre":"Grizzlies","Ciudad":"Memphis","Conferencia":"West","Division":"SouthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e345"},"Nombre":"Hawks","Ciudad":"Atlanta","Conferencia":"East","Division":"SouthEast"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e346"},"Nombre":"Bobcats","Ciudad":"Charlotte","Conferencia":"East","Division":"SouthEast"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e347"},"Nombre":"Heat","Ciudad":"Miami","Conferencia":"East","Division":"SouthEast"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e348"},"Nombre":"Kings","Ciudad":"Sacramento","Conferencia":"West","Division":"Pacific"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e349"},"Nombre":"Knicks","Ciudad":"New York","Conferencia":"East","Division":"Atlantic"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34a"},"Nombre":"Hornets","Ciudad":"New Orleans","Conferencia":"West","Division":"SouthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34b"},"Nombre":"Jazz","Ciudad":"Utah","Conferencia":"West","Division":"NorthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34c"},"Nombre":"Lakers","Ciudad":"Los Angeles","Conferencia":"West","Division":"Pacific"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34d"},"Nombre":"Nets","Ciudad":"New Jersey","Conferencia":"East","Division":"Atlantic"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34e"},"Nombre":"Magic","Ciudad":"Orlando","Conferencia":"East","Division":"SouthEast"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e34f"},"Nombre":"Mavericks","Ciudad":"Dallas","Conferencia":"West","Division":"SouthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e350"},"Nombre":"Nuggets","Ciudad":"Denver","Conferencia":"West","Division":"NorthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e351"},"Nombre":"Pacers","Ciudad":"Indiana","Conferencia":"East","Division":"Central"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e352"},"Nombre":"Pistons","Ciudad":"Detroit","Conferencia":"East","Division":"Central"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e353"},"Nombre":"Raptors","Ciudad":"Toronto","Conferencia":"East","Division":"Atlantic"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e354"},"Nombre":"Supersonics","Ciudad":"Seattle","Conferencia":"West","Division":"NorthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e355"},"Nombre":"Timberwolves","Ciudad":"Minnesota","Conferencia":"West","Division":"NorthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e356"},"Nombre":"Rockets","Ciudad":"Houston","Conferencia":"West","Division":"SouthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e357"},"Nombre":"Trail Blazers","Ciudad":"Portland","Conferencia":"West","Division":"NorthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e358"},"Nombre":"Spurs","Ciudad":"San Antonio","Conferencia":"West","Division":"SouthWest"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e359"},"Nombre":"Warriors","Ciudad":"Golden State","Conferencia":"West","Division":"Pacific"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e35a"},"Nombre":"Wizards","Ciudad":"Washington","Conferencia":"East","Division":"SouthEast"}
+{"_id":{"$oid":"5c73d87f9d771135cba6e35b"},"Nombre":"Suns","Ciudad":"Phoenix","Conferencia":"West","Division":"Pacific"}

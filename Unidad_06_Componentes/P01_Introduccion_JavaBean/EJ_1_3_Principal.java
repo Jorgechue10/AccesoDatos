@@ -20,6 +20,8 @@ public class EJ_1_3_Principal{
         System.out.println("Horas extra empleado: " + empleado.getHorasExtras());
         
         /*Para crear el jar introuduces en el cmd-> C:\Users\ifc\git\AccesoDatos\bin\P01_Introduccion_JavaBean>
-        jar cvf ej_1_componentes.jar EJ_1_1_Asalariado.class EJ_1_2_Hacienda.class EJ_1_3_Principal.class*/
+        jar cvf ej_1_componentes.jar EJ_1_1_Asalariado.class EJ_1_2_Hacienda.class EJ_1_3_Principal.class
+        
+        Ejecutar el jar-> java -jar ej_1_componentes.jar*/
     }
 }

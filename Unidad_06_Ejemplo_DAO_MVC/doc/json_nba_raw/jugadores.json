@@ -1,0 +1,3899 @@
+[
+	{
+		"codigo" : 1,
+		"Nombre" : "Corey Brever",
+		"Procedencia" : "Florida",
+		"Altura" : "6-9",
+		"Peso" : 185,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 2,
+		"Nombre" : "Greg Buckner",
+		"Procedencia" : "Clemson",
+		"Altura" : "6-4",
+		"Peso" : 210,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 3,
+		"Nombre" : "Michael Doleac",
+		"Procedencia" : "Utah",
+		"Altura" : "6-11",
+		"Peso" : 262,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 4,
+		"Nombre" : "Randy Foye",
+		"Procedencia" : "Villanova",
+		"Altura" : "6-4",
+		"Peso" : 213,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 5,
+		"Nombre" : "Ryan Gomes",
+		"Procedencia" : "Providence",
+		"Altura" : "6-7",
+		"Peso" : 250,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 6,
+		"Nombre" : "Marko Jaric",
+		"Procedencia" : "Serbia",
+		"Altura" : "6-7",
+		"Peso" : 224,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 7,
+		"Nombre" : "Al Jefferson",
+		"Procedencia" : "Prentiss Hs",
+		"Altura" : "6-10",
+		"Peso" : 265,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 8,
+		"Nombre" : "Mark Madsen",
+		"Procedencia" : "Stanford",
+		"Altura" : "6-9",
+		"Peso" : 250,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 9,
+		"Nombre" : "Rashard McCants",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-4",
+		"Peso" : 21,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 10,
+		"Nombre" : "Chris Richard ",
+		"Procedencia" : "Florida",
+		"Altura" : "6-9",
+		"Peso" : 270,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 11,
+		"Nombre" : "Craig Smith",
+		"Procedencia" : "Boston College",
+		"Altura" : "6-8",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 12,
+		"Nombre" : "Kirk Snyder",
+		"Procedencia" : "Nevada-Reno",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 13,
+		"Nombre" : "Sebastian Telfair",
+		"Procedencia" : "Abraham Lincoln HS",
+		"Altura" : "6-0",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 14,
+		"Nombre" : "Antoine Walker",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Timberwolves"
+	},
+	{
+		"codigo" : 21,
+		"Nombre" : "Elton brand",
+		"Procedencia" : "duke",
+		"Altura" : "6-8",
+		"Peso" : 254,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 22,
+		"Nombre" : "Paul Davis",
+		"Procedencia" : "Michigan",
+		"Altura" : "6-11",
+		"Peso" : 270,
+		"Posicion" : "c",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 23,
+		"Nombre" : "Dan Dickau",
+		"Procedencia" : "Gonzaga",
+		"Altura" : "6-0",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 24,
+		"Nombre" : "Nick Fazekas",
+		"Procedencia" : "Nevada-Reno",
+		"Altura" : "6-11",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 25,
+		"Nombre" : "Chris Kaman",
+		"Procedencia" : "Central Michigan",
+		"Altura" : "7-0",
+		"Peso" : 265,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 26,
+		"Nombre" : "Brevin Knight",
+		"Procedencia" : "Stanford",
+		"Altura" : "5-10",
+		"Peso" : 170,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 27,
+		"Nombre" : "Shaun Livingston",
+		"Procedencia" : "Peoria Central",
+		"Altura" : "6-7",
+		"Peso" : 182,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 28,
+		"Nombre" : "Corey Maggette",
+		"Procedencia" : "duke",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 29,
+		"Nombre" : "Cuttino Mobley",
+		"Procedencia" : "Rhode Island",
+		"Altura" : "6-4",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 30,
+		"Nombre" : "Smush Parker",
+		"Procedencia" : "Fordham",
+		"Altura" : "6-4",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 31,
+		"Nombre" : "Josh Powell",
+		"Procedencia" : "North Carolina State",
+		"Altura" : "6-9",
+		"Peso" : 240,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 32,
+		"Nombre" : "Quinton Ross",
+		"Procedencia" : "Southern Methodist",
+		"Altura" : "6-6",
+		"Peso" : 193,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 33,
+		"Nombre" : "Tim Thomas",
+		"Procedencia" : "Villanova",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 34,
+		"Nombre" : "al thornton",
+		"Procedencia" : "Florida State",
+		"Altura" : "6-8",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 35,
+		"Nombre" : "Marcus Williams",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-7",
+		"Peso" : 207,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Clippers"
+	},
+	{
+		"codigo" : 41,
+		"Nombre" : "Andre Brown",
+		"Procedencia" : "De Paul",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 42,
+		"Nombre" : "Kwame Brown",
+		"Procedencia" : "Glynn Academy",
+		"Altura" : "6-11",
+		"Peso" : 270,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 43,
+		"Nombre" : "Brian Cardinal",
+		"Procedencia" : "Purdue",
+		"Altura" : "6-8",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 44,
+		"Nombre" : "Jason Collins",
+		"Procedencia" : "Stanford",
+		"Altura" : "7-0",
+		"Peso" : 255,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 45,
+		"Nombre" : "Mike Conley",
+		"Procedencia" : "Ohio State",
+		"Altura" : "6-1",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 46,
+		"Nombre" : "Javaris Crittenton",
+		"Procedencia" : "Georgia Tech",
+		"Altura" : "6-5",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 47,
+		"Nombre" : "Rudy Gay",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-8",
+		"Peso" : 222,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 48,
+		"Nombre" : "Casey Jacobsen",
+		"Procedencia" : "Stanford",
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "g",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 49,
+		"Nombre" : "Kyle Lowry",
+		"Procedencia" : "Villanova",
+		"Altura" : "6-0",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 50,
+		"Nombre" : "Aaron Mckie",
+		"Procedencia" : "Temple",
+		"Altura" : "6-5",
+		"Peso" : 209,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 51,
+		"Nombre" : "Darko Milicic",
+		"Procedencia" : "Serbia Montenegro",
+		"Altura" : "7-0",
+		"Peso" : 275,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 52,
+		"Nombre" : "Mike Miller",
+		"Procedencia" : "Florida",
+		"Altura" : "6-8",
+		"Peso" : 218,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 53,
+		"Nombre" : "Juan Carlos Navarro",
+		"Procedencia" : "Spain",
+		"Altura" : "6-3",
+		"Peso" : 170,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 54,
+		"Nombre" : "Hakim Warrick",
+		"Procedencia" : "Syracuse",
+		"Altura" : "6-9",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Grizzlies"
+	},
+	{
+		"codigo" : 61,
+		"Nombre" : "Trevor Ariza",
+		"Procedencia" : "UCLA",
+		"Altura" : "6-8",
+		"Peso" : 210,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 62,
+		"Nombre" : "Kobe Bryant",
+		"Procedencia" : "Lower Merion HS (PA)",
+		"Altura" : "6-6",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 63,
+		"Nombre" : "Andrew Bynum",
+		"Procedencia" : "St. Joseph HS (NJ)",
+		"Altura" : "7-0",
+		"Peso" : 285,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 64,
+		"Nombre" : "Jordan Farmar",
+		"Procedencia" : "UCLA",
+		"Altura" : "6-2",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 65,
+		"Nombre" : "Derek Fisher",
+		"Procedencia" : "Arkansas-Little Rock",
+		"Altura" : "6-1",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 66,
+		"Nombre" : "Pau Gasol",
+		"Procedencia" : "Spain",
+		"Altura" : "7-0",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 67,
+		"Nombre" : "Didier Ilunga-Mbenga",
+		"Procedencia" : "Congo",
+		"Altura" : "7-0",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 68,
+		"Nombre" : "Coby Karl",
+		"Procedencia" : "Boise State",
+		"Altura" : "6-5",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 69,
+		"Nombre" : "Chris Mihm",
+		"Procedencia" : "Texas",
+		"Altura" : "7-0",
+		"Peso" : 265,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 70,
+		"Nombre" : "Ira Newble",
+		"Procedencia" : "Miami(Ohia)",
+		"Altura" : "6-7",
+		"Peso" : 220,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 71,
+		"Nombre" : "Lamar Odom",
+		"Procedencia" : "Rhode Island",
+		"Altura" : "6-10",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 72,
+		"Nombre" : "Vladimir Radmanovic",
+		"Procedencia" : "Serbia Montenegro",
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 73,
+		"Nombre" : "Ronny Turiaf",
+		"Procedencia" : "Gonzaga",
+		"Altura" : "6-10",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 74,
+		"Nombre" : "Sasha Vujacic",
+		"Procedencia" : "Slovenia",
+		"Altura" : "6-7",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 75,
+		"Nombre" : "Luke Walton",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-8",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Lakers"
+	},
+	{
+		"codigo" : 81,
+		"Nombre" : "Andrea Bargnani",
+		"Procedencia" : "Italy",
+		"Altura" : "7-0",
+		"Peso" : 250,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 82,
+		"Nombre" : "Maceo Baston",
+		"Procedencia" : "Michigan",
+		"Altura" : "6-10",
+		"Peso" : 230,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 84,
+		"Nombre" : "Primoz Brezec",
+		"Procedencia" : "Slovenia",
+		"Altura" : "7-1",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 85,
+		"Nombre" : "Jose Calderon",
+		"Procedencia" : "Spain",
+		"Altura" : "6-3",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 86,
+		"Nombre" : "Carlos Delfino",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-6",
+		"Peso" : 230,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 87,
+		"Nombre" : "T.J. Ford",
+		"Procedencia" : "Texas",
+		"Altura" : "6-0",
+		"Peso" : 165,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 88,
+		"Nombre" : "Jorge Garbajosa",
+		"Procedencia" : "Spain",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 89,
+		"Nombre" : "Joey Graham",
+		"Procedencia" : "Oklahoma State",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 90,
+		"Nombre" : "Kris Humphries",
+		"Procedencia" : "Minnesota",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 91,
+		"Nombre" : "Linton Johnson III",
+		"Procedencia" : "Tulane",
+		"Altura" : "6-8",
+		"Peso" : 205,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 92,
+		"Nombre" : "Jason Kapono",
+		"Procedencia" : "UCLA",
+		"Altura" : "6-8",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 93,
+		"Nombre" : "Jamario Moon",
+		"Procedencia" : "Merdian CC (MS)",
+		"Altura" : "6-8",
+		"Peso" : 205,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 94,
+		"Nombre" : "Rasho Nesterovic",
+		"Procedencia" : "Slovenia",
+		"Altura" : "7-0",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 95,
+		"Nombre" : "Anthony Parker",
+		"Procedencia" : "Bradley",
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Raptors"
+	},
+	{
+		"codigo" : 100,
+		"Nombre" : "Renaldo Balkman",
+		"Procedencia" : "South Carolina",
+		"Altura" : "6-8",
+		"Peso" : 202,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 101,
+		"Nombre" : "Wilson Chandler",
+		"Procedencia" : "DePaul",
+		"Altura" : "6-8",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 102,
+		"Nombre" : "Mardy Collins",
+		"Procedencia" : "Temple",
+		"Altura" : "6-6",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 103,
+		"Nombre" : "Jamal Crawford",
+		"Procedencia" : "Michigan",
+		"Altura" : "6-5",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 104,
+		"Nombre" : "Eddy Curry",
+		"Procedencia" : "Thornwood HS",
+		"Altura" : "6-11",
+		"Peso" : 285,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 105,
+		"Nombre" : "Jerome James",
+		"Procedencia" : "Florida AM",
+		"Altura" : "7-1",
+		"Peso" : 285,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 106,
+		"Nombre" : "Jared Jeffries",
+		"Procedencia" : "Indiana",
+		"Altura" : "6-11",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 107,
+		"Nombre" : "Fred Jones",
+		"Procedencia" : "Oregon",
+		"Altura" : "6-2",
+		"Peso" : 225,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 108,
+		"Nombre" : "David Lee",
+		"Procedencia" : "Florida",
+		"Altura" : "6-9",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 109,
+		"Nombre" : "Stephon Marbury",
+		"Procedencia" : "Georgia Tech",
+		"Altura" : "6-2",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 110,
+		"Nombre" : "Randolph Morris",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-11",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 111,
+		"Nombre" : "Zach Randolph",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-9",
+		"Peso" : 260,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 112,
+		"Nombre" : "Quentin Richardson",
+		"Procedencia" : "DePaul",
+		"Altura" : "6-6",
+		"Peso" : 235,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 113,
+		"Nombre" : "Nate Robinson",
+		"Procedencia" : "Washington",
+		"Altura" : "5-9",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 114,
+		"Nombre" : "Malik Rose",
+		"Procedencia" : "Drexel",
+		"Altura" : "6-7",
+		"Peso" : 255,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Knicks"
+	},
+	{
+		"codigo" : 120,
+		"Nombre" : "Louis Amundson",
+		"Procedencia" : " Nevada-Las Vegas",
+		"Altura" : " 6-9",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 121,
+		"Nombre" : "Calvin Booth",
+		"Procedencia" : "Penn State",
+		"Altura" : "6-11",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 122,
+		"Nombre" : "Rodney Carney",
+		"Procedencia" : "Memphis",
+		"Altura" : "6-7",
+		"Peso" : 204,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 123,
+		"Nombre" : "Samuel Dalembert",
+		"Procedencia" : "Seton Hall",
+		"Altura" : "6-11",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 124,
+		"Nombre" : "Reggie Evans",
+		"Procedencia" : "Iowa",
+		"Altura" : "6-8",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 125,
+		"Nombre" : "Willie Green",
+		"Procedencia" : "Detroit Mercy",
+		"Altura" : "6-3",
+		"Peso" : 201,
+		"Posicion" : "G",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 126,
+		"Nombre" : "Herbert Hill",
+		"Procedencia" : "Providence",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 127,
+		"Nombre" : "Andre Iguodala",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-6",
+		"Peso" : 207,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 128,
+		"Nombre" : "Andre Miller",
+		"Procedencia" : "Utah",
+		"Altura" : "6-2",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 129,
+		"Nombre" : "Kevin Ollie",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-2",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 130,
+		"Nombre" : "Shavlik Randolph",
+		"Procedencia" : "Duke",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 131,
+		"Nombre" : "Jason Smith",
+		"Procedencia" : "Colorado Sate",
+		"Altura" : "7-0",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 132,
+		"Nombre" : "Louis Williams",
+		"Procedencia" : "South Gwinnett HS",
+		"Altura" : "6-2",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 133,
+		"Nombre" : "Thaddeus Young",
+		"Procedencia" : "Georgio Tech",
+		"Altura" : "6-8",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "76ers"
+	},
+	{
+		"codigo" : 150,
+		"Nombre" : "Lance Allred",
+		"Procedencia" : "Weber State",
+		"Altura" : "6-11",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 151,
+		"Nombre" : "Devin Brown",
+		"Procedencia" : "Texas-San Antonio",
+		"Altura" : "6-5",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 152,
+		"Nombre" : "Daniel Gibson",
+		"Procedencia" : "Texas",
+		"Altura" : "6-2",
+		"Peso" : 194,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 153,
+		"Nombre" : "Zydrunas Ilgauskas",
+		"Procedencia" : "St. Vincent-St. Mary",
+		"Altura" : "7-3",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 154,
+		"Nombre" : "LeBron James",
+		"Procedencia" : "Houston",
+		"Altura" : "6-8",
+		"Peso" : 250,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 155,
+		"Nombre" : "Damon Jones",
+		"Procedencia" : "Saint Joseph's",
+		"Altura" : "6-3",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 156,
+		"Nombre" : "Dwayne Jones",
+		"Procedencia" : "Serbia",
+		"Altura" : "6-11",
+		"Peso" : 251,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 157,
+		"Nombre" : "Aleksandar Pavlovic",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-7",
+		"Peso" : 239,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 158,
+		"Nombre" : "Joe Smith",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-10",
+		"Peso" : 225,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 159,
+		"Nombre" : "Eric Snow",
+		"Procedencia" : "Miami ",
+		"Altura" : "6-3",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 160,
+		"Nombre" : "Wally Szczerbiak",
+		"Procedencia" : "Brazil",
+		"Altura" : "6-7",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 161,
+		"Nombre" : "Anderson Varejao",
+		"Procedencia" : "Merdian CC (MS)",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 162,
+		"Nombre" : "Ben Wallace",
+		"Procedencia" : "Virginia Union",
+		"Altura" : "6-9",
+		"Peso" : 240,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 163,
+		"Nombre" : "Delonte West",
+		"Procedencia" : "Saint Joseph's",
+		"Altura" : "6-3",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Cavaliers"
+	},
+	{
+		"codigo" : 181,
+		"Nombre" : "Derek Anderson",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-5",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 182,
+		"Nombre" : "Earl Boykins",
+		"Procedencia" : "Eastern michigan",
+		"Altura" : "5-5",
+		"Peso" : 133,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 183,
+		"Nombre" : "Matt Carroll",
+		"Procedencia" : "Notre Dame",
+		"Altura" : "6-6",
+		"Peso" : 212,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 184,
+		"Nombre" : "Jermareo Davidson",
+		"Procedencia" : "Alabama",
+		"Altura" : "6-10",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 185,
+		"Nombre" : "Jared Dudley",
+		"Procedencia" : "Boston College",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 186,
+		"Nombre" : "Raymond Felton",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-1",
+		"Peso" : 198,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 187,
+		"Nombre" : "Othella Harrington",
+		"Procedencia" : "Georgetown",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 188,
+		"Nombre" : "Ryan Hollins",
+		"Procedencia" : "Ucla",
+		"Altura" : "7-0",
+		"Peso" : 230,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 189,
+		"Nombre" : "Sean May",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-9",
+		"Peso" : 266,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 190,
+		"Nombre" : "Nazr Mohammed",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-10",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 191,
+		"Nombre" : "Adam Morrison",
+		"Procedencia" : "Gonzaga",
+		"Altura" : "6-8",
+		"Peso" : 205,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 192,
+		"Nombre" : "Emeka Okafor",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-10",
+		"Peso" : 255,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 193,
+		"Nombre" : "Jason Richardson",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 194,
+		"Nombre" : "Gerald Wallace",
+		"Procedencia" : "Alabama",
+		"Altura" : "6-7",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bobcats"
+	},
+	{
+		"codigo" : 201,
+		"Nombre" : "Charlie Bell",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-3",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 202,
+		"Nombre" : "Andrew Bouqt",
+		"Procedencia" : "Utah",
+		"Altura" : "7-0",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 203,
+		"Nombre" : "Dan Gadzuric",
+		"Procedencia" : "Ucla",
+		"Altura" : "6-11",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 204,
+		"Nombre" : "Royal Ivey",
+		"Procedencia" : "Texas",
+		"Altura" : "6-4",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 205,
+		"Nombre" : "Desmond Mason",
+		"Procedencia" : "Oklahoma State",
+		"Altura" : "6-5",
+		"Peso" : 222,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 206,
+		"Nombre" : "Michael Redd",
+		"Procedencia" : "Ohio State",
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 207,
+		"Nombre" : "Michael Ruffin",
+		"Procedencia" : "Tulsa",
+		"Altura" : "6-8",
+		"Peso" : 248,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 208,
+		"Nombre" : "Ramon Sessions",
+		"Procedencia" : "Nevava-Reno",
+		"Altura" : "6-3",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 209,
+		"Nombre" : "Bobby Simmons",
+		"Procedencia" : "DePaul",
+		"Altura" : "6-6",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 210,
+		"Nombre" : "Awvee Store",
+		"Procedencia" : "Arizona State",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 211,
+		"Nombre" : "Charlie Villanueva",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-11",
+		"Peso" : 232,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 212,
+		"Nombre" : "Jake Voskuhl",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-11",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 213,
+		"Nombre" : "Mo Williams",
+		"Procedencia" : "Alabama",
+		"Altura" : "6-1",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 214,
+		"Nombre" : "Yi Jianlian",
+		"Procedencia" : "Connecticut",
+		"Altura" : "7-0",
+		"Peso" : 238,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bucks"
+	},
+	{
+		"codigo" : 220,
+		"Nombre" : "Shannon Brown",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-4",
+		"Peso" : 211,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 221,
+		"Nombre" : "JamesOn Curry",
+		"Procedencia" : "Oklahoma Stare",
+		"Altura" : "6-3",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 222,
+		"Nombre" : "Luol Deng",
+		"Procedencia" : "Duke",
+		"Altura" : "6-9",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 223,
+		"Nombre" : "Chris Duhon",
+		"Procedencia" : "Duke",
+		"Altura" : "6-1",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 224,
+		"Nombre" : "Drew Gooden",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-10",
+		"Peso" : 250,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 225,
+		"Nombre" : "Ben Gordon",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-3",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 226,
+		"Nombre" : "Aaron Gray",
+		"Procedencia" : "Pittsburgh",
+		"Altura" : "7-0",
+		"Peso" : 270,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 227,
+		"Nombre" : "Kirk Hinrich",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-3",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 228,
+		"Nombre" : "Larry Hughes",
+		"Procedencia" : "St.Luis",
+		"Altura" : "6-5",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 229,
+		"Nombre" : "Demetris Nichols",
+		"Procedencia" : "Syracuse",
+		"Altura" : "6-8",
+		"Peso" : 216,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 230,
+		"Nombre" : "Joakin Noah",
+		"Procedencia" : "Florida",
+		"Altura" : "6-11",
+		"Peso" : 232,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 231,
+		"Nombre" : "Andres Nocioni",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 232,
+		"Nombre" : "Thabo Sefolosha",
+		"Procedencia" : "Switzerland",
+		"Altura" : "6-7",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 233,
+		"Nombre" : "Cedric Simmons",
+		"Procedencia" : "North Carolina State",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 234,
+		"Nombre" : "Tyrus Thonas",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-9",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Bulls"
+	},
+	{
+		"codigo" : 240,
+		"Nombre" : "Ray Allen",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-5",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 241,
+		"Nombre" : "Tony Allen",
+		"Procedencia" : "Oklahoma State",
+		"Altura" : "6-4",
+		"Peso" : 213,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 242,
+		"Nombre" : "P.J.Brown",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-11",
+		"Peso" : 239,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 243,
+		"Nombre" : "Sam Cassell",
+		"Procedencia" : "Florida State",
+		"Altura" : "6-3",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 244,
+		"Nombre" : "Glen Davis",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-9",
+		"Peso" : 289,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 245,
+		"Nombre" : "Kevin Garnett",
+		"Procedencia" : "Farragut Academy",
+		"Altura" : "6-11",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 246,
+		"Nombre" : "Eddie House",
+		"Procedencia" : "Arizona State",
+		"Altura" : "6-1",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 247,
+		"Nombre" : "Kendrick Perkins",
+		"Procedencia" : "Clifton J.Ozen HS",
+		"Altura" : "6-10",
+		"Peso" : 264,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 248,
+		"Nombre" : "Paul Pierce",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-7",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 249,
+		"Nombre" : "Scot Pollard",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-11",
+		"Peso" : 278,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 250,
+		"Nombre" : "James Posey",
+		"Procedencia" : "Xavier",
+		"Altura" : "6-8",
+		"Peso" : 217,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 251,
+		"Nombre" : "Leon Powe",
+		"Procedencia" : "California",
+		"Altura" : "6-8",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 252,
+		"Nombre" : "Gabe Pruitt",
+		"Procedencia" : "USC",
+		"Altura" : "6-4",
+		"Peso" : 170,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 253,
+		"Nombre" : "Rajon Rondo",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-1",
+		"Peso" : 171,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 254,
+		"Nombre" : "Brian Scalabrine",
+		"Procedencia" : "USC",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Celtics"
+	},
+	{
+		"codigo" : 261,
+		"Nombre" : "Mike Bibby",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-1",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 262,
+		"Nombre" : "Josh Childress",
+		"Procedencia" : "Stanford",
+		"Altura" : "6-8",
+		"Peso" : 210,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 263,
+		"Nombre" : "Speedy Claxton",
+		"Procedencia" : "Hofstra",
+		"Altura" : "6-1",
+		"Peso" : 170,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 264,
+		"Nombre" : "Al Horford",
+		"Procedencia" : "Florida",
+		"Altura" : "6-10",
+		"Peso" : 245,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 265,
+		"Nombre" : "Joe Johnson",
+		"Procedencia" : "Arkansas",
+		"Altura" : "6-7",
+		"Peso" : 235,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 266,
+		"Nombre" : "Solomon Jones",
+		"Procedencia" : "South Florida",
+		"Altura" : "6-10",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 267,
+		"Nombre" : "Acie Law",
+		"Procedencia" : "Texas AM",
+		"Altura" : "6-3",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 268,
+		"Nombre" : "Zaza Pachulia",
+		"Procedencia" : "Georgia",
+		"Altura" : "6-11",
+		"Peso" : 280,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 269,
+		"Nombre" : "Jeremy Richardson",
+		"Procedencia" : "Delta State",
+		"Altura" : "6-7",
+		"Peso" : 195,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 270,
+		"Nombre" : "Josh Smith",
+		"Procedencia" : "Oak Hill Academy",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 271,
+		"Nombre" : "Salim Stoudamire",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-1",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 272,
+		"Nombre" : "Mario West",
+		"Procedencia" : "Georgia Tech",
+		"Altura" : "6-5",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 273,
+		"Nombre" : "Marvin Williams",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-9",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hawks"
+	},
+	{
+		"codigo" : 281,
+		"Nombre" : "Blake Ahearn",
+		"Procedencia" : "Missouri State",
+		"Altura" : "6-2",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 282,
+		"Nombre" : "joel Anthony",
+		"Procedencia" : "Nevada-Las vegas",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 283,
+		"Nombre" : "Marcus Banks",
+		"Procedencia" : "Nevada-Las vegas",
+		"Altura" : "6-2",
+		"Peso" : 212,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 284,
+		"Nombre" : "Earl Barron",
+		"Procedencia" : "Memphis",
+		"Altura" : "7-0",
+		"Peso" : 245,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 285,
+		"Nombre" : "Mark Blount",
+		"Procedencia" : "Pittsburgh",
+		"Altura" : "7-0",
+		"Peso" : 250,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 286,
+		"Nombre" : "Daequan Cook",
+		"Procedencia" : "Ohio State",
+		"Altura" : "6-5",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 287,
+		"Nombre" : "Ricky Davis",
+		"Procedencia" : "lowa",
+		"Altura" : "6-7",
+		"Peso" : 250,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 288,
+		"Nombre" : "Udonis Haslem",
+		"Procedencia" : "Florida",
+		"Altura" : "6-8",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 289,
+		"Nombre" : "Alexander Johnson",
+		"Procedencia" : "Florida State",
+		"Altura" : "6-9",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 290,
+		"Nombre" : "Stephane Lasme",
+		"Procedencia" : "Massachusetts",
+		"Altura" : "6-8",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 291,
+		"Nombre" : "Shawn Marion",
+		"Procedencia" : "UNLV",
+		"Altura" : "6-7",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 292,
+		"Nombre" : "Alonzo Mourning",
+		"Procedencia" : "Georgetown",
+		"Altura" : "6-10",
+		"Peso" : 261,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 293,
+		"Nombre" : "Chris Quinn",
+		"Procedencia" : "Notre dame",
+		"Altura" : "6-2",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 294,
+		"Nombre" : "Dwyane Wade",
+		"Procedencia" : "Marquette",
+		"Altura" : "6-4",
+		"Peso" : 216,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 295,
+		"Nombre" : "Jason Williams",
+		"Procedencia" : "Florida",
+		"Altura" : "6-1",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 296,
+		"Nombre" : "Dorell Wright",
+		"Procedencia" : "South Kent",
+		"Altura" : "6-9",
+		"Peso" : 210,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Heat"
+	},
+	{
+		"codigo" : 300,
+		"Nombre" : "Shareef Abdur-Rahim",
+		"Procedencia" : " California",
+		"Altura" : " 6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 301,
+		"Nombre" : "Ron Artest",
+		"Procedencia" : "St.Johns",
+		"Altura" : "6-7",
+		"Peso" : 248,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 302,
+		"Nombre" : "Quincy Douby",
+		"Procedencia" : "Rutgers",
+		"Altura" : "6-3",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 303,
+		"Nombre" : "Francisco Garcia",
+		"Procedencia" : "Lousiville",
+		"Altura" : "6-7",
+		"Peso" : 195,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 304,
+		"Nombre" : "Spencer Hawes",
+		"Procedencia" : "Washingtong",
+		"Altura" : "7-0",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 305,
+		"Nombre" : "Anthony Johnson",
+		"Procedencia" : "Charleston",
+		"Altura" : "6-3",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 306,
+		"Nombre" : "Kevin Martin",
+		"Procedencia" : "Western Carolina",
+		"Altura" : "6-7",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 307,
+		"Nombre" : "Brad Miller",
+		"Procedencia" : "Purdue",
+		"Altura" : "7-0",
+		"Peso" : 261,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 308,
+		"Nombre" : "Mikki More",
+		"Procedencia" : "Nebraska",
+		"Altura" : "7-0",
+		"Peso" : 225,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 309,
+		"Nombre" : "mike john salmons",
+		"Procedencia" : "Miami",
+		"Altura" : "6-6",
+		"Peso" : 207,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 310,
+		"Nombre" : "Keny Thomas",
+		"Procedencia" : "New Mexico",
+		"Altura" : "6-7",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 311,
+		"Nombre" : "Beno Udrih",
+		"Procedencia" : "Slovenia",
+		"Altura" : "6-3",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 312,
+		"Nombre" : "Shelden Williams",
+		"Procedencia" : "Duke",
+		"Altura" : "6-9",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 313,
+		"Nombre" : "Lorenzen Wright",
+		"Procedencia" : "Memphis",
+		"Altura" : "6-11",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 314,
+		"Nombre" : "Brian Scalabrine",
+		"Procedencia" : "USC",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Kings"
+	},
+	{
+		"codigo" : 320,
+		"Nombre" : "Chris Andersen",
+		"Procedencia" : "Blinn Coll",
+		"Altura" : "6-10",
+		"Peso" : 228,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 321,
+		"Nombre" : "Hilton Armstrong",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-11",
+		"Peso" : 235,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 322,
+		"Nombre" : "Ryan Bowen",
+		"Procedencia" : "Iowa",
+		"Altura" : "6-10",
+		"Peso" : 218,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 323,
+		"Nombre" : "Rasual Butler",
+		"Procedencia" : "La Salle",
+		"Altura" : "6-7",
+		"Peso" : 205,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 324,
+		"Nombre" : "Tyson Chandler",
+		"Procedencia" : "Dominguez HS",
+		"Altura" : "7-1",
+		"Peso" : 235,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 325,
+		"Nombre" : "Melvin Ely",
+		"Procedencia" : "Fresno State",
+		"Altura" : "6-10",
+		"Peso" : 261,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 326,
+		"Nombre" : "Mike James",
+		"Procedencia" : "Duquesne",
+		"Altura" : "6-2",
+		"Peso" : 188,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 327,
+		"Nombre" : "Jannero Pargo",
+		"Procedencia" : "Arkansas",
+		"Altura" : "6-1",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 328,
+		"Nombre" : "Chris Paul",
+		"Procedencia" : "Wake Forest",
+		"Altura" : "6-0",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 329,
+		"Nombre" : "Morris Peterson",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-7",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 330,
+		"Nombre" : "Peja Stojakovic",
+		"Procedencia" : "Serbia",
+		"Altura" : "6-10",
+		"Peso" : 229,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 331,
+		"Nombre" : "Bonzi Wells",
+		"Procedencia" : "Ball State",
+		"Altura" : "6-5",
+		"Peso" : 210,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 332,
+		"Nombre" : "David West",
+		"Procedencia" : "Xavier",
+		"Altura" : "6-9",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 333,
+		"Nombre" : "Julian Wright",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-8",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Hornets"
+	},
+	{
+		"codigo" : 340,
+		"Nombre" : "Rafer ALston",
+		"Procedencia" : "Fresno State",
+		"Altura" : "6-2",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 341,
+		"Nombre" : "Shane Battier",
+		"Procedencia" : "Duke",
+		"Altura" : "6-8",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 342,
+		"Nombre" : "Aaron Brooks",
+		"Procedencia" : "Oregon",
+		"Altura" : "6-0",
+		"Peso" : 161,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 343,
+		"Nombre" : "Steve Francis",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-3",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 344,
+		"Nombre" : "Mike Harris",
+		"Procedencia" : "Rice",
+		"Altura" : "6-6",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 345,
+		"Nombre" : "Chuck Hayes",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-6",
+		"Peso" : 238,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 346,
+		"Nombre" : "Luther Head",
+		"Procedencia" : "Illinois",
+		"Altura" : "6-3",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 347,
+		"Nombre" : "Bobby Jackson",
+		"Procedencia" : "Minnesota",
+		"Altura" : "6-1",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 348,
+		"Nombre" : "Carl Landry",
+		"Procedencia" : "Purdue",
+		"Altura" : "6-9",
+		"Peso" : 248,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 349,
+		"Nombre" : "Tracy McGrady",
+		"Procedencia" : "Mount Zion Christian",
+		"Altura" : "6-8",
+		"Peso" : 223,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 350,
+		"Nombre" : "Dikembre Mutombo",
+		"Procedencia" : "Georgetown",
+		"Altura" : "7-2",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 351,
+		"Nombre" : "Steve NOvak",
+		"Procedencia" : "Marquette",
+		"Altura" : "6-10",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 352,
+		"Nombre" : "Luis Scola",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 353,
+		"Nombre" : "Loren Woods",
+		"Procedencia" : "Arizona",
+		"Altura" : "7-2",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 354,
+		"Nombre" : "Yao Ming",
+		"Procedencia" : "China",
+		"Altura" : "7-6",
+		"Peso" : 310,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Rockets"
+	},
+	{
+		"codigo" : 361,
+		"Nombre" : "Brent Barry",
+		"Procedencia" : "Oregon State",
+		"Altura" : "6-7",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 362,
+		"Nombre" : "Matt Bonner",
+		"Procedencia" : "Florida",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 363,
+		"Nombre" : "Bruce Bowen",
+		"Procedencia" : "Cal State Fullerton",
+		"Altura" : "6-7",
+		"Peso" : 200,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 364,
+		"Nombre" : "Tim Duncan",
+		"Procedencia" : "Wake Forest",
+		"Altura" : "6-11",
+		"Peso" : 260,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 365,
+		"Nombre" : "Michael Finley",
+		"Procedencia" : "Wisconsin",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 366,
+		"Nombre" : "Manu Ginobili",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-6",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 367,
+		"Nombre" : "Robert Horry",
+		"Procedencia" : "Alabama",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 368,
+		"Nombre" : "Bobby Jones",
+		"Procedencia" : "Washington",
+		"Altura" : "6-7",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 369,
+		"Nombre" : "Ian Mahinmi",
+		"Procedencia" : "Frande",
+		"Altura" : "6-11",
+		"Peso" : 230,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 370,
+		"Nombre" : "Fabricio Oberto",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-10",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 371,
+		"Nombre" : "Tony Parker",
+		"Procedencia" : "France",
+		"Altura" : "6-2",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 372,
+		"Nombre" : "Damon Stoudamire",
+		"Procedencia" : "Arizona",
+		"Altura" : "5-10",
+		"Peso" : 171,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 373,
+		"Nombre" : "Kurt Thomas",
+		"Procedencia" : "Texas Christian",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 374,
+		"Nombre" : "Ime Udoka",
+		"Procedencia" : "Portland State",
+		"Altura" : "6-5",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 375,
+		"Nombre" : "Jacque Vaughn",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-1",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Spurs"
+	},
+	{
+		"codigo" : 381,
+		"Nombre" : "LaMarcus Aldridge",
+		"Procedencia" : "Texas",
+		"Altura" : "6-11",
+		"Peso" : 245,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 382,
+		"Nombre" : "Steve Blake",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-3",
+		"Peso" : 172,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 383,
+		"Nombre" : "Channing Frye",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-11",
+		"Peso" : 248,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 384,
+		"Nombre" : "Jarrett Jack",
+		"Procedencia" : "Georgia Tech",
+		"Altura" : "6-3",
+		"Peso" : 197,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 385,
+		"Nombre" : "James Jones",
+		"Procedencia" : "Miami (Fla)",
+		"Altura" : "6-8",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 386,
+		"Nombre" : "Raef LaFremtz",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-11",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 387,
+		"Nombre" : "Josh McRoberts",
+		"Procedencia" : "Duke",
+		"Altura" : "6-10",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 388,
+		"Nombre" : "Darius Miles",
+		"Procedencia" : "East St.Louis",
+		"Altura" : "6-9",
+		"Peso" : 222,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 389,
+		"Nombre" : "Greg Oden",
+		"Procedencia" : "Ohio State",
+		"Altura" : "7-0",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 390,
+		"Nombre" : "Travis Outlaw",
+		"Procedencia" : "Starville HS",
+		"Altura" : "6-9",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 391,
+		"Nombre" : "Joel Przybilla",
+		"Procedencia" : "Minnesota",
+		"Altura" : "7-1",
+		"Peso" : 255,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 392,
+		"Nombre" : "Sergio Rodriguez",
+		"Procedencia" : "Spain",
+		"Altura" : "6-3",
+		"Peso" : 168,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 393,
+		"Nombre" : "Brandon Roy",
+		"Procedencia" : "Washington",
+		"Altura" : "6-6",
+		"Peso" : 229,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 394,
+		"Nombre" : "Von Wafer",
+		"Procedencia" : "Florida State",
+		"Altura" : "6-5",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 395,
+		"Nombre" : "Martell Webster",
+		"Procedencia" : "Seattle Prep HS",
+		"Altura" : "6-7",
+		"Peso" : 229,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Trail Blazers"
+	},
+	{
+		"codigo" : 400,
+		"Nombre" : "Gilbert Arenas",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-4",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 401,
+		"Nombre" : "Andray Blatche",
+		"Procedencia" : "South Kent Prep",
+		"Altura" : "6-11",
+		"Peso" : 248,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 402,
+		"Nombre" : "Caron Butler",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-7",
+		"Peso" : 228,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 403,
+		"Nombre" : "Antonio Daniels",
+		"Procedencia" : "Bowling Green",
+		"Altura" : "6-4",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 404,
+		"Nombre" : "Brendan Haywood",
+		"Procedencia" : "North Carolina",
+		"Altura" : "7-0",
+		"Peso" : 263,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 405,
+		"Nombre" : "Antawn Jamison",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 406,
+		"Nombre" : "Roger Mason",
+		"Procedencia" : "Virginia",
+		"Altura" : "6-5",
+		"Peso" : 212,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 407,
+		"Nombre" : "Dominic McGuire",
+		"Procedencia" : "Fresno State",
+		"Altura" : "6-9",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 408,
+		"Nombre" : "Oleksiy Pecherov",
+		"Procedencia" : "Donetsk",
+		"Altura" : "7-0",
+		"Peso" : 234,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 409,
+		"Nombre" : "Darius Songaila",
+		"Procedencia" : "Wake Forest",
+		"Altura" : "6-9",
+		"Peso" : 248,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 410,
+		"Nombre" : "DeShawn Stevenson",
+		"Procedencia" : "Washington Union HS",
+		"Altura" : "6-5",
+		"Peso" : 218,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 411,
+		"Nombre" : "Etan Thomas",
+		"Procedencia" : "Syracuse",
+		"Altura" : "6-10",
+		"Peso" : 260,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 412,
+		"Nombre" : "Nick Young",
+		"Procedencia" : "USC",
+		"Altura" : "6-6",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Wizards"
+	},
+	{
+		"codigo" : 420,
+		"Nombre" : "Carlos Arroyo",
+		"Procedencia" : "Florida Internationa",
+		"Altura" : " 6-2",
+		"Peso" : 202,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 421,
+		"Nombre" : "James Augustine",
+		"Procedencia" : "Illinois",
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 422,
+		"Nombre" : "Tony Battie",
+		"Procedencia" : "Texas Tech",
+		"Altura" : "6-11",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 423,
+		"Nombre" : "Keith Bogans",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-5",
+		"Peso" : 215,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 424,
+		"Nombre" : "Brian Cook",
+		"Procedencia" : "Illinois",
+		"Altura" : "6-9",
+		"Peso" : 250,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 425,
+		"Nombre" : "Kenyon Dooling",
+		"Procedencia" : "Missouri",
+		"Altura" : "6-3",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 426,
+		"Nombre" : "Maurice Evans",
+		"Procedencia" : "Texas",
+		"Altura" : "6-5",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 427,
+		"Nombre" : "Adonal Foyle",
+		"Procedencia" : "Colgate",
+		"Altura" : "6-10",
+		"Peso" : 270,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 428,
+		"Nombre" : "Pat Garrity",
+		"Procedencia" : "Notre Dame",
+		"Altura" : "6-9",
+		"Peso" : 238,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 429,
+		"Nombre" : "Marcin Gortat",
+		"Procedencia" : "Poland",
+		"Altura" : "7-0",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 430,
+		"Nombre" : "Dwight Howard",
+		"Procedencia" : "SW Atlanta Crhistian",
+		"Altura" : "6-11",
+		"Peso" : 265,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 431,
+		"Nombre" : "Rashard Lewis",
+		"Procedencia" : "None",
+		"Altura" : "6-10",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 432,
+		"Nombre" : "Jammer Nelson",
+		"Procedencia" : "Saint Josephs",
+		"Altura" : "6-0",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 433,
+		"Nombre" : "J.J.Redick",
+		"Procedencia" : "Duke",
+		"Altura" : "6-4",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 434,
+		"Nombre" : "Hedo Turkoglu",
+		"Procedencia" : "Turkey",
+		"Altura" : "6-10",
+		"Peso" : 220,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Magic"
+	},
+	{
+		"codigo" : 440,
+		"Nombre" : "Malik Allen",
+		"Procedencia" : "Villanova",
+		"Altura" : "6-10",
+		"Peso" : 255,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 441,
+		"Nombre" : "Jose Barea",
+		"Procedencia" : "Northeastern",
+		"Altura" : "6-0",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 442,
+		"Nombre" : "Brandon Bass",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-8",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 443,
+		"Nombre" : "Erick Dampier",
+		"Procedencia" : "Mississippi",
+		"Altura" : "6-11",
+		"Peso" : 265,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 444,
+		"Nombre" : "Josh Howard",
+		"Procedencia" : "Wake Forest",
+		"Altura" : "6-5",
+		"Peso" : 210,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 445,
+		"Nombre" : "Juwan Howard",
+		"Procedencia" : "Michigan",
+		"Altura" : "6-9",
+		"Peso" : 253,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 446,
+		"Nombre" : "Eddie Jones",
+		"Procedencia" : "Temple",
+		"Altura" : "6-6",
+		"Peso" : 200,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 447,
+		"Nombre" : "Jason Kidd",
+		"Procedencia" : "California",
+		"Altura" : "6-4",
+		"Peso" : 210,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 448,
+		"Nombre" : "Tyronn Lue",
+		"Procedencia" : "Nebraska",
+		"Altura" : "6-0",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 449,
+		"Nombre" : "Jamaal Magloire",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-11",
+		"Peso" : 265,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 450,
+		"Nombre" : "Dirk Nowitzki",
+		"Procedencia" : "Germany",
+		"Altura" : "7-0",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 451,
+		"Nombre" : "Jerry Stackhouse",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-6",
+		"Peso" : 218,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 452,
+		"Nombre" : "Jason Terry",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-2",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 453,
+		"Nombre" : "Antoine Wright",
+		"Procedencia" : "Texas",
+		"Altura" : "6-7",
+		"Peso" : 215,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 454,
+		"Nombre" : "Devean George",
+		"Procedencia" : "Augsburg",
+		"Altura" : "6-8",
+		"Peso" : 235,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Mavericks"
+	},
+	{
+		"codigo" : 461,
+		"Nombre" : "Maurice Ager",
+		"Procedencia" : "Michigan State",
+		"Altura" : "6-5",
+		"Peso" : 202,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 462,
+		"Nombre" : "Darrel Armstrong",
+		"Procedencia" : "Fayetteville State",
+		"Altura" : "6-1",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 463,
+		"Nombre" : "Josh Boone",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-10",
+		"Peso" : 237,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 464,
+		"Nombre" : "Vince Carter",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-6",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 465,
+		"Nombre" : "DeSagana Diop",
+		"Procedencia" : "Oak Hill Academy HS",
+		"Altura" : "7-0",
+		"Peso" : 280,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 466,
+		"Nombre" : "Devin Harris",
+		"Procedencia" : "Wisconsin",
+		"Altura" : "6-3",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 467,
+		"Nombre" : "Trenton Hassell",
+		"Procedencia" : "Austin Peay",
+		"Altura" : "6-5",
+		"Peso" : 233,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 468,
+		"Nombre" : "Richard Jefferson",
+		"Procedencia" : "Arizona",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 469,
+		"Nombre" : "Nenad Krstic",
+		"Procedencia" : "Serbia Montenegro",
+		"Altura" : "7-0",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 470,
+		"Nombre" : "Bostjan Nachbar",
+		"Procedencia" : "Slovenia",
+		"Altura" : "6-9",
+		"Peso" : 221,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 471,
+		"Nombre" : "Stromile Swift",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-10",
+		"Peso" : 220,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 472,
+		"Nombre" : "Keith Van Horn",
+		"Procedencia" : "Utah",
+		"Altura" : "6-10",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 473,
+		"Nombre" : "Marcus Williams",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-3",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 474,
+		"Nombre" : "Sean Williams",
+		"Procedencia" : "Boston College",
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Nets"
+	},
+	{
+		"codigo" : 481,
+		"Nombre" : "Carmelo Anthony",
+		"Procedencia" : "Syracuse",
+		"Altura" : "6-8",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 482,
+		"Nombre" : "Chucky Atkins",
+		"Procedencia" : "South Florida",
+		"Altura" : "5-11",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 483,
+		"Nombre" : "Marcus Camby",
+		"Procedencia" : "Massachuhsetts",
+		"Altura" : "6-11",
+		"Peso" : 235,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 484,
+		"Nombre" : "Anthony Carter",
+		"Procedencia" : "Peppedirne",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 485,
+		"Nombre" : "Yakhouba Diawarra",
+		"Procedencia" : "Pepperdine",
+		"Altura" : "6-7",
+		"Peso" : 225,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 486,
+		"Nombre" : "Taurean Green",
+		"Procedencia" : "Florida",
+		"Altura" : "6-0",
+		"Peso" : 177,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 487,
+		"Nombre" : "Steven Hunter",
+		"Procedencia" : "DePaul",
+		"Altura" : "7-0",
+		"Peso" : 240,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 488,
+		"Nombre" : "Allen Iverson",
+		"Procedencia" : "Georgetown",
+		"Altura" : "6-0",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 489,
+		"Nombre" : "Linas Kleiza",
+		"Procedencia" : "Missouri",
+		"Altura" : "6-8",
+		"Peso" : 245,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 490,
+		"Nombre" : "Kenyon Martin",
+		"Procedencia" : "Cincinnati",
+		"Altura" : "6-9",
+		"Peso" : 240,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 491,
+		"Nombre" : "Eduardo Najera",
+		"Procedencia" : "Oklahoma",
+		"Altura" : "6-8",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 492,
+		"Nombre" : "Nene",
+		"Procedencia" : "Brazil",
+		"Altura" : "6-11",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 493,
+		"Nombre" : "JR Smith",
+		"Procedencia" : "St.Benedits",
+		"Altura" : "6-6",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Nuggets"
+	},
+	{
+		"codigo" : 500,
+		"Nombre" : "Morris Almond",
+		"Procedencia" : "Rice",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 501,
+		"Nombre" : "Carlos Boozer",
+		"Procedencia" : "Duke",
+		"Altura" : "6-9",
+		"Peso" : 266,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 502,
+		"Nombre" : "Ronnie Brewer",
+		"Procedencia" : "Arkansas",
+		"Altura" : "6-7",
+		"Peso" : 223,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 503,
+		"Nombre" : "Jarron Collins",
+		"Procedencia" : "Stanfor",
+		"Altura" : "6-11",
+		"Peso" : 239,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 504,
+		"Nombre" : "Kyrylo Fesenko",
+		"Procedencia" : "Ukranie",
+		"Altura" : "7-1",
+		"Peso" : 288,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 505,
+		"Nombre" : "Matt Harpring",
+		"Procedencia" : "Gerogia Tech",
+		"Altura" : "6-7",
+		"Peso" : 230,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 506,
+		"Nombre" : "Jason Hart",
+		"Procedencia" : "Syracuse",
+		"Altura" : "6-3",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 507,
+		"Nombre" : "Andrei Kirilenko",
+		"Procedencia" : "Russia",
+		"Altura" : "6-9",
+		"Peso" : 223,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 508,
+		"Nombre" : "Kyle Korver",
+		"Procedencia" : "Creighton",
+		"Altura" : "6-6",
+		"Peso" : 211,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 509,
+		"Nombre" : "C.J. Miles",
+		"Procedencia" : "Skyline HS",
+		"Altura" : "6-6",
+		"Peso" : 220,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 510,
+		"Nombre" : "Paul Millsap",
+		"Procedencia" : "Loisiana Tech",
+		"Altura" : "6-8",
+		"Peso" : 258,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 511,
+		"Nombre" : "Mehmet Okur",
+		"Procedencia" : "Turkey",
+		"Altura" : "6-11",
+		"Peso" : 263,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 512,
+		"Nombre" : "Ronnie Price",
+		"Procedencia" : "Utah Valley State",
+		"Altura" : "6-2",
+		"Peso" : 190,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 513,
+		"Nombre" : "Deron Williams",
+		"Procedencia" : "Illions",
+		"Altura" : "6-3",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Jazz"
+	},
+	{
+		"codigo" : 520,
+		"Nombre" : "Marquis Daniels",
+		"Procedencia" : "Auburn",
+		"Altura" : "6-6",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 521,
+		"Nombre" : "Travis Diener",
+		"Procedencia" : "Marquette",
+		"Altura" : "6-1",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 522,
+		"Nombre" : "Ike Diogu",
+		"Procedencia" : "Arizona State",
+		"Altura" : "6-8",
+		"Peso" : 255,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 523,
+		"Nombre" : "Mike Dunleavy",
+		"Procedencia" : "Duke",
+		"Altura" : "6-9",
+		"Peso" : 230,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 524,
+		"Nombre" : "Jeff Foster",
+		"Procedencia" : "Texas State",
+		"Altura" : "6-11",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 525,
+		"Nombre" : "Stephen Graham",
+		"Procedencia" : "Oklahoma State",
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 526,
+		"Nombre" : "Danny Granger",
+		"Procedencia" : "New Mexico",
+		"Altura" : "6-8",
+		"Peso" : 228,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 527,
+		"Nombre" : "David Harrison",
+		"Procedencia" : "Colorado",
+		"Altura" : "7-0",
+		"Peso" : 280,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 528,
+		"Nombre" : "Troy Murphy",
+		"Procedencia" : "Notre Dame",
+		"Altura" : "6-11",
+		"Peso" : 245,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 529,
+		"Nombre" : "Ronald Murray",
+		"Procedencia" : "Shaw",
+		"Altura" : "6-3",
+		"Peso" : 197,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 530,
+		"Nombre" : "Jermaine O'Neal",
+		"Procedencia" : "au Claire HS (SC)",
+		"Altura" : "6-11",
+		"Peso" : 260,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 531,
+		"Nombre" : "Andre Owens",
+		"Procedencia" : "Houston",
+		"Altura" : "6-4",
+		"Peso" : 200,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 532,
+		"Nombre" : "Kareem Rush",
+		"Procedencia" : "Missouri",
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 533,
+		"Nombre" : "Jamaal Tinsley",
+		"Procedencia" : "Iowa State",
+		"Altura" : "6-3",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 534,
+		"Nombre" : "Shawne Williams",
+		"Procedencia" : "Memphis",
+		"Altura" : "6-9",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pacers"
+	},
+	{
+		"codigo" : 540,
+		"Nombre" : "Arron Afflalo",
+		"Procedencia" : "UCLA",
+		"Altura" : "6-5",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 541,
+		"Nombre" : "Chauncey Billups",
+		"Procedencia" : "Colorado",
+		"Altura" : "6-3",
+		"Peso" : 202,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 542,
+		"Nombre" : "Juan Dixon",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-3",
+		"Peso" : 165,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 543,
+		"Nombre" : "Richard Hamilton",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-7",
+		"Peso" : 193,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 544,
+		"Nombre" : "Jarvis Hayes",
+		"Procedencia" : "Georgia",
+		"Altura" : "6-8",
+		"Peso" : 228,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 545,
+		"Nombre" : "Walter Herrmann",
+		"Procedencia" : "Argentina",
+		"Altura" : "6-9",
+		"Peso" : 225,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 546,
+		"Nombre" : "Lindsey Hunter",
+		"Procedencia" : "Jackson State",
+		"Altura" : "6-2",
+		"Peso" : 195,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 547,
+		"Nombre" : "Amir Johnson",
+		"Procedencia" : "Westchester HS",
+		"Altura" : "6-9",
+		"Peso" : 210,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 548,
+		"Nombre" : "Jason Maxiell",
+		"Procedencia" : "Cincinnati",
+		"Altura" : "6-7",
+		"Peso" : 260,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 549,
+		"Nombre" : "Antonio McDyess",
+		"Procedencia" : "Alabama",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 550,
+		"Nombre" : "Tayshaun Prince",
+		"Procedencia" : "Kentucky",
+		"Altura" : "6-9",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 551,
+		"Nombre" : "Theo Ratliff",
+		"Procedencia" : "Wyoming",
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 552,
+		"Nombre" : "Cheikh Samb",
+		"Procedencia" : "Senegal",
+		"Altura" : "7-1",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 553,
+		"Nombre" : "Rodney Stuckey",
+		"Procedencia" : "Eastern Washington",
+		"Altura" : "6-5",
+		"Peso" : 205,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 554,
+		"Nombre" : "Rasheed Wallace",
+		"Procedencia" : "North Carolina",
+		"Altura" : "6-11",
+		"Peso" : 230,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Pistons"
+	},
+	{
+		"codigo" : 560,
+		"Nombre" : "Nick Collison",
+		"Procedencia" : "Kansas",
+		"Altura" : "6-10",
+		"Peso" : 255,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 561,
+		"Nombre" : "Ronald Dupree",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "6-7",
+		"Peso" : 209,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 562,
+		"Nombre" : "Kevin Durant",
+		"Procedencia" : "Texas",
+		"Altura" : "6-9",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 563,
+		"Nombre" : "Francisco Elson",
+		"Procedencia" : "California",
+		"Altura" : "7-0",
+		"Peso" : 235,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 564,
+		"Nombre" : "Mickael Gelabale",
+		"Procedencia" : "France",
+		"Altura" : "6-7",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 565,
+		"Nombre" : "Jeff Green",
+		"Procedencia" : "Georgetown",
+		"Altura" : "6-9",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 566,
+		"Nombre" : "Adrian Griffin",
+		"Procedencia" : "Seton Hall",
+		"Altura" : "6-5",
+		"Peso" : 230,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 567,
+		"Nombre" : "Donyell Marshall",
+		"Procedencia" : "Connecticut",
+		"Altura" : "6-9",
+		"Peso" : 245,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 568,
+		"Nombre" : "Johan Petro",
+		"Procedencia" : "France",
+		"Altura" : "7-0",
+		"Peso" : 247,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 569,
+		"Nombre" : "Luke Ridnour",
+		"Procedencia" : "Oregon",
+		"Altura" : "6-2",
+		"Peso" : 175,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 570,
+		"Nombre" : "Mouhamed Sene",
+		"Procedencia" : "Senegal",
+		"Altura" : "6-11",
+		"Peso" : 230,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 571,
+		"Nombre" : "Robert Swift",
+		"Procedencia" : "Bakersfield HS",
+		"Altura" : "7-1",
+		"Peso" : 245,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 572,
+		"Nombre" : "Earl Watson",
+		"Procedencia" : "UCLA",
+		"Altura" : "6-1",
+		"Peso" : 185,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 573,
+		"Nombre" : "Chris Wilcox",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 574,
+		"Nombre" : "Damien Wilkins",
+		"Procedencia" : "Georgia",
+		"Altura" : "6-6",
+		"Peso" : 225,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Supersonics"
+	},
+	{
+		"codigo" : 580,
+		"Nombre" : "Leandro Barbosa",
+		"Procedencia" : "Brazil",
+		"Altura" : "6-3",
+		"Peso" : 202,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 581,
+		"Nombre" : "Raja Bell",
+		"Procedencia" : "Florida Internationa",
+		"Altura" : "6-5",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 582,
+		"Nombre" : "Boris Diaw",
+		"Procedencia" : "France",
+		"Altura" : "6-8",
+		"Peso" : 235,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 583,
+		"Nombre" : "Gordan Giricek",
+		"Procedencia" : "Croatia",
+		"Altura" : "6-6",
+		"Peso" : 220,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 584,
+		"Nombre" : "Grant Hill",
+		"Procedencia" : "Duke",
+		"Altura" : "6-8",
+		"Peso" : 225,
+		"Posicion" : "F-G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 585,
+		"Nombre" : "Sean Marks",
+		"Procedencia" : "California",
+		"Altura" : "6-10",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 586,
+		"Nombre" : "Steve Nash - C",
+		"Procedencia" : "Santa Clara",
+		"Altura" : "6-3",
+		"Peso" : 178,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 587,
+		"Nombre" : "Shaquille ONeal",
+		"Procedencia" : "Louisiana State",
+		"Altura" : "7-1",
+		"Peso" : 325,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 588,
+		"Nombre" : "Eric Piatkowski",
+		"Procedencia" : "Nebraska",
+		"Altura" : "6-7",
+		"Peso" : 215,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 589,
+		"Nombre" : "Brian Skinner",
+		"Procedencia" : "Baylor",
+		"Altura" : "6-9",
+		"Peso" : 255,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 590,
+		"Nombre" : "Amare Stoudemire",
+		"Procedencia" : "Cypress Creek (Orlan",
+		"Altura" : "6-10",
+		"Peso" : 249,
+		"Posicion" : "C-F",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 591,
+		"Nombre" : "D.J. Strawberry",
+		"Procedencia" : "Maryland",
+		"Altura" : "6-10",
+		"Peso" : 201,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 592,
+		"Nombre" : "Alando Tucker",
+		"Procedencia" : "Wisconsin",
+		"Altura" : "6-6",
+		"Peso" : 205,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Suns"
+	},
+	{
+		"codigo" : 600,
+		"Nombre" : "Kelenna Azubuike",
+		"Procedencia" : null,
+		"Altura" : "6-5",
+		"Peso" : 220,
+		"Posicion" : "G-F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 601,
+		"Nombre" : "Matt Barnes",
+		"Procedencia" : null,
+		"Altura" : "6-7",
+		"Peso" : 226,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 602,
+		"Nombre" : "Marco Belinelli",
+		"Procedencia" : null,
+		"Altura" : "6-5",
+		"Peso" : 192,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 603,
+		"Nombre" : "Andris Biedrns",
+		"Procedencia" : null,
+		"Altura" : "6-11",
+		"Peso" : 230,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 604,
+		"Nombre" : "Austin Croshere",
+		"Procedencia" : null,
+		"Altura" : "6-10",
+		"Peso" : 235,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 605,
+		"Nombre" : "Baron Davis",
+		"Procedencia" : null,
+		"Altura" : "6-3",
+		"Peso" : 215,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 606,
+		"Nombre" : "Monta Ellis",
+		"Procedencia" : null,
+		"Altura" : "6-3",
+		"Peso" : 177,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 607,
+		"Nombre" : "Al Harrington",
+		"Procedencia" : null,
+		"Altura" : "6-9",
+		"Peso" : 250,
+		"Posicion" : "F-C",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 608,
+		"Nombre" : "Stephen Jackson",
+		"Procedencia" : null,
+		"Altura" : "6-8",
+		"Peso" : 218,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 609,
+		"Nombre" : "Patrick O'Bryant",
+		"Procedencia" : null,
+		"Altura" : "7-0",
+		"Peso" : 250,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 610,
+		"Nombre" : "Kosta Perovic",
+		"Procedencia" : null,
+		"Altura" : "7-2",
+		"Peso" : 240,
+		"Posicion" : "C",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 611,
+		"Nombre" : "Mickael Pietrus",
+		"Procedencia" : null,
+		"Altura" : "6-6",
+		"Peso" : 215,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 612,
+		"Nombre" : "C.J. Watson",
+		"Procedencia" : null,
+		"Altura" : "6-2",
+		"Peso" : 180,
+		"Posicion" : "G",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 613,
+		"Nombre" : "Brandan Wright",
+		"Procedencia" : null,
+		"Altura" : "6-9",
+		"Peso" : 205,
+		"Posicion" : "F",
+		"Nombre_equipo" : "Warriors"
+	},
+	{
+		"codigo" : 614,
+		"Nombre" : "Pedro Perez",
+		"Procedencia" : "Tarazona",
+		"Altura" : "7-2",
+		"Peso" : 225,
+		"Posicion" : null,
+		"Nombre_equipo" : "raptors"
+	}
+]

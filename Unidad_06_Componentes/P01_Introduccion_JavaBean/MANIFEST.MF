@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Name: P01_Introduccion_JavaBean/EJ_1_1_Asalariado.class
+Java-Bean: True
+
+Name: P01_Introduccion_JavaBean/EJ_1_2_Hacienda.class
+Java-Bean: True
+
+Name: P01_Introduccion_JavaBean/EJ_1_3_Principal.png
+Java-Bean: False

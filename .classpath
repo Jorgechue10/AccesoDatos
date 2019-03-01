@@ -10,6 +10,7 @@
 	<classpathentry kind="src" path="Unidad_05_NoSQL"/>
 	<classpathentry kind="src" path="Evaluacion"/>
 	<classpathentry kind="src" path="Unidad_06_Componentes"/>
+	<classpathentry kind="src" path="Unidad_06_Ejemplo_DAO_MVC"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-api.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-core.jar"/>
 	<classpathentry kind="lib" path="Unidad_01_P07_Mapear_XML_a_clase/librerias/jaxb/jaxb-impl.jar"/>
@@ -20,5 +21,6 @@
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P01_MySQL/librerias/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P02_SQLite/librerias/sqlite-jdbc-3.23.1.jar"/>
 	<classpathentry kind="lib" path="Unidad_04_BDOO/librerias/neodatis-odb-1.9.30.689.jar"/>
+	<classpathentry kind="lib" path="Unidad_06_Ejemplo_DAO_MVC/librerias/mongo-java-driver-3.4.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
