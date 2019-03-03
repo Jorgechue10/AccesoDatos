@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Unidad_01_Ficheros"/>
 	<classpathentry kind="src" path="Unidad_01_P07_Mapear_XML_a_clase"/>
@@ -22,5 +23,24 @@
 	<classpathentry kind="lib" path="Unidad_02_Conectores/P02_SQLite/librerias/sqlite-jdbc-3.23.1.jar"/>
 	<classpathentry kind="lib" path="Unidad_04_BDOO/librerias/neodatis-odb-1.9.30.689.jar"/>
 	<classpathentry kind="lib" path="Unidad_06_Ejemplo_DAO_MVC/librerias/mongo-java-driver-3.4.3.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/byte-buddy-1.9.5.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/hibernate-commons-annotations-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/hibernate-core-5.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/javassist-3.24.0-GA.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="Unidad_03_Herramientas_de_Mapeo_Objeto_Relacional/librerias/txw2-2.3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-mar-2019 13:32:39 by Hibernate Tools 4.3.5.Final -->
+<hibernate-mapping>
+    <class name="P01_Tablas_Mapeadas_a_Java.Equipos" table="equipos" catalog="nba" optimistic-lock="version">
+        <id name="nombre" type="string">
+            <column name="Nombre" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="ciudad" type="string">
+            <column name="Ciudad" length="20" />
+        </property>
+        <property name="conferencia" type="string">
+            <column name="Conferencia" length="4" />
+        </property>
+        <property name="division" type="string">
+            <column name="Division" length="9" />
+        </property>
+        <set name="jugadoreses" table="jugadores" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="Nombre_equipo" length="20" />
+            </key>
+            <one-to-many class="P01_Tablas_Mapeadas_a_Java.Jugadores" />
+        </set>
+        <set name="partidosesForEquipoVisitante" table="partidos" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="equipo_visitante" length="20" />
+            </key>
+            <one-to-many class="P01_Tablas_Mapeadas_a_Java.Partidos" />
+        </set>
+        <set name="partidosesForEquipoLocal" table="partidos" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="equipo_local" length="20" />
+            </key>
+            <one-to-many class="P01_Tablas_Mapeadas_a_Java.Partidos" />
+        </set>
+    </class>
+</hibernate-mapping>

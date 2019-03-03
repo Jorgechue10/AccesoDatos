@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-mar-2019 13:32:39 by Hibernate Tools 4.3.5.Final -->
+<hibernate-mapping>
+    <class name="P01_Tablas_Mapeadas_a_Java.Jugadores" table="jugadores" catalog="nba" optimistic-lock="version">
+        <id name="codigo" type="int">
+            <column name="codigo" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="equipos" class="P01_Tablas_Mapeadas_a_Java.Equipos" fetch="select">
+            <column name="Nombre_equipo" length="20" />
+        </many-to-one>
+        <property name="nombre" type="string">
+            <column name="Nombre" length="30" />
+        </property>
+        <property name="procedencia" type="string">
+            <column name="Procedencia" length="20" />
+        </property>
+        <property name="altura" type="string">
+            <column name="Altura" length="4" />
+        </property>
+        <property name="peso" type="java.lang.Integer">
+            <column name="Peso" />
+        </property>
+        <property name="posicion" type="string">
+            <column name="Posicion" length="5" />
+        </property>
+        <set name="estadisticases" table="estadisticas" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="jugador" not-null="true" />
+            </key>
+            <one-to-many class="P01_Tablas_Mapeadas_a_Java.Estadisticas" />
+        </set>
+    </class>
+</hibernate-mapping>
