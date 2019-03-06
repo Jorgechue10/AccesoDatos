@@ -15,7 +15,7 @@ public class HibernateUtils {
         try {
             // Create the ServiceRegistry from hibernate.cfg.xml
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
-                    .configure("hibernate.cfg.xml").build();
+                    .configure("P02_Mapeo_mediante_XML/hibernate.cfg.xml").build();
  
             // Create a metadata sources using the specified service registry.
             Metadata metadata = new MetadataSources(serviceRegistry).getMetadataBuilder().build();

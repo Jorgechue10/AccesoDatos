@@ -8,29 +8,33 @@ import org.neodatis.odb.ODBFactory;
 import org.neodatis.odb.ObjectValues;
 import org.neodatis.odb.Objects;
 import org.neodatis.odb.Values;
+import org.neodatis.odb.core.query.IQuery;
 import org.neodatis.odb.core.query.criteria.ICriterion;
 import org.neodatis.odb.core.query.criteria.Where;
+import org.neodatis.odb.impl.core.query.criteria.CriteriaQuery;
+import org.neodatis.odb.impl.core.query.values.GroupByValuesQueryResultAction;
 import org.neodatis.odb.impl.core.query.values.ValuesCriteriaQuery;
 
 public class AD_1_Principal {
-	static ODB bd;
+	static ODB odb;
 	public static void main(String[] args) {
 
-		bd = ODBFactory.open("Unidad_04_BDOO\\P02_NeoDatis\\Data\\ad_1_articulos.dat");
+		odb = ODBFactory.open("Unidad_04_BDOO\\P02_NeoDatis\\Data\\ad_1_articulos.dat");
 		
 		//-----CONSULTAS-------
 		mostrarDatosVentas();
 		mostrarDatosVentasPorArticulo();
+		mostrarDatosClientes();
 		//mostrarEstatisticas();
 		
 		
 		//---------------------
-		bd.close();
+		odb.close();
 	}
 	
 	public static void mostrarDatosVentas() {
 		
-		Objects<AD_1_Ventas> ventas = bd.getObjects(AD_1_Ventas.class);
+		Objects<AD_1_Ventas> ventas = odb.getObjects(AD_1_Ventas.class);
 		
 		System.out.println("Datos de Ventas:");
 		
@@ -53,42 +57,78 @@ public class AD_1_Principal {
 		    System.out.println("|-----|------------|---------------|--------------|--------------|-----------------|"
 		    		+ "------------|----------|---------|");		    
 		}
+		System.out.println("\n---------------------------------------------------------------------------------------\n");
 	}
 	
 	public static void mostrarDatosVentasPorArticulo() {
+				System.out.println("Datos de Ventas agrupados por ariculo:");
+
+		Objects<AD_1_Ventas> ventas = odb.getObjects(AD_1_Ventas.class);
 		
-		System.out.println("Datos de Ventas agrupados por artículo");
+		ValuesCriteriaQuery agruparPorCodarti = (ValuesCriteriaQuery) new ValuesCriteriaQuery(AD_1_Ventas.class).groupBy("codarti");
+		Values nUnidadesVendidas = odb.getValues(agruparPorCodarti.sum("univen"));
+		Values nVentas = odb.getValues(agruparPorCodarti.count("codventas"));
 		
-		Values unidadesVendidas = bd.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
-				sum("univen").groupBy("codarti"));
+		AD_1_Ventas venta;
+		int codartiAnterior = 0;
 		
-		
-		//Values  = bd.getValues(new ValuesCriteriaQuery(AD_1_Articulos.class));
-		
-		Values valorImporte = bd.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
-				sum("univen*codarti.pvp").groupBy("codarti"));
-		
-		
-		Values numVentas = bd.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
-				count("codventas").groupBy("codarti"));
-		
-		
-		while(unidadesVendidas.hasNext()) {
+		while(ventas.hasNext()) {
 			
-			ObjectValues ov_unidadesVendidas = unidadesVendidas.nextValues();
-			ObjectValues ov_numVentas = numVentas.nextValues();
+			venta = ventas.next();
 			
-			System.out.println("Nº de uds. vendidas: " + ov_unidadesVendidas.getByIndex(0) + 
-					" | Importe:   Nº de ventas: " + ov_numVentas.getByIndex(0));
+			if (venta.getCodarti().getCodarti() != codartiAnterior) {
+				
+				ObjectValues ov = nUnidadesVendidas.nextValues();
+				ObjectValues ov2 = nVentas.nextValues();
+				BigDecimal valor = (BigDecimal)ov.getByIndex(0);
+				float sumaImporte = venta.getCodarti().getPvp() * valor.floatValue();
+				
+				System.out.println("Código artículo: "+ venta.getCodarti().getCodarti() + " | Denominación: " + venta.getCodarti().getDenom() + 
+						" | Stock: " + venta.getCodarti().getStock() + " | PVP: " + venta.getCodarti().getPvp() + " | N. de uds. vendidas: " 
+						+ ov.getByIndex(0) + " | Suma del importe: " + sumaImporte + " | N.de ventas: " + ov2.getByIndex(0));
+			}
+			
+			codartiAnterior = venta.getCodarti().getCodarti();
+			
 			
 		}
+		System.out.println("\n---------------------------------------------------------------------------------------\n");
+	}
+	
+	public static void mostrarDatosClientes() {
+		
+		System.out.println("Datos de Clientes");
+	
+		Objects<AD_1_Clientes> clientes = odb.getObjects(AD_1_Clientes.class);
+	
+		while(clientes.hasNext()) {
+			AD_1_Clientes cliente = clientes.next();
+			
+			//comprobar cuantas ventas tiene el cliente
+			Objects<AD_1_Ventas> ventas = odb.getObjects(AD_1_Ventas.class);
+			
+			int numeroCompras = 0;
+			float importeTotal = 0;
+			
+			while(ventas.hasNext()) {
+				AD_1_Ventas venta = ventas.next();
+				if(venta.getNumcli().getNumcli()==cliente.getNumcli()) {
+					numeroCompras++;
+					importeTotal += venta.getUniven() * venta.getCodarti().getPvp();
+				}
+			}
+			/////////////
+			
+			System.out.println("Nº: " + cliente.getNumcli() + 
+					" | Nombre: " + cliente.getNombre() + 
+					" | Poblacion: " + cliente.getPobla() +
+					" | Importe: " + importeTotal +
+					" | Nº Compras: " + numeroCompras);
+		}
+		System.out.println("\n---------------------------------------------------------------------------------------\n");
 	}
 	
 	public static void mostrarEstatisticas() {
-		
-		// Media de importe de ventas por artículo
-		
-		
 		
 	}
 }

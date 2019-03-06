@@ -16,7 +16,7 @@ public class EJ_1_3_Principal{
         
         System.out.println("\n-----PROPIEDADES RESTRINGIDA----------------------");
         empleado.addVetoableChangeListener(funcionario1);
-        empleado.setHorasExtras(3);
+        empleado.setHorasExtras(14);
         System.out.println("Horas extra empleado: " + empleado.getHorasExtras());
         
         /*Para crear el jar introuduces en el cmd-> C:\Users\ifc\git\AccesoDatos\bin\P01_Introduccion_JavaBean>

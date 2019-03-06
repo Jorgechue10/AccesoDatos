@@ -153,7 +153,7 @@ public class EJ_01_3_Jugadores_main {
 		Objects<EJ_01_1_Jugadores> objects_consulta4 = odb.getObjects(cunsulta4);
 		mostrarDatos(objects_consulta4);
 
-		/*Where.gt -> mayor que
+		/*
 		Where.gt -> mayor o igual
 		Where.lt -> menor que
 		Where.le -> menor o igual

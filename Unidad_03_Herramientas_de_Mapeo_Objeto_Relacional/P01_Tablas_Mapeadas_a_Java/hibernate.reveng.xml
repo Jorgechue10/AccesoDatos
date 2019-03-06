@@ -2,8 +2,8 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-  <table-filter match-catalog="nba" match-name="equipos"/>
-  <table-filter match-catalog="nba" match-name="estadisticas"/>
-  <table-filter match-catalog="nba" match-name="jugadores"/>
-  <table-filter match-catalog="nba" match-name="partidos"/>
+	<table-filter match-name="equipos" match-catalog="nba"></table-filter>
+	<table-filter match-name="estadisticas" match-catalog="nba"></table-filter>
+	<table-filter match-name="jugadores" match-catalog="nba"></table-filter>
+	<table-filter match-name="partidos" match-catalog="nba"></table-filter>
 </hibernate-reverse-engineering>

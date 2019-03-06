@@ -1,13 +1,14 @@
 package P03_Mapeo_mediante_Annotations;
 
 import java.util.List;
+import java.util.Scanner;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
-public class EJ_01_PruebaHibernate {
+public class EJ_PruebaHibernate {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,6 +27,7 @@ public class EJ_01_PruebaHibernate {
 			
 			System.out.println("Crea el modelo");
 			
+			
 			//---------CONSULTAS-----------------------		
 			/*Equipos equipo = (Equipos)session.get(Equipos.class, "Raptors");
 			
@@ -36,6 +38,22 @@ public class EJ_01_PruebaHibernate {
 			
 			System.out.println("Nombre: "+equipo2.getNombre()+" Ciudad: "+equipo2.getCiudad()+
 					" Coferencia: "+equipo2.getConferencia()+" División: "+equipo2.getDivision());*/
+			
+			
+			
+			//EJEMPLO -> Consultar datos de un equipo pasandole el nombre
+			/*Scanner teclado = new Scanner (System.in);
+			System.out.println("\nEJEMPLO -> Consultar datos de un equipo pasandole el nombre.");
+			System.out.println("Intrduce el nombre del equipo:");			
+			String nombre = teclado.nextLine();
+			
+			Query query = session.createQuery("FROM Equipos where nombre = '"+nombre+"'");			
+			List<Equipos> equipos = query.list();
+			
+			for (Equipos equipo : equipos) {
+				System.out.println("Nombre: "+equipo.getNombre()+" Ciudad: "+equipo.getCiudad()+
+						" Coferencia: "+equipo.getConferencia()+" División: "+equipo.getDivision());
+			}*/
 			
 			
 			//-----------------INSERCIÓN----------------------
@@ -57,7 +75,7 @@ public class EJ_01_PruebaHibernate {
 			
 			System.out.println("Se guardó satisfactoriamente el jugador");
 			
-			
+			//-----------------------------------------------------------
 			sessionFactory.close();
 			
 		} catch (Exception exc) {

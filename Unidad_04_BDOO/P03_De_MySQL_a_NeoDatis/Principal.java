@@ -17,7 +17,7 @@ public class Principal {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3308/profes?serverTimezone=UTC", "root", "1234");
+			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/profes?serverTimezone=UTC", "root", "1234");
 			bd = ODBFactory.open("Unidad_04_BDOO\\P03_De_MySQL_a_NeoDatis\\Ficheros\\profesasig.neo");
 			// Recorrer C1asignaturas y guardar en Neodatis
 			InsertarAsignaturas(conexion);
