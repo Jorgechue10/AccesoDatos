@@ -1,6 +1,7 @@
 package P02_NeoDatis;
 
 import java.math.BigDecimal;
+import java.math.BigInteger;
 
 import org.neodatis.odb.ODB;
 
@@ -9,6 +10,7 @@ import org.neodatis.odb.ObjectValues;
 import org.neodatis.odb.Objects;
 import org.neodatis.odb.Values;
 import org.neodatis.odb.core.query.IQuery;
+import org.neodatis.odb.core.query.IValuesQuery;
 import org.neodatis.odb.core.query.criteria.ICriterion;
 import org.neodatis.odb.core.query.criteria.Where;
 import org.neodatis.odb.impl.core.query.criteria.CriteriaQuery;
@@ -25,7 +27,7 @@ public class AD_1_Principal {
 		mostrarDatosVentas();
 		mostrarDatosVentasPorArticulo();
 		mostrarDatosClientes();
-		//mostrarEstatisticas();
+		mostrarEstatisticas();
 		
 		
 		//---------------------
@@ -65,9 +67,11 @@ public class AD_1_Principal {
 
 		Objects<AD_1_Ventas> ventas = odb.getObjects(AD_1_Ventas.class);
 		
-		ValuesCriteriaQuery agruparPorCodarti = (ValuesCriteriaQuery) new ValuesCriteriaQuery(AD_1_Ventas.class).groupBy("codarti");
-		Values nUnidadesVendidas = odb.getValues(agruparPorCodarti.sum("univen"));
-		Values nVentas = odb.getValues(agruparPorCodarti.count("codventas"));
+		Values nUnidadesVendidas = odb.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
+				sum("univen").groupBy("codarti"));
+		Values nVentas = odb.getValues(new ValuesCriteriaQuery(AD_1_Ventas.class).
+				count("codventas").groupBy("codarti"));
+		
 		
 		AD_1_Ventas venta;
 		int codartiAnterior = 0;
@@ -129,5 +133,67 @@ public class AD_1_Principal {
 	
 	public static void mostrarEstatisticas() {
 		
+		System.out.println("Estadísticas:");
+
+		//Artículo con mayor número de ventas
+		Objects<AD_1_Ventas> ventas = odb.getObjects(AD_1_Ventas.class);
+		
+		Values nVentas = odb.getValues((IValuesQuery) new ValuesCriteriaQuery(AD_1_Ventas.class).
+				count("codventas").groupBy("codarti"));
+		
+		AD_1_Ventas venta;
+		int codartiAnterior = 0;
+		int codigoArticuloMasVendido = 0;
+		
+		while(ventas.hasNext()) {
+			
+			venta = ventas.next();
+			
+			if (venta.getCodarti().getCodarti() != codartiAnterior) {				
+				ObjectValues ov = nVentas.nextValues();
+				BigInteger valor = (BigInteger)ov.getByIndex(0);
+				if (valor.intValue() > codigoArticuloMasVendido) {
+					codigoArticuloMasVendido = codartiAnterior;
+				}				
+			}			
+			codartiAnterior = venta.getCodarti().getCodarti();			
+		}
+		
+		//Cliente con mayor importe gastado y mayor número de compras
+		Objects<AD_1_Clientes> clientes = odb.getObjects(AD_1_Clientes.class);
+		
+		int numClienteMayorImporteGastado = 0;
+		int numClienteMasCompras = 0;
+		
+		while(clientes.hasNext()) {
+			AD_1_Clientes cliente = clientes.next();
+			
+			ventas = odb.getObjects(AD_1_Ventas.class);
+			
+			int numeroCompras = 0;
+			float importeTotal = 0;
+			
+			while(ventas.hasNext()) {
+				venta = ventas.next();
+				if(venta.getNumcli().getNumcli() == cliente.getNumcli()) {
+					numeroCompras++;
+					importeTotal += venta.getUniven() * venta.getCodarti().getPvp();
+				}
+			}
+			
+			if (importeTotal > numClienteMayorImporteGastado) {
+				numClienteMayorImporteGastado = cliente.getNumcli();
+			}
+			
+			if (numeroCompras > numClienteMasCompras) {
+				numClienteMasCompras = cliente.getNumcli();
+			}			
+		}
+		
+		System.out.println("Código del artículo más vendido: " + codigoArticuloMasVendido);
+		System.out.println("Número del cliente con mayor importe gastado: " + numClienteMayorImporteGastado);
+		System.out.println("Número del cliente con más compras realizadas: " + numClienteMasCompras);
+		
+		System.out.println("\n---------------------------------------------------------------------------------------\n");
 	}
 }
