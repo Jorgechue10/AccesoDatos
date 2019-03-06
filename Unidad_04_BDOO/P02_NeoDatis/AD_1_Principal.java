@@ -117,7 +117,6 @@ public class AD_1_Principal {
 					importeTotal += venta.getUniven() * venta.getCodarti().getPvp();
 				}
 			}
-			/////////////
 			
 			System.out.println("Nº: " + cliente.getNumcli() + 
 					" | Nombre: " + cliente.getNombre() + 

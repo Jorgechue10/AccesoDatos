@@ -34,12 +34,7 @@ INSERT INTO ALUMNOS VALUES(
 SELECT * FROM ALUMNOS;
 
 --Posteriormente, realiza consultas que visualicen:
-	-- Nombre del alumno y la nota media.
-    SELECT A.PER.NOMBRE, (A.EVA1+A.EVA2+A.EVA3)/3 AS NOTA_MEDIA FROM ALUMNOS A;
-	--Alumnos cuya ciudad sea Tarazona y la nota media mayor que 7.
-	--Nombre del alumno con la nota media más alta.
-	--Nombre del alumno con la nota más alta (en cualquiera de sus notas).
-  
+
   --Seleccionar filas cuya *Ciudad* sea TUDELA
   SELECT * FROM ALUMNOS A WHERE A.PER.DIREC.CIUDAD = 'TUDELA';
 

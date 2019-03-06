@@ -17,6 +17,8 @@ CREATE OR REPLACE TYPE RECTANGULO AS OBJECT(
         RETURN SELF AS RESULT
 );
 
+CREATE TABLE TABLAREC (VALOR INTEGER);
+
 --Una vez que se ha creado el tipo con la especificación de atributos y métodos, 
 --se puede establecer el cuerpo del tipo mediante CREATE OR REPLACE TYPE BODY.
 
@@ -87,6 +89,31 @@ CREATE OR REPLACE TYPE BODY RECTANGULO AS
     COMMIT;
   END;
 END;
+
+--------
+DECLARE
+  R1 RECTANGULO;
+  R2 RECTANGULO;
+  R3 RECTANGULO := RECTANGULO(NULL, NULL, NULL);
+BEGIN
+  R1 := NEW RECTANGULO(10, 20, 200);
+  DBMS_OUTPUT.PUT_LINE('AREA R1: '||R1.AREA);
+
+  R2 := NEW RECTANGULO(10,20);
+  DBMS_OUTPUT.PUT_LINE('AREA R2: '||R2.AREA); 
+ 
+  R3.BASE := 5;
+  R3.ALTURA := 15;
+  R3.AREA := R3.BASE * R3.ALTURA;
+  DBMS_OUTPUT.PUT_LINE('AREA R3: '||R3.AREA);
+
+  --USO DE LOS MÉTODOS DEL TIPO  RECTANGULO
+  --RECTANGULO.PROC1(10, 20);   --LLAMADA AL MÉTODO STATIC
+  --RECTANGULO.PROC2(20, 30); --ERROR, LLAMADA AL MÉTODO MEMBER
+  --R1.PROC1(5, 6);          --ERROR, LLAMADA AL MÉTODO STATIC 
+  --R1.PROC2(5, 10);           --LLAMADA AL MÉTODO MEMBER
+END;
+
 
 /*----Sobrecarga-------
 Como ya se ha comentado, mediante el mecanismo de herencia se da la posibilidad
