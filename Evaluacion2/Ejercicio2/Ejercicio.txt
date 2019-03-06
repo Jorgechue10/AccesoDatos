@@ -1,0 +1,24 @@
+1.-------------------
+db.jugadores.aggregate(
+   [
+      { $project: { nombreConcatenado: { $concat: [ "$firstName", "$lastName" ] } } }
+   ]
+)
+
+
+2------------------------------
+db.jugadores.aggregate( [ { $project: { edad: { $subtract: [ {2019}, { $year: { $toDate: { 
+							dateString: "$dateOfBirthUTC",
+     							format: "YYYY-MM-DD" }}}] } } } ] )
+
+
+3-------------------------------
+db.jugadores.aggregate(
+   [
+      { $project: { nombreConcatenado: { $concat: [ "$firstName", "$lastName" ] } } },
+	{ $out: "jugadores_edades" }
+   ]
+)
+
+4-----------------------------
+mongoexport --collection jugadores_edades --jugadores_edades.json

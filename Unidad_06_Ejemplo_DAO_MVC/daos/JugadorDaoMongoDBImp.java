@@ -1,7 +1,7 @@
 package daos;
 
 import driverMongoDB.MongoDBConnection;
-import interfaz_daos.JugadorDao;
+import interfaz_dao.EquipoDao;
 
 import com.mongodb.client.*;
 import static com.mongodb.client.model.Filters.*;
@@ -15,7 +15,7 @@ import java.util.List;
 
 import modelos.Jugador;
 
-public class JugadorDaoMongoDBImp implements JugadorDao {
+public class JugadorDaoMongoDBImp implements EquipoDao {
 
 	@Override
 	public boolean create(Jugador jugador) {

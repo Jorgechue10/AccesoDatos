@@ -4,8 +4,7 @@ package daos;
 import java.util.List;
 
 import driverMongoDB.MongoDBConnection;
-import interfaz_daos.EquipoDao;
-import interfaz_daos.JugadorDao;
+import interfaz_dao.EquipoDao;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
