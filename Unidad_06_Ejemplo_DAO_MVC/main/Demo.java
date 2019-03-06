@@ -36,6 +36,5 @@ public class Demo {
 		ControllerEquipo controller = new ControllerEquipo();
 		controller.viewEquipos();
 		
-		//El update y dlete de mongo está en el git del Antonio.
 	}
 }

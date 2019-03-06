@@ -21,7 +21,7 @@ public class MySQLConnection {
 			datos.put("user", user);
 			datos.put("password", pass);
 			
-			String url = "jdbc:mysql://localhost:3308/nba?serverTimezone=UTC";
+			String url = "jdbc:mysql://localhost:3306/nba?serverTimezone=UTC";
 			
 			con = DriverManager.getConnection(url, datos);
 			if (con != null) {

@@ -1,0 +1,62 @@
+----------------------EJERCICIOS DE AGREGACIÓN--------------------------
+
+1.-Jugadores de los Lakers con sus nombres en mayúsculas.
+	db.jugadores.aggregate([
+		{"$project":{"firstName":"$firstName", "lastName":{"$toUpper":"$lastName"}, "teamId":"$teamId"}},
+		{"$match": {"teamId": {$eq:"1610612747"}}}])
+
+2.-Altura media y peso medio de los jugadores por cada equipo de la NBA.
+	db.jugadores.aggregate([ 
+		{
+		$group : { 
+			_id : {"teamId":"$teamId"},
+			"Altura Media": { $avg: {$toDouble: "$heightMeters"}},
+			"Peso Medio": { $avg: {$toDouble: "$weightKilograms"}}
+		}       
+	}])
+
+
+
+3.-Nombre del jugador que más años lleva en la NBA.
+	db.jugadores.aggregate([
+		{$match: {"nbaDebutYear": {$ne: ""}}}, 
+		{$project: {"nbaDebutYear": {$toInt: "$nbaDebutYear"}, "firstName": "$firstName"}}, 
+		{$group: {_id: null,"nbaDebutYear": {$min: "$nbaDebutYear"}}}])
+
+
+
+4.-Partidos en los que el equipo visitante ha metido más de 100 puntos y no ha ganado.
+	db.calendario.aggregate([{$project: {
+  "vTeam.score" : {$toInt : "$vTeam.score"},
+  "vTeam.loss" : 1,
+  "vTeam.teamId" : 1,
+  "vTeam.win" : 1
+}}, {$match: 
+{
+  "vTeam.score" : {$gt: 100},
+  "vTeam.loss" : "1",
+}}])
+
+
+
+5.-Nombre, apellidos y Edad en años de los jugadores, grabar el resultado en una colección nueva llamada jugadores_edad.
+
+
+6.-Nombre, Apellido y posición del jugador de mayor y menor edad de la NBA.
+
+
+7.-Paises de procedencia de los jugadores. Ordenar alfabéticamente.
+	db.jugadores.aggregate([{$group: {
+  _id: "$country",
+}}, {$sort: {
+  _id: 1
+}}])
+
+8.-Mostrar los jugadores que han estado en más equipos en su carrera. Limitar a 15 registros el resultado.
+db.jugadores.aggregate([{$project: {
+  firstName : 1,
+  lastName : 1,
+  "numberTeams" : {$size : "$teams"}
+}}, {$sort: {
+  "numberTeams": -1
+}}, {$limit: 15}])

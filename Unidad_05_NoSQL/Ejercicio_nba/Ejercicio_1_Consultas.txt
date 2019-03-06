@@ -1,0 +1,43 @@
+Importar el contenido de cada fichero (el fichero es una colección) de jugadores, entrenadores y equipos.
+
+	mongoimport --host localhost --port 27017 --db nba --collection jugadores --file "C:\Users\ifc\git\AccesoDatos\Unidad_05_NoSQL\import\jugadores.json"
+
+-------------------EJERCICIOS DE CONSULTA-------------------------
+
+1.-Consultar el identificador de equipo de Los Angeles Lakers y crear otra consulta para ver los jugadores de dicho equipo.
+
+	db.equipos.find({"fullName": { $eq: "Los Angeles Lakers" }},{"teamId": 1}).pretty()
+	db.jugadores.find({"teamId": "1610612747"}).pretty()
+
+2.-Consultar los jugadores españoles
+
+	db.jugadores.find({"country": "Spain"}).pretty()
+
+3.-Consultar los jugadores que miden más de 2.10 metros.
+
+	db.jugadores.find({"heightMeters": { $gt: "2.10" }}).sort({"heightMeters": -1}).pretty()
+
+4.-Consultar el número de jugadores de cada posición.
+
+	db.jugadores.count({"pos": "C"}) ->Solución 56 jugadores
+	db.jugadores.count({"pos": "F-C"}) -> Solución 24 jugadores.
+	................
+
+5.-Consultar los equipos que son franquicias NBA.
+
+	db.equipos.find({"isNBAFranchise": true}).pretty()
+
+6.-Consultar los equipos de la conferencia Oeste.
+
+	db.equipos.find({"confName": "West"}).pretty()
+
+7.-Consultar los entrenadores principales, isAssistant: false
+
+	db.entrenadores.find({"isAssistant": false}).pretty()
+
+8.-Jugadores que han jugado en los Lakers (teamId: 1610612747) pero no están jugando ahí.
+
+	db.jugadores.find({ "teamId": {$ne:"1610612747"} , "teams":{$elemMatch:{"teamId":"1610612747"}}}).pretty()
+
+9.-Jugadores cuyo pickNum = 1.
+	db.jugadores.find({"draft.pickNum": {$eq: '1'}}).pretty()

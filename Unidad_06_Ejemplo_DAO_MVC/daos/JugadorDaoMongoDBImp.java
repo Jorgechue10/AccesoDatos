@@ -1,26 +1,17 @@
 package daos;
 
-
-import java.util.List;
-
 import driverMongoDB.MongoDBConnection;
 import interfaz_daos.JugadorDao;
 
-import com.mongodb.BasicDBObject;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-
-import com.mongodb.MongoClient;
 import com.mongodb.client.*;
+import static com.mongodb.client.model.Filters.*;
+import static com.mongodb.client.model.Updates.*;
 
-
-import com.mongodb.client.FindIterable; 
-import com.mongodb.client.MongoCollection; 
-import com.mongodb.client.MongoDatabase;  
 import org.bson.Document;
 
+
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.List;
 
 import modelos.Jugador;
 
@@ -89,14 +80,46 @@ public class JugadorDaoMongoDBImp implements JugadorDao {
 
 	@Override
 	public boolean update(Jugador jugador) {
-		// TODO Auto-generated method stub
-		return false;
+		
+		boolean updated = false;
+		
+		try {
+			
+			MongoDBConnection mdbc = new MongoDBConnection();
+			MongoCollection coleccion= mdbc.getCollection("jugadores");
+			
+			coleccion.updateOne(eq("codigo", jugador.getCodigo()), 
+					combine(set("nombre", jugador.getNombre()), 
+							set("procedencia", jugador.getProcedencia()), 
+							set("nombre_equipo", jugador.getNombre_equipo()),
+							set("posicion", jugador.getPosicion()),
+							set("altura", jugador.getAltura()),
+							set("peso", jugador.getPeso())));
+	        
+			updated = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		return updated;
 	}
 
 	@Override
 	public boolean delete(Jugador jugador) {
-		// TODO Auto-generated method stub
-		return false;
+		
+		boolean deleted = false;
+		
+		try {
+			
+			MongoDBConnection mdbc = new MongoDBConnection();
+			MongoCollection coleccion= mdbc.getCollection("jugadores");
+			coleccion.deleteMany(eq("codigo", jugador.getCodigo()));
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return deleted;
 	}
-
 }
