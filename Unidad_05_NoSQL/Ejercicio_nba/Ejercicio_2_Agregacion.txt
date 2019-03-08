@@ -1,4 +1,4 @@
-----------------------EJERCICIOS DE AGREGACIÓN--------------------------
+----------------------EJERCICIOS DE OPERACIONES CON FUNCIONES DE AGREGADO--------------------------
 
 1.-Jugadores de los Lakers con sus nombres en mayúsculas.
 	db.jugadores.aggregate([

@@ -1,8 +1,8 @@
-package interfaz_dao;
+package Ejercicio_3_Interfaz_DAOS;
 
 import java.util.List;
 
-import modelo.Equipo;
+import Ejercicio_3_Modelo.Equipo;
 
 public interface EquipoDao {
 	

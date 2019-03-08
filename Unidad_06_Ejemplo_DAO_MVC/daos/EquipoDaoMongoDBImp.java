@@ -1,10 +1,8 @@
 package daos;
 
-
 import java.util.List;
 
 import driverMongoDB.MongoDBConnection;
-import interfaz_dao.EquipoDao;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -16,7 +14,10 @@ import com.mongodb.client.*;
 
 import com.mongodb.client.FindIterable; 
 import com.mongodb.client.MongoCollection; 
-import com.mongodb.client.MongoDatabase;  
+import com.mongodb.client.MongoDatabase;
+
+import interfaz_daos.EquipoDao;
+
 import org.bson.Document;
 
 import java.util.ArrayList;

@@ -1,11 +1,10 @@
 package controllers;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
+import interfaz_daos.EquipoDao;
 import daos.EquipoDaoMongoDBImp;
-import interfaz_dao.EquipoDao;
 import modelos.Equipo;
 import vistas.ViewEquipo;
 

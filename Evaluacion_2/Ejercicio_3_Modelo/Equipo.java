@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Ejercicio_3_Modelo;
 
 public class Equipo {
 

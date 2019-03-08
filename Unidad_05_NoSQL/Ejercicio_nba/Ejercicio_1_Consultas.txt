@@ -1,8 +1,4 @@
-Importar el contenido de cada fichero (el fichero es una colección) de jugadores, entrenadores y equipos.
-
-	mongoimport --host localhost --port 27017 --db nba --collection jugadores --file "C:\Users\ifc\git\AccesoDatos\Unidad_05_NoSQL\import\jugadores.json"
-
--------------------EJERCICIOS DE CONSULTA-------------------------
+-------------------EJERCICIOS DE CONSULTAS-------------------------
 
 1.-Consultar el identificador de equipo de Los Angeles Lakers y crear otra consulta para ver los jugadores de dicho equipo.
 

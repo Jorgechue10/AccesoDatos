@@ -1,4 +1,4 @@
-package driver_MySQL;
+package Ejercicio_3_Driver_MySQL;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

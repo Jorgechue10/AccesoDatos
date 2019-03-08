@@ -1,8 +1,8 @@
-package vista;
+package Ejercicio_3_Vista;
 
 import java.util.List;
 
-import modelo.Equipo;
+import Ejercicio_3_Modelo.Equipo;
 
 public class ViewEquipo {
 	

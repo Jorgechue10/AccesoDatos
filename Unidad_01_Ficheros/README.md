@@ -1,4 +1,4 @@
-# UNIDAD 1 MANEJO DE FICHEROS
+# UNIDAD 1 - MANEJO DE FICHEROS
 
 Ejemplos utilizando las clases asociadas a la manipulación de ficheros y directorios
 

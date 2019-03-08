@@ -1,13 +1,13 @@
-package controlador;
+package Ejercicio_3_Controlador;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import daos_examen.EquipoDaoMySQLI;
-import interfaz_dao.EquipoDao;
-import modelo.Equipo;
-import vista.ViewEquipo;
+import Ejercicio_3_DAOS.EquipoDaoMySQLI;
+import Ejercicio_3_Interfaz_DAOS.EquipoDao;
+import Ejercicio_3_Modelo.Equipo;
+import Ejercicio_3_Vista.ViewEquipo;
 
 public class ControllerEquipo {
 	

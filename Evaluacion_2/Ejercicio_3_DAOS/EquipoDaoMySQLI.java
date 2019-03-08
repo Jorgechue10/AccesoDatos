@@ -1,4 +1,4 @@
-package daos_examen;
+package Ejercicio_3_DAOS;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -8,9 +8,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import driver_MySQL.MySQLConnection;
-import interfaz_dao.EquipoDao;
-import modelo.Equipo;
+import Ejercicio_3_Driver_MySQL.MySQLConnection;
+import Ejercicio_3_Interfaz_DAOS.EquipoDao;
+import Ejercicio_3_Modelo.Equipo;
 
 
 public class EquipoDaoMySQLI implements EquipoDao {

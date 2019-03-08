@@ -1,7 +1,7 @@
-package demo;
+package Ejercicio_3_Demo;
 
-import controlador.ControllerEquipo;
-import modelo.Equipo;
+import Ejercicio_3_Controlador.ControllerEquipo;
+import Ejercicio_3_Modelo.Equipo;
 
 public class principal {
 
