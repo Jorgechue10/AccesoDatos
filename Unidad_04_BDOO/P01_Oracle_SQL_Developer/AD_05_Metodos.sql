@@ -1,8 +1,8 @@
 -----ACTIVIDADES: MÉTODOS-----
 
-/*ACTIVIDAD 1. Crear un método y el cuerpo correspondiente para calcular la nota 
-media de un alumno, ponderando las tres evaluaciones en los siguientes porcentajes:
-15% primera ev.      35% segunda ev.      50% tercera ev.*/
+--/*ACTIVIDAD 1. Crear un método y el cuerpo correspondiente para calcular la nota 
+--media de un alumno, ponderando las tres evaluaciones en los siguientes porcentajes:
+--15% primera ev.      35% segunda ev.      50% tercera ev.*/
 
 --Primero voy a borrar la tabla alumnos para poder reemplazar el type ALUMNO,
 --después lo reemplazo haciendo un llamamiento a la función en la declaración del type
@@ -73,8 +73,14 @@ SELECT * FROM ALUMNOS;
 
 --ACTIVIDAD 2. Crear un procedimiento que establezca el orden de los alumnos 
 --por su nota media (sin ponderación). 
---¡¡¡¡¡¡¡¡¡(NO FUNCIONA)!!!!!
-CREATE OR REPLACE PROCEDURE ORDENAR_ALUMNOS_POR_NOTA AS
+CREATE OR REPLACE PROCEDURE ORDENAR_ALUMNOS_POR_NOTA
+IS TEMP FLOAT;
 BEGIN
-  SELECT A.PER.NOMBRE, (A.EVA1 + A.EVA2 + A.EVA3)/3 AS NOTA_MEDIA FROM ALUMNOS A;
+  SELECT (A.EVA1 + A.EVA2 + A.EVA3)/3 AS MEDIA INTO TEMP
+  FROM ALUMNOS A ORDER BY MEDIA DESC;
+END;
+
+
+BEGIN
+  ORDENAR_ALUMNOS_POR_NOTA();
 END;
