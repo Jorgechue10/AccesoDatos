@@ -30,10 +30,6 @@ CREATE OR REPLACE TYPE BODY ALUMNO AS
   END;
 END;
 
---Vuelvo a crear la tabla alumnos que he eliminado anteriormente para que ahora
---los objetos de esa tabla si que dispongan de la función CALCULAR_MEDIA
---Crea la tabla *ALUMNOS* del tipo *ALUMNO* creado previamente e inserta objetos
---en ella. 
 CREATE TABLE ALUMNOS OF ALUMNO (
   CODIGO PRIMARY KEY
 );
@@ -65,12 +61,6 @@ INSERT INTO ALUMNOS VALUES(
 
 SELECT * FROM ALUMNOS;
 
---Posteriormente realiza:
-  -- Nombre del alumno y la nota media.
-	--Alumnos cuya ciudad sea Tarazona y la nota media mayor que 7.
-	--Nombre del alumno con la nota media más alta.
-	--Nombre del alumno con la nota más alta (en cualquiera de sus notas).
-
 --ACTIVIDAD 2. Crear un procedimiento que establezca el orden de los alumnos 
 --por su nota media (sin ponderación). 
 CREATE OR REPLACE PROCEDURE ORDENAR_ALUMNOS_POR_NOTA
@@ -79,7 +69,6 @@ BEGIN
   SELECT (A.EVA1 + A.EVA2 + A.EVA3)/3 AS MEDIA INTO TEMP
   FROM ALUMNOS A ORDER BY MEDIA DESC;
 END;
-
 
 BEGIN
   ORDENAR_ALUMNOS_POR_NOTA();
